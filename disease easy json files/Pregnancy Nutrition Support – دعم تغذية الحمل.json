@@ -1,0 +1,400 @@
+{
+  "condition": {
+    "name_en": "Pregnancy Nutrition Support",
+    "name_ar": "دعم التغذية أثناء الحمل",
+    "description_en": "Comprehensive nutritional guidance for pregnant women to support maternal health and optimal fetal development throughout all trimesters",
+    "description_ar": "إرشادات غذائية شاملة للنساء الحوامل لدعم صحة الأم والنمو الأمثل للجنين خلال جميع مراحل الحمل"
+  },
+  "nutritional_recommendations": {
+    "primary_guidelines_en": [
+      "Increase caloric intake gradually: +340 calories (2nd trimester), +450 calories (3rd trimester)",
+      "Ensure adequate protein intake for fetal growth and development",
+      "Take prenatal vitamins with folic acid, iron, and DHA",
+      "Stay well-hydrated with at least 8-10 glasses of water daily",
+      "Eat frequent small meals to manage nausea and blood sugar",
+      "Avoid high-mercury fish, raw foods, and alcohol completely"
+    ],
+    "primary_guidelines_ar": [
+      "زيادة السعرات الحرارية تدريجياً: +340 سعرة (الثلث الثاني)، +450 سعرة (الثلث الثالث)",
+      "ضمان تناول كافٍ من البروتين لنمو وتطور الجنين",
+      "تناول فيتامينات ما قبل الولادة مع حمض الفوليك والحديد و DHA",
+      "البقاء مرطبة جيداً مع 8-10 أكواب ماء على الأقل يومياً",
+      "تناول وجبات صغيرة متكررة لإدارة الغثيان وسكر الدم",
+      "تجنب الأسماك عالية الزئبق والأطعمة النيئة والكحول تماماً"
+    ],
+    "allowed_foods_en": [
+      "Lean proteins: chicken, turkey, lean beef, fish (low-mercury)",
+      "Dairy products: milk, yogurt, cheese (pasteurized)",
+      "Whole grains: quinoa, brown rice, oats, whole wheat bread",
+      "Fruits: berries, citrus, bananas, apples, avocados",
+      "Vegetables: leafy greens, broccoli, sweet potatoes, carrots",
+      "Legumes: lentils, chickpeas, black beans",
+      "Nuts and seeds: almonds, walnuts, chia seeds, flaxseeds",
+      "Healthy fats: olive oil, coconut oil, avocado oil"
+    ],
+    "allowed_foods_ar": [
+      "البروتينات الخالية من الدهن: الدجاج، الديك الرومي، لحم البقر الخالي من الدهن، الأسماك (منخفضة الزئبق)",
+      "منتجات الألبان: الحليب، اللبن، الجبن (المبستر)",
+      "الحبوب الكاملة: الكينوا، الأرز البني، الشوفان، خبز القمح الكامل",
+      "الفواكه: التوت، الحمضيات، الموز، التفاح، الأفوكادو",
+      "الخضراوات: الخضار الورقية، البروكلي، البطاطا الحلوة، الجزر",
+      "البقوليات: العدس، الحمص، الفاصوليا السوداء",
+      "المكسرات والبذور: اللوز، الجوز، بذور الشيا، بذور الكتان",
+      "الدهون الصحية: زيت الزيتون، زيت جوز الهند، زيت الأفوكادو"
+    ],
+    "foods_to_avoid_en": [
+      "High-mercury fish: shark, swordfish, king mackerel, tilefish",
+      "Raw or undercooked foods: sushi, raw eggs, rare meat",
+      "Unpasteurized products: soft cheeses, raw milk, unpasteurized juices",
+      "Alcohol in any form",
+      "High-caffeine beverages (limit to 200mg caffeine daily)",
+      "Processed meats: hot dogs, deli meats (unless heated)",
+      "Raw sprouts: alfalfa, mung bean, radish sprouts",
+      "Unwashed fruits and vegetables"
+    ],
+    "foods_to_avoid_ar": [
+      "الأسماك عالية الزئبق: القرش، سمك أبو سيف، الماكريل الملكي، السمك المبلط",
+      "الأطعمة النيئة أو غير المطبوخة جيداً: السوشي، البيض النيء، اللحم النادر",
+      "المنتجات غير المبسترة: الأجبان الطرية، الحليب الخام، العصائر غير المبسترة",
+      "الكحول بأي شكل من الأشكال",
+      "المشروبات عالية الكافيين (حدد إلى 200 ملغ كافيين يومياً)",
+      "اللحوم المعالجة: النقانق، لحوم الديلي (إلا إذا سُخنت)",
+      "البراعم النيئة: براعم البرسيم، الفاصوليا المونج، براعم الفجل",
+      "الفواكه والخضراوات غير المغسولة"
+    ]
+  },
+  "therapeutic_supplements": {
+    "essential_supplements_en": [
+      {
+        "name": "Prenatal multivitamin",
+        "dose": "As directed on prenatal formula",
+        "administration": "With meals to reduce nausea",
+        "purpose": "Comprehensive nutrition support during pregnancy"
+      },
+      {
+        "name": "Folic acid",
+        "dose": "400-800 mcg daily (800 mcg if at risk)",
+        "administration": "Ideally before conception and first trimester",
+        "purpose": "Prevent neural tube defects in developing baby"
+      },
+      {
+        "name": "Iron",
+        "dose": "27 mg daily (in prenatal or separate)",
+        "administration": "With vitamin C for better absorption",
+        "purpose": "Prevent iron deficiency anemia during pregnancy"
+      },
+      {
+        "name": "DHA (Omega-3)",
+        "dose": "200-300 mg daily",
+        "administration": "With meals",
+        "purpose": "Support fetal brain and eye development"
+      },
+      {
+        "name": "Calcium",
+        "dose": "1000 mg daily (1300 mg if under 19)",
+        "administration": "Split doses, not with iron",
+        "purpose": "Support fetal bone development and maternal bone health"
+      },
+      {
+        "name": "Vitamin D3",
+        "dose": "600-1000 IU daily",
+        "administration": "With fat-containing meal",
+        "purpose": "Support calcium absorption and immune function"
+      }
+    ],
+    "essential_supplements_ar": [
+      {
+        "name": "فيتامينات ما قبل الولادة المتعددة",
+        "dose": "كما هو موجه في تركيبة ما قبل الولادة",
+        "administration": "مع الوجبات لتقليل الغثيان",
+        "purpose": "دعم تغذوي شامل أثناء الحمل"
+      },
+      {
+        "name": "حمض الفوليك",
+        "dose": "400-800 ميكروغرام يومياً (800 ميكروغرام إذا كان هناك خطر)",
+        "administration": "يفضل قبل الحمل والثلث الأول",
+        "purpose": "منع عيوب الأنبوب العصبي في الطفل النامي"
+      },
+      {
+        "name": "الحديد",
+        "dose": "27 ملغ يومياً (في فيتامينات ما قبل الولادة أو منفصل)",
+        "administration": "مع فيتامين سي لامتصاص أفضل",
+        "purpose": "منع فقر الدم بنقص الحديد أثناء الحمل"
+      },
+      {
+        "name": "DHA (أوميغا-3)",
+        "dose": "200-300 ملغ يومياً",
+        "administration": "مع الوجبات",
+        "purpose": "دعم تطور دماغ وعين الجنين"
+      },
+      {
+        "name": "الكالسيوم",
+        "dose": "1000 ملغ يومياً (1300 ملغ إذا كان العمر أقل من 19)",
+        "administration": "جرعات منقسمة، ليس مع الحديد",
+        "purpose": "دعم تطور عظام الجنين وصحة عظام الأم"
+      },
+      {
+        "name": "فيتامين د3",
+        "dose": "600-1000 وحدة دولية يومياً",
+        "administration": "مع وجبة تحتوي على دهون",
+        "purpose": "دعم امتصاص الكالسيوم ووظيفة المناعة"
+      }
+    ]
+  },
+  "risks_and_causes_to_avoid": {
+    "risk_factors_en": [
+      "Advanced maternal age (35+ years)",
+      "Pre-existing medical conditions (diabetes, hypertension)",
+      "Previous pregnancy complications or miscarriages",
+      "Multiple pregnancies (twins, triplets)",
+      "Smoking, alcohol, or drug use",
+      "Inadequate prenatal care",
+      "Poor nutritional status before and during pregnancy",
+      "Extreme weight (underweight or obese) before pregnancy"
+    ],
+    "risk_factors_ar": [
+      "عمر الأم المتقدم (35+ سنة)",
+      "الحالات الطبية الموجودة مسبقاً (السكري، ارتفاع ضغط الدم)",
+      "مضاعفات الحمل السابقة أو الإجهاض",
+      "الحمل المتعدد (التوائم، الثلاثيات)",
+      "التدخين أو الكحول أو استخدام المخدرات",
+      "الرعاية غير الكافية قبل الولادة",
+      "الحالة التغذوية السيئة قبل وأثناء الحمل",
+      "الوزن المتطرف (نقص الوزن أو السمنة) قبل الحمل"
+    ],
+    "complications_en": [
+      "Gestational diabetes and insulin resistance",
+      "Pregnancy-induced hypertension and preeclampsia",
+      "Neural tube defects from folic acid deficiency",
+      "Iron deficiency anemia and fatigue",
+      "Preterm birth and low birth weight",
+      "Excessive weight gain and postpartum retention",
+      "Morning sickness and hyperemesis gravidarum",
+      "Placental complications and bleeding"
+    ],
+    "complications_ar": [
+      "سكري الحمل ومقاومة الأنسولين",
+      "ارتفاع ضغط الدم الناجم عن الحمل وما قبل الإرجاع",
+      "عيوب الأنبوب العصبي من نقص حمض الفوليك",
+      "فقر الدم بنقص الحديد والتعب",
+      "الولادة المبكرة وانخفاض وزن الولادة",
+      "زيادة الوزن المفرطة واحتباس ما بعد الولادة",
+      "غثيان الصباح والقيء المفرط للحمل",
+      "مضاعفات المشيمة والنزيف"
+    ]
+  },
+  "healthy_plants": {
+    "beneficial_plants_en": [
+      {
+        "name": "Ginger",
+        "benefits": "Reduces morning sickness and nausea naturally",
+        "usage": "Fresh ginger tea, ginger supplements (up to 1g daily)"
+      },
+      {
+        "name": "Red raspberry leaf",
+        "benefits": "May help tone uterine muscles (third trimester only)",
+        "usage": "Red raspberry leaf tea (after 32 weeks gestation)"
+      },
+      {
+        "name": "Chamomile",
+        "benefits": "Calming and may help with sleep and anxiety",
+        "usage": "Chamomile tea in moderation, avoid in first trimester"
+      },
+      {
+        "name": "Peppermint",
+        "benefits": "May help with digestive issues and nausea",
+        "usage": "Peppermint tea, fresh mint leaves"
+      },
+      {
+        "name": "Lemon balm",
+        "benefits": "Calming properties and may help with sleep",
+        "usage": "Lemon balm tea in moderation"
+      },
+      {
+        "name": "Nettle leaf",
+        "benefits": "Rich in vitamins and minerals, supports nutrition",
+        "usage": "Nettle leaf tea (second and third trimesters only)"
+      }
+    ],
+    "beneficial_plants_ar": [
+      {
+        "name": "الزنجبيل",
+        "benefits": "يقلل غثيان الصباح والغثيان طبيعياً",
+        "usage": "شاي الزنجبيل الطازج، مكملات الزنجبيل (حتى 1 غرام يومياً)"
+      },
+      {
+        "name": "أوراق التوت الأحمر",
+        "benefits": "قد يساعد في تقوية عضلات الرحم (الثلث الثالث فقط)",
+        "usage": "شاي أوراق التوت الأحمر (بعد 32 أسبوع من الحمل)"
+      },
+      {
+        "name": "البابونج",
+        "benefits": "مهدئ وقد يساعد مع النوم والقلق",
+        "usage": "شاي البابونج باعتدال، تجنب في الثلث الأول"
+      },
+      {
+        "name": "النعناع",
+        "benefits": "قد يساعد مع مشاكل الهضم والغثيان",
+        "usage": "شاي النعناع، أوراق النعناع الطازجة"
+      },
+      {
+        "name": "بلسم الليمون",
+        "benefits": "خصائص مهدئة وقد يساعد مع النوم",
+        "usage": "شاي بلسم الليمون باعتدال"
+      },
+      {
+        "name": "أوراق القراص",
+        "benefits": "غني بالفيتامينات والمعادن، يدعم التغذية",
+        "usage": "شاي أوراق القراص (الثلث الثاني والثالث فقط)"
+      }
+    ]
+  },
+  "fasting_effects": {
+    "intermittent_fasting_en": {
+      "benefits": [
+        "Generally NOT recommended during pregnancy",
+        "May help with pre-pregnancy weight management",
+        "Could support metabolic health before conception",
+        "May help establish healthy eating patterns post-pregnancy"
+      ],
+      "precautions": [
+        "AVOID intermittent fasting during pregnancy",
+        "Fasting can harm fetal development and maternal health",
+        "May lead to nutrient deficiencies for mother and baby",
+        "Can cause hypoglycemia and ketosis",
+        "May trigger morning sickness and dehydration",
+        "Wait until after breastfeeding to resume IF"
+      ],
+      "recommended_approach": "Do NOT practice intermittent fasting during pregnancy. Focus on regular, nutritious meals every 3-4 hours"
+    },
+    "intermittent_fasting_ar": {
+      "benefits": [
+        "عموماً غير موصى به أثناء الحمل",
+        "قد يساعد في إدارة الوزن قبل الحمل",
+        "يمكن أن يدعم الصحة الأيضية قبل الحمل",
+        "قد يساعد في إنشاء أنماط أكل صحية بعد الحمل"
+      ],
+      "precautions": [
+        "تجنب الصوم المتقطع أثناء الحمل",
+        "الصوم يمكن أن يضر بتطور الجنين وصحة الأم",
+        "قد يؤدي إلى نقص المغذيات للأم والطفل",
+        "يمكن أن يسبب نقص السكر في الدم والكيتوزيس",
+        "قد يحفز غثيان الصباح والجفاف",
+        "انتظر حتى بعد الرضاعة الطبيعية لاستئناف الصوم المتقطع"
+      ],
+      "recommended_approach": "لا تمارسي الصوم المتقطع أثناء الحمل. ركزي على وجبات منتظمة مغذية كل 3-4 ساعات"
+    }
+  },
+  "medications_that_worsen": {
+    "problematic_drugs_en": [
+      {
+        "category": "Teratogenic medications",
+        "examples": "Isotretinoin, warfarin, ACE inhibitors",
+        "reason": "Can cause birth defects and harm fetal development"
+      },
+      {
+        "category": "High-dose vitamin A",
+        "examples": "Retinoid supplements, liver in large amounts",
+        "reason": "Teratogenic effects, especially in first trimester"
+      },
+      {
+        "category": "NSAIDs (third trimester)",
+        "examples": "Ibuprofen, naproxen, aspirin",
+        "reason": "May cause premature closure of ductus arteriosus"
+      },
+      {
+        "category": "Herbal supplements (many)",
+        "examples": "Blue cohosh, pennyroyal, angelica",
+        "reason": "May stimulate uterine contractions or cause miscarriage"
+      }
+    ],
+    "problematic_drugs_ar": [
+      {
+        "category": "الأدوية المسببة للتشوهات",
+        "examples": "الإيزوتريتنوين، الوارفارين، مثبطات الإنزيم المحول للأنجيوتنسين",
+        "reason": "يمكن أن تسبب عيوب خلقية وتضر بتطور الجنين"
+      },
+      {
+        "category": "فيتامين أ عالي الجرعة",
+        "examples": "مكملات الريتينويد، الكبد بكميات كبيرة",
+        "reason": "تأثيرات مسببة للتشوهات، خاصة في الثلث الأول"
+      },
+      {
+        "category": "مضادات الالتهاب غير الستيرويدية (الثلث الثالث)",
+        "examples": "الإيبوبروفين، النابروكسين، الأسبرين",
+        "reason": "قد تسبب انغلاق مبكر للقناة الشريانية"
+      },
+      {
+        "category": "المكملات العشبية (العديد منها)",
+        "examples": "الكوهوش الأزرق، البينيرويال، الأنجليكا",
+        "reason": "قد تحفز تقلصات الرحم أو تسبب الإجهاض"
+      }
+    ]
+  },
+  "psychological_support": {
+    "emotional_challenges_en": [
+      "Anxiety about pregnancy health and baby development",
+      "Mood swings from hormonal changes",
+      "Body image concerns and weight gain worries",
+      "Fear of childbirth and parenting responsibilities",
+      "Stress from dietary restrictions and food aversions",
+      "Fatigue and sleep disturbances affecting mood",
+      "Partner relationship changes and support needs",
+      "Financial concerns about pregnancy and childcare costs"
+    ],
+    "emotional_challenges_ar": [
+      "القلق بشأن صحة الحمل وتطور الطفل",
+      "تقلبات المزاج من التغيرات الهرمونية",
+      "مخاوف صورة الجسم وقلق زيادة الوزن",
+      "الخوف من الولادة ومسؤوليات الأبوة والأمومة",
+      "الضغط من القيود الغذائية ونفور الطعام",
+      "التعب واضطرابات النوم التي تؤثر على المزاج",
+      "تغيرات علاقة الشريك واحتياجات الدعم",
+      "المخاوف المالية حول تكاليف الحمل ورعاية الطفل"
+    ],
+    "coping_strategies_en": [
+      "Join pregnancy support groups and prenatal classes",
+      "Maintain open communication with healthcare providers",
+      "Practice prenatal yoga and meditation for stress relief",
+      "Connect with other expectant mothers for support",
+      "Focus on healthy habits you can control",
+      "Educate yourself about pregnancy and childbirth",
+      "Seek counseling if experiencing depression or severe anxiety",
+      "Build a strong support network with family and friends"
+    ],
+    "coping_strategies_ar": [
+      "الانضمام إلى مجموعات دعم الحمل وفصول ما قبل الولادة",
+      "الحفاظ على التواصل المفتوح مع مقدمي الرعاية الصحية",
+      "ممارسة يوجا ما قبل الولادة والتأمل لتخفيف الضغط",
+      "التواصل مع أمهات حوامل أخريات للدعم",
+      "التركيز على العادات الصحية التي يمكنك التحكم فيها",
+      "تثقيف نفسك حول الحمل والولادة",
+      "طلب الاستشارة إذا كنت تعانين من الاكتئاب أو القلق الشديد",
+      "بناء شبكة دعم قوية مع الأسرة والأصدقاء"
+    ]
+  },
+  "evidence_based_references": {
+    "scientific_studies": [
+      "American College of Obstetricians and Gynecologists. Nutrition During Pregnancy. ACOG Committee Opinion No. 804. Obstet Gynecol. 2020;135(4):e178-e191.",
+      "Institute of Medicine. Weight Gain During Pregnancy: Reexamining the Guidelines. Washington, DC: The National Academies Press; 2009.",
+      "Koletzko B, et al. The roles of long-chain polyunsaturated fatty acids in pregnancy, lactation and infancy: review of current knowledge and consensus recommendations. J Perinat Med. 2008;36(1):5-14.",
+      "Greenberg JA, et al. Omega-3 Fatty Acid Supplementation During Pregnancy. Rev Obstet Gynecol. 2008;1(4):162-169."
+    ],
+    "professional_organizations": [
+      "American College of Obstetricians and Gynecologists: https://www.acog.org/",
+      "Academy of Nutrition and Dietetics: https://www.eatright.org/",
+      "American Pregnancy Association: https://americanpregnancy.org/",
+      "March of Dimes: https://www.marchofdimes.org/"
+    ],
+    "dietary_guidelines": [
+      "ACOG Nutrition During Pregnancy Guidelines",
+      "Academy of Nutrition and Dietetics Pregnancy Guidelines",
+      "WHO Nutrition During Pregnancy Guidelines",
+      "CDC Pregnancy Nutrition Guidelines"
+    ]
+  },
+  "disclaimer": {
+    "english": "This information is for educational purposes only and is not intended as medical advice. Pregnancy requires specialized prenatal care and regular monitoring by qualified healthcare professionals. Nutritional needs during pregnancy are highly individual and may vary based on pre-pregnancy health, medical history, and pregnancy complications. Always consult with your obstetrician, midwife, or registered dietitian before making changes to your diet or supplements during pregnancy. This content should not replace professional medical consultation, diagnosis, or treatment.",
+    "arabic": "هذه المعلومات لأغراض تعليمية فقط وليست مخصصة كنصيحة طبية. يتطلب الحمل رعاية متخصصة قبل الولادة ومراقبة منتظمة من قبل متخصصي الرعاية الصحية المؤهلين. الاحتياجات الغذائية أثناء الحمل فردية للغاية وقد تختلف بناءً على صحة ما قبل الحمل والتاريخ الطبي ومضاعفات الحمل. استشيري دائماً طبيب النساء والولادة أو القابلة أو أخصائي التغذية المسجل قبل إجراء تغييرات على نظامك الغذائي أو المكملات أثناء الحمل. لا يجب أن يحل هذا المحتوى محل الاستشارة الطبية المهنية أو التشخيص أو العلاج."
+  }
+}

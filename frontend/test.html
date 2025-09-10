@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>API Test Page</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 20px; }
+        .test-result { margin: 10px 0; padding: 10px; border-radius: 5px; }
+        .success { background-color: #d4edda; color: #155724; border: 1px solid #c3e6cb; }
+        .error { background-color: #f8d7da; color: #721c24; border: 1px solid #f5c6cb; }
+        button { padding: 10px 15px; margin: 5px; cursor: pointer; }
+    </style>
+</head>
+<body>
+    <h1>Nutrition Platform API Test</h1>
+    
+    <button onclick="testBackendHealth()">Test Backend Health</button>
+    <button onclick="testFrontend()">Test Frontend Functions</button>
+    
+    <div id="results"></div>
+
+    <script>
+        async function testBackendHealth() {
+            const resultsDiv = document.getElementById('results');
+            
+            try {
+                const response = await fetch('http://localhost:8081/health');
+                const data = await response.json();
+                
+                resultsDiv.innerHTML += `
+                    <div class="test-result success">
+                        ✅ Backend Health Check: PASSED<br>
+                        Status: ${data.status}<br>
+                        Message: ${data.message}
+                    </div>
+                `;
+            } catch (error) {
+                resultsDiv.innerHTML += `
+                    <div class="test-result error">
+                        ❌ Backend Health Check: FAILED<br>
+                        Error: ${error.message}
+                    </div>
+                `;
+            }
+        }
+
+        function testFrontend() {
+            const resultsDiv = document.getElementById('results');
+            
+            // Test CSS loading
+            const cssLoaded = getComputedStyle(document.body).fontFamily.includes('Arial');
+            
+            // Test basic JavaScript
+            const jsWorking = typeof fetch !== 'undefined';
+            
+            resultsDiv.innerHTML += `
+                <div class="test-result ${cssLoaded && jsWorking ? 'success' : 'error'}">
+                    ${cssLoaded && jsWorking ? '✅' : '❌'} Frontend Test: ${cssLoaded && jsWorking ? 'PASSED' : 'FAILED'}<br>
+                    CSS: ${cssLoaded ? 'Loaded' : 'Not Loaded'}<br>
+                    JavaScript: ${jsWorking ? 'Working' : 'Not Working'}
+                </div>
+            `;
+        }
+
+        // Test on page load
+        window.addEventListener('load', () => {
+            document.getElementById('results').innerHTML = '<h2>Test Results:</h2>';
+            testFrontend();
+            testBackendHealth();
+        });
+    </script>
+</body>
+</html>

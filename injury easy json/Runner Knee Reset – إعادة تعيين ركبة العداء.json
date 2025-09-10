@@ -1,0 +1,483 @@
+{
+  "injury": {
+    "name_en": "Runner Knee Reset",
+    "name_ar": "إعادة تعيين ركبة العداء",
+    "type_en": "Patellofemoral Pain Syndrome/Runner's Knee",
+    "type_ar": "متلازمة ألم الرضفة الفخذية/ركبة العداء",
+    "description_en": "Comprehensive treatment plan for runner's knee, patellofemoral pain syndrome, and knee overuse injuries in athletes and recreational runners",
+    "description_ar": "خطة علاج شاملة لركبة العداء ومتلازمة ألم الرضفة الفخذية وإصابات الركبة من الإفراط في الاستخدام للرياضيين والعدائين الترفيهيين"
+  },
+  "immediate_care": {
+    "protocol_en": [
+      "Stop running immediately - complete rest from impact activities",
+      "Apply ice for 15-20 minutes every 2-3 hours for first 48 hours",
+      "Elevate leg when resting to reduce swelling",
+      "Use compression bandage or knee sleeve for support",
+      "Avoid activities that cause knee pain (stairs, squats, hills)",
+      "Take anti-inflammatory medication as directed"
+    ],
+    "protocol_ar": [
+      "توقف عن الجري فوراً - راحة تامة من الأنشطة عالية التأثير",
+      "تطبيق الثلج لمدة 15-20 دقيقة كل 2-3 ساعات لأول 48 ساعة",
+      "ارفع الساق عند الراحة لتقليل التورم",
+      "استخدم رباط ضاغط أو كم الركبة للدعم",
+      "تجنب الأنشطة التي تسبب ألم الركبة (الدرج، القرفصاء، التلال)",
+      "تناول أدوية مضادة للالتهاب حسب التوجيهات"
+    ]
+  },
+  "supplements_and_medications": {
+    "pain_relief": [
+      {
+        "name": "Ibuprofen",
+        "dose_en": "400-600mg every 6-8 hours with food",
+        "dose_ar": "400-600 ملغ كل 6-8 ساعات مع الطعام",
+        "duration": "7-10 days maximum",
+        "purpose_en": "Reduce inflammation and pain in knee joint",
+        "purpose_ar": "تقليل الالتهاب والألم في مفصل الركبة"
+      },
+      {
+        "name": "Naproxen",
+        "dose_en": "220mg twice daily with food",
+        "dose_ar": "220 ملغ مرتين يومياً مع الطعام",
+        "duration": "Up to 2 weeks",
+        "purpose_en": "Long-acting anti-inflammatory for joint pain",
+        "purpose_ar": "مضاد التهاب طويل المفعول لألم المفاصل"
+      }
+    ],
+    "joint_support": [
+      {
+        "name": "Glucosamine sulfate",
+        "dose_en": "1500mg daily with meals",
+        "dose_ar": "1500 ملغ يومياً مع الوجبات",
+        "purpose_en": "Cartilage health and joint lubrication",
+        "purpose_ar": "صحة الغضروف وتزييت المفاصل"
+      },
+      {
+        "name": "Chondroitin sulfate",
+        "dose_en": "1200mg daily, split into 2-3 doses",
+        "dose_ar": "1200 ملغ يومياً، مقسمة إلى 2-3 جرعات",
+        "purpose_en": "Cartilage repair and anti-inflammatory",
+        "purpose_ar": "إصلاح الغضروف ومضاد للالتهاب"
+      },
+      {
+        "name": "MSM (Methylsulfonylmethane)",
+        "dose_en": "2000-3000mg daily",
+        "dose_ar": "2000-3000 ملغ يومياً",
+        "purpose_en": "Joint pain relief and tissue repair",
+        "purpose_ar": "تخفيف ألم المفاصل وإصلاح الأنسجة"
+      }
+    ],
+    "recovery_support": [
+      {
+        "name": "Collagen peptides",
+        "dose_en": "10-20g daily in smoothie or water",
+        "dose_ar": "10-20 غرام يومياً في العصير أو الماء",
+        "purpose_en": "Tendon and ligament repair",
+        "purpose_ar": "إصلاح الأوتار والأربطة"
+      },
+      {
+        "name": "Vitamin C",
+        "dose_en": "1000mg daily with bioflavonoids",
+        "dose_ar": "1000 ملغ يومياً مع البيوفلافونويد",
+        "purpose_en": "Collagen synthesis and tissue healing",
+        "purpose_ar": "تخليق الكولاجين وشفاء الأنسجة"
+      },
+      {
+        "name": "Omega-3 fatty acids",
+        "dose_en": "2000-3000mg EPA/DHA daily",
+        "dose_ar": "2000-3000 ملغ EPA/DHA يومياً",
+        "purpose_en": "Anti-inflammatory and recovery support",
+        "purpose_ar": "مضاد للالتهاب ودعم التعافي"
+      }
+    ]
+  },
+  "healing_plants": {
+    "topical_applications": [
+      {
+        "name": "Arnica gel",
+        "usage_en": "Apply 3-4 times daily to knee area, massage gently",
+        "usage_ar": "تطبق 3-4 مرات يومياً على منطقة الركبة، دلك برفق",
+        "benefits_en": "Reduce swelling and bruising",
+        "benefits_ar": "تقليل التورم والكدمات"
+      },
+      {
+        "name": "Boswellia cream",
+        "usage_en": "Apply twice daily for anti-inflammatory effects",
+        "usage_ar": "تطبق مرتين يومياً للتأثيرات المضادة للالتهاب",
+        "benefits_en": "Natural anti-inflammatory for joints",
+        "benefits_ar": "مضاد التهاب طبيعي للمفاصل"
+      },
+      {
+        "name": "Menthol-based balm",
+        "usage_en": "Apply before and after gentle exercises",
+        "usage_ar": "تطبق قبل وبعد التمارين اللطيفة",
+        "benefits_en": "Cooling sensation and pain relief",
+        "benefits_ar": "إحساس بالبرودة وتسكين الألم"
+      }
+    ],
+    "oral_remedies": [
+      {
+        "name": "Turmeric with black pepper",
+        "usage_en": "1 tsp turmeric + pinch black pepper in warm water, twice daily",
+        "usage_ar": "ملعقة صغيرة كركم + رشة فلفل أسود في ماء دافئ، مرتين يومياً",
+        "benefits_en": "Powerful anti-inflammatory and pain relief",
+        "benefits_ar": "مضاد قوي للالتهاب ومسكن للألم"
+      },
+      {
+        "name": "Ginger tea",
+        "usage_en": "2-3 cups daily, especially after training",
+        "usage_ar": "2-3 أكواب يومياً، خاصة بعد التدريب",
+        "benefits_en": "Natural pain relief and circulation boost",
+        "benefits_ar": "تسكين طبيعي للألم وتعزيز الدورة الدموية"
+      },
+      {
+        "name": "Cherry juice concentrate",
+        "usage_en": "30ml daily diluted in water",
+        "usage_ar": "30 مل يومياً مخففة في الماء",
+        "benefits_en": "Reduce exercise-induced inflammation",
+        "benefits_ar": "تقليل الالتهاب الناجم عن التمرين"
+      }
+    ]
+  },
+  "recovery_recipes": {
+    "recovery_smoothie": {
+      "name_en": "Runner's Knee Recovery Smoothie",
+      "name_ar": "عصير تعافي ركبة العداء",
+      "ingredients_en": [
+        "1 cup tart cherry juice",
+        "1/2 cup pineapple chunks (bromelain)",
+        "1 banana (potassium)",
+        "1 tbsp collagen powder",
+        "1 tsp turmeric powder",
+        "1/2 tsp ginger powder",
+        "1 cup coconut water",
+        "Handful of spinach"
+      ],
+      "ingredients_ar": [
+        "كوب عصير كرز حامض",
+        "1/2 كوب قطع أناناس (بروميلين)",
+        "موزة واحدة (بوتاسيوم)",
+        "ملعقة كبيرة مسحوق كولاجين",
+        "ملعقة صغيرة مسحوق كركم",
+        "1/2 ملعقة صغيرة مسحوق زنجبيل",
+        "كوب ماء جوز الهند",
+        "حفنة من السبانخ"
+      ],
+      "instructions_en": "Blend all ingredients until smooth. Drink within 30 minutes post-exercise for optimal recovery.",
+      "instructions_ar": "اخلط جميع المكونات حتى تصبح ناعمة. اشرب خلال 30 دقيقة بعد التمرين للتعافي الأمثل."
+    },
+    "anti_inflammatory_meal": {
+      "name_en": "Knee Healing Power Plate",
+      "name_ar": "طبق قوة شفاء الركبة",
+      "ingredients_en": [
+        "4 oz wild-caught salmon",
+        "1 cup steamed broccoli",
+        "1/2 cup quinoa",
+        "Mixed leafy greens",
+        "1 tbsp olive oil with lemon",
+        "1/4 avocado",
+        "2 tbsp walnuts"
+      ],
+      "benefits_en": "Rich in omega-3s, antioxidants, and anti-inflammatory compounds",
+      "benefits_ar": "غني بأوميغا-3 ومضادات الأكسدة والمركبات المضادة للالتهاب"
+    }
+  },
+  "gym_tips": {
+    "alternative_exercises": [
+      {
+        "exercise_en": "Pool running/water jogging",
+        "exercise_ar": "الجري في المسبح/الهرولة في الماء",
+        "benefits_en": "Maintain cardiovascular fitness without impact",
+        "benefits_ar": "الحفاظ على اللياقة القلبية دون تأثير",
+        "duration": "20-30 minutes",
+        "intensity": "Moderate"
+      },
+      {
+        "exercise_en": "Stationary bike (low resistance)",
+        "exercise_ar": "دراجة ثابتة (مقاومة منخفضة)",
+        "benefits_en": "Low-impact cardio, maintains leg strength",
+        "benefits_ar": "كارديو منخفض التأثير، يحافظ على قوة الساقين",
+        "duration": "30-45 minutes",
+        "resistance": "Light to moderate"
+      },
+      {
+        "exercise_en": "Upper body strength training",
+        "exercise_ar": "تدريب قوة الجزء العلوي",
+        "benefits_en": "Maintain fitness while knee heals",
+        "benefits_ar": "الحفاظ على اللياقة أثناء شفاء الركبة",
+        "frequency": "3-4 times per week"
+      }
+    ],
+    "knee_strengthening": [
+      {
+        "exercise_en": "Straight leg raises",
+        "exercise_ar": "رفع الساق المستقيمة",
+        "description_en": "Lying down, lift straight leg 6 inches, hold 5 seconds",
+        "description_ar": "مستلقياً، ارفع الساق المستقيمة 6 بوصات، اثبت 5 ثوانٍ",
+        "sets": "3",
+        "reps": "15-20"
+      },
+      {
+        "exercise_en": "Wall sits",
+        "exercise_ar": "جلوس الحائط",
+        "description_en": "Back against wall, slide down to comfortable position",
+        "description_ar": "الظهر ضد الحائط، انزلق لأسفل إلى وضعية مريحة",
+        "duration": "30-60 seconds",
+        "sets": "3"
+      }
+    ]
+  },
+  "monthly_workout_plan": {
+    "month1_recovery": {
+      "week1": {
+        "focus_en": "Complete rest and pain management",
+        "focus_ar": "راحة تامة وإدارة الألم",
+        "activities": [
+          {
+            "activity_en": "Ice therapy",
+            "activity_ar": "العلاج بالثلج",
+            "frequency": "4-5 times daily",
+            "duration": "15-20 minutes"
+          },
+          {
+            "activity_en": "Gentle walking",
+            "activity_ar": "المشي اللطيف",
+            "duration": "10-15 minutes",
+            "condition": "Only if pain-free"
+          }
+        ]
+      },
+      "week2": {
+        "focus_en": "Gentle mobility and range of motion",
+        "focus_ar": "الحركة اللطيفة ونطاق الحركة",
+        "exercises": [
+          {
+            "name_en": "Knee bending exercises",
+            "name_ar": "تمارين ثني الركبة",
+            "sets": "3",
+            "reps": "10-15",
+            "frequency": "Twice daily"
+          },
+          {
+            "name_en": "Quad sets",
+            "name_ar": "مجموعات العضلة الرباعية",
+            "description_en": "Tighten thigh muscle, hold 5 seconds",
+            "description_ar": "شد عضلة الفخذ، اثبت 5 ثوانٍ",
+            "reps": "20",
+            "frequency": "3 times daily"
+          }
+        ]
+      },
+      "week3": {
+        "focus_en": "Strengthening and stability",
+        "focus_ar": "التقوية والثبات",
+        "exercises": [
+          {
+            "name_en": "Straight leg raises",
+            "name_ar": "رفع الساق المستقيمة",
+            "sets": "3",
+            "reps": "15",
+            "frequency": "Daily"
+          },
+          {
+            "name_en": "Glute bridges",
+            "name_ar": "جسور العضلة الألوية",
+            "sets": "3",
+            "reps": "15-20",
+            "frequency": "Daily"
+          }
+        ]
+      },
+      "week4": {
+        "focus_en": "Progressive loading",
+        "focus_ar": "التحميل التدريجي",
+        "exercises": [
+          {
+            "name_en": "Mini squats (pain-free range)",
+            "name_ar": "قرفصاء صغيرة (نطاق خالٍ من الألم)",
+            "sets": "3",
+            "reps": "10-12",
+            "frequency": "Every other day"
+          },
+          {
+            "name_en": "Stationary bike",
+            "name_ar": "دراجة ثابتة",
+            "duration": "15-20 minutes",
+            "resistance": "Low",
+            "frequency": "3-4 times per week"
+          }
+        ]
+      }
+    },
+    "month2_rebuilding": {
+      "week1_2": {
+        "focus_en": "Building strength and endurance",
+        "focus_ar": "بناء القوة والتحمل",
+        "exercises": [
+          {
+            "name_en": "Step-ups (low step)",
+            "name_ar": "صعود الدرجات (درجة منخفضة)",
+            "sets": "3",
+            "reps": "10 each leg"
+          },
+          {
+            "name_en": "Calf raises",
+            "name_ar": "رفع السمانة",
+            "sets": "3",
+            "reps": "15-20"
+          }
+        ]
+      },
+      "week3_4": {
+        "focus_en": "Functional movement patterns",
+        "focus_ar": "أنماط الحركة الوظيفية",
+        "exercises": [
+          {
+            "name_en": "Lateral leg raises",
+            "name_ar": "رفع الساق الجانبي",
+            "sets": "3",
+            "reps": "15 each leg"
+          },
+          {
+            "name_en": "Balance exercises",
+            "name_ar": "تمارين التوازن",
+            "duration": "30-60 seconds",
+            "sets": "3"
+          }
+        ]
+      }
+    }
+  },
+  "rehabilitation_exercises": {
+    "phase1_acute": [
+      {
+        "exercise_en": "Ankle pumps",
+        "exercise_ar": "ضخ الكاحل",
+        "description_en": "Point and flex foot to improve circulation",
+        "description_ar": "أشر واثنِ القدم لتحسين الدورة الدموية",
+        "reps": "20-30",
+        "frequency": "Every hour while awake"
+      },
+      {
+        "exercise_en": "Quad sets",
+        "exercise_ar": "مجموعات العضلة الرباعية",
+        "description_en": "Tighten thigh muscle while leg is straight",
+        "description_ar": "شد عضلة الفخذ بينما الساق مستقيمة",
+        "hold": "5 seconds",
+        "reps": "20",
+        "frequency": "4-5 times daily"
+      }
+    ],
+    "phase2_mobility": [
+      {
+        "exercise_en": "Knee flexion exercises",
+        "exercise_ar": "تمارين ثني الركبة",
+        "description_en": "Gently bend knee to comfortable limit",
+        "description_ar": "اثنِ الركبة برفق إلى الحد المريح",
+        "hold": "10-15 seconds",
+        "reps": "10-15",
+        "frequency": "3 times daily"
+      },
+      {
+        "exercise_en": "Hamstring stretches",
+        "exercise_ar": "تمديد أوتار الركبة",
+        "description_en": "Gentle stretch behind thigh while lying down",
+        "description_ar": "تمدد لطيف خلف الفخذ أثناء الاستلقاء",
+        "hold": "30 seconds",
+        "frequency": "3 times daily"
+      }
+    ],
+    "phase3_strengthening": [
+      {
+        "exercise_en": "Progressive squats",
+        "exercise_ar": "قرفصاء تدريجية",
+        "progression": "Wall squat → chair squat → bodyweight squat",
+        "sets": "3",
+        "reps": "8-15"
+      },
+      {
+        "exercise_en": "Single-leg balance",
+        "exercise_ar": "توازن ساق واحدة",
+        "progression": "Eyes open → eyes closed → unstable surface",
+        "duration": "30-60 seconds",
+        "sets": "3"
+      }
+    ]
+  },
+  "return_to_running_protocol": {
+    "phase1_walking": {
+      "week1": "Pain-free walking 20-30 minutes daily",
+      "week2": "Increase to 45 minutes, add gentle hills"
+    },
+    "phase2_run_walk": {
+      "week3": "1 minute run, 2 minutes walk × 10 cycles",
+      "week4": "2 minutes run, 1 minute walk × 10 cycles"
+    },
+    "phase3_continuous_running": {
+      "week5": "15 minutes continuous easy running",
+      "week6": "20 minutes continuous easy running",
+      "week7": "25-30 minutes continuous easy running"
+    },
+    "guidelines": [
+      "Stop immediately if knee pain occurs",
+      "Run on soft surfaces initially",
+      "Gradually increase distance by 10% per week",
+      "Include rest days between running sessions"
+    ]
+  },
+  "additional_therapies": {
+    "self_care": [
+      {
+        "therapy_en": "Ice massage",
+        "therapy_ar": "تدليك بالثلج",
+        "application_en": "7-10 minutes in circular motions around knee cap",
+        "application_ar": "7-10 دقائق بحركات دائرية حول غطاء الركبة"
+      },
+      {
+        "therapy_en": "Kinesiology taping",
+        "therapy_ar": "الشريط الحركي",
+        "application_en": "Support knee cap alignment and reduce pain",
+        "application_ar": "دعم محاذاة غطاء الركبة وتقليل الألم"
+      }
+    ],
+    "professional_treatments": [
+      {
+        "treatment_en": "Physical therapy",
+        "treatment_ar": "العلاج الطبيعي",
+        "description_en": "Gait analysis and biomechanical correction"
+      },
+      {
+        "treatment_en": "Running gait analysis",
+        "treatment_ar": "تحليل مشية الجري",
+        "description_en": "Video analysis to identify movement problems"
+      },
+      {
+        "treatment_en": "Custom orthotics",
+        "treatment_ar": "أجهزة تقويم مخصصة",
+        "description_en": "Correct foot mechanics and knee alignment"
+      }
+    ]
+  },
+  "evidence_based_references": {
+    "scientific_studies": [
+      "Crossley KM, et al. Patellofemoral pain consensus statement from the 4th International Patellofemoral Pain Research Retreat. Br J Sports Med. 2016;50(14):853-864.",
+      "Collins NJ, et al. Foot orthoses and physiotherapy in the treatment of patellofemoral pain syndrome: randomised clinical trial. BMJ. 2008;337:a1735.",
+      "van der Heijden RA, et al. Exercise therapy and kinesiotaping for patellofemoral pain syndrome: a randomized controlled trial. J Athl Train. 2015;50(8):814-823."
+    ],
+    "professional_organizations": [
+      "International Patellofemoral Pain Research Retreat: https://www.patellofemoralretreat.com/",
+      "American College of Sports Medicine: https://www.acsm.org/",
+      "International Association of Athletics Federations: https://www.worldathletics.org/",
+      "Road Runners Club of America: https://www.rrca.org/"
+    ],
+    "clinical_guidelines": [
+      "ACSM Guidelines for Exercise Testing and Prescription",
+      "British Journal of Sports Medicine Consensus on Patellofemoral Pain",
+      "International Olympic Committee Consensus on Running Injuries"
+    ]
+  },
+  "disclaimer": {
+    "english": "This information is for educational purposes only and is not intended as medical advice. Runner's knee and patellofemoral pain can indicate serious underlying conditions requiring professional evaluation. Persistent knee pain, swelling, locking, or instability requires immediate medical attention. Athletes should undergo proper biomechanical assessment before returning to running. Some individuals may require imaging studies or surgical intervention. This content should not replace professional medical consultation, diagnosis, or treatment by qualified sports medicine professionals, physical therapists, or orthopedic specialists.",
+    "arabic": "هذه المعلومات لأغراض تعليمية فقط وليست مخصصة كنصيحة طبية. ركبة العداء وألم الرضفة الفخذية يمكن أن تشير إلى حالات خطيرة تتطلب تقييماً مهنياً. ألم الركبة المستمر أو التورم أو التيبس أو عدم الاستقرار يتطلب رعاية طبية فورية. يجب على الرياضيين الخضوع لتقييم ميكانيكي حيوي مناسب قبل العودة للجري. بعض الأفراد قد يحتاجون إلى دراسات تصويرية أو تدخل جراحي. لا يجب أن يحل هذا المحتوى محل الاستشارة الطبية المهنية أو التشخيص أو العلاج من قبل متخصصي الطب الرياضي أو أخصائيي العلاج الطبيعي أو أخصائيي العظام المؤهلين."
+  }
+}

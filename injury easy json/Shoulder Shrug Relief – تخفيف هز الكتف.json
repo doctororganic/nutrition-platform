@@ -1,0 +1,389 @@
+{
+  "injury": {
+    "name_en": "Shoulder Shrug Relief",
+    "name_ar": "تخفيف هز الكتف",
+    "type_en": "Shoulder Impingement/Rotator Cuff Strain",
+    "type_ar": "انضغاط الكتف/إجهاد الكفة المدورة",
+    "description_en": "Comprehensive treatment plan for shoulder impingement, rotator cuff strain, and overhead movement injuries common in gym and daily activities",
+    "description_ar": "خطة علاج شاملة لانضغاط الكتف وإجهاد الكفة المدورة وإصابات الحركة العلوية الشائعة في الجيم والأنشطة اليومية"
+  },
+  "immediate_care": {
+    "protocol_en": [
+      "Stop all overhead activities immediately",
+      "Apply ice for 15-20 minutes every 2-3 hours for first 48 hours",
+      "Keep arm in comfortable position, avoid sleeping on affected side",
+      "Use sling only if necessary for severe pain (remove frequently for gentle movement)",
+      "Avoid reaching behind back or overhead",
+      "Take anti-inflammatory medication as directed"
+    ],
+    "protocol_ar": [
+      "توقف عن جميع الأنشطة العلوية فوراً",
+      "تطبيق الثلج لمدة 15-20 دقيقة كل 2-3 ساعات لأول 48 ساعة",
+      "أبق الذراع في وضعية مريحة، تجنب النوم على الجانب المصاب",
+      "استخدم الرافعة فقط عند الضرورة للألم الشديد (أزلها بشكل متكرر للحركة اللطيفة)",
+      "تجنب الوصول خلف الظهر أو للأعلى",
+      "تناول أدوية مضادة للالتهاب حسب التوجيهات"
+    ]
+  },
+  "supplements_and_medications": {
+    "pain_relief": [
+      {
+        "name": "Ibuprofen",
+        "dose_en": "400-600mg every 6-8 hours with food",
+        "dose_ar": "400-600 ملغ كل 6-8 ساعات مع الطعام",
+        "duration": "7-10 days maximum",
+        "purpose_en": "Reduce inflammation in shoulder joint and tendons",
+        "purpose_ar": "تقليل الالتهاب في مفصل الكتف والأوتار"
+      },
+      {
+        "name": "Topical diclofenac gel",
+        "dose_en": "Apply 2-4g to shoulder area 3-4 times daily",
+        "dose_ar": "تطبق 2-4 غرام على منطقة الكتف 3-4 مرات يومياً",
+        "duration": "Up to 2 weeks",
+        "purpose_en": "Localized anti-inflammatory effect",
+        "purpose_ar": "تأثير مضاد للالتهاب موضعي"
+      }
+    ],
+    "tissue_support": [
+      {
+        "name": "Collagen peptides",
+        "dose_en": "15-20g daily in smoothie or water",
+        "dose_ar": "15-20 غرام يومياً في العصير أو الماء",
+        "purpose_en": "Tendon and ligament repair",
+        "purpose_ar": "إصلاح الأوتار والأربطة"
+      },
+      {
+        "name": "Vitamin C with bioflavonoids",
+        "dose_en": "1000-2000mg daily",
+        "dose_ar": "1000-2000 ملغ يومياً",
+        "purpose_en": "Collagen synthesis and tissue healing",
+        "purpose_ar": "تخليق الكولاجين وشفاء الأنسجة"
+      },
+      {
+        "name": "Bromelain",
+        "dose_en": "500mg twice daily between meals",
+        "dose_ar": "500 ملغ مرتين يومياً بين الوجبات",
+        "purpose_en": "Natural anti-inflammatory enzyme",
+        "purpose_ar": "إنزيم طبيعي مضاد للالتهاب"
+      }
+    ],
+    "muscle_support": [
+      {
+        "name": "Magnesium glycinate",
+        "dose_en": "400mg before bedtime",
+        "dose_ar": "400 ملغ قبل النوم",
+        "purpose_en": "Muscle relaxation and improved sleep",
+        "purpose_ar": "استرخاء العضلات وتحسين النوم"
+      },
+      {
+        "name": "Omega-3 fatty acids",
+        "dose_en": "2000-3000mg EPA/DHA daily",
+        "dose_ar": "2000-3000 ملغ EPA/DHA يومياً",
+        "purpose_en": "Anti-inflammatory and joint health",
+        "purpose_ar": "مضاد للالتهاب وصحة المفاصل"
+      }
+    ]
+  },
+  "healing_plants": {
+    "topical_applications": [
+      {
+        "name": "Arnica gel",
+        "usage_en": "Apply 3-4 times daily to shoulder area, massage gently",
+        "usage_ar": "تطبق 3-4 مرات يومياً على منطقة الكتف، دلك برفق",
+        "benefits_en": "Reduce bruising and inflammation",
+        "benefits_ar": "تقليل الكدمات والالتهاب"
+      },
+      {
+        "name": "Comfrey cream",
+        "usage_en": "Apply twice daily for tissue healing",
+        "usage_ar": "تطبق مرتين يومياً لشفاء الأنسجة",
+        "benefits_en": "Accelerate tissue repair and reduce pain",
+        "benefits_ar": "تسريع إصلاح الأنسجة وتقليل الألم"
+      },
+      {
+        "name": "Eucalyptus oil blend",
+        "usage_en": "Mix 3-4 drops with carrier oil, apply with warm compress",
+        "usage_ar": "اخلط 3-4 قطرات مع زيت ناقل، تطبق مع كمادة دافئة",
+        "benefits_en": "Improve circulation and pain relief",
+        "benefits_ar": "تحسين الدورة الدموية وتسكين الألم"
+      }
+    ],
+    "oral_remedies": [
+      {
+        "name": "Turmeric golden milk",
+        "usage_en": "1 tsp turmeric + pinch black pepper in warm milk, twice daily",
+        "usage_ar": "ملعقة صغيرة كركم + رشة فلفل أسود في حليب دافئ، مرتين يومياً",
+        "benefits_en": "Powerful anti-inflammatory effects",
+        "benefits_ar": "تأثيرات قوية مضادة للالتهاب"
+      },
+      {
+        "name": "Boswellia extract",
+        "usage_en": "400-500mg standardized extract, 2-3 times daily",
+        "usage_ar": "400-500 ملغ مستخلص معياري، 2-3 مرات يومياً",
+        "benefits_en": "Reduce joint inflammation and pain",
+        "benefits_ar": "تقليل التهاب المفاصل والألم"
+      }
+    ]
+  },
+  "recovery_recipes": {
+    "anti_inflammatory_smoothie": {
+      "name_en": "Shoulder Recovery Power Smoothie",
+      "name_ar": "عصير قوة تعافي الكتف",
+      "ingredients_en": [
+        "1 cup pineapple chunks (bromelain)",
+        "1/2 cup cherries (anthocyanins)",
+        "1 tbsp collagen powder",
+        "1 tsp turmeric powder",
+        "1/2 tsp ginger powder",
+        "1 cup coconut milk",
+        "1 tbsp almond butter",
+        "1 tsp honey"
+      ],
+      "ingredients_ar": [
+        "كوب قطع أناناس (بروميلين)",
+        "1/2 كوب كرز (أنثوسيانين)",
+        "ملعقة كبيرة مسحوق كولاجين",
+        "ملعقة صغيرة مسحوق كركم",
+        "1/2 ملعقة صغيرة مسحوق زنجبيل",
+        "كوب حليب جوز الهند",
+        "ملعقة كبيرة زبدة لوز",
+        "ملعقة صغيرة عسل"
+      ],
+      "instructions_en": "Blend all ingredients until smooth. Drink daily for anti-inflammatory benefits.",
+      "instructions_ar": "اخلط جميع المكونات حتى تصبح ناعمة. اشرب يومياً للفوائد المضادة للالتهاب."
+    }
+  },
+  "gym_tips": {
+    "shoulder_rehabilitation": [
+      {
+        "exercise_en": "Pendulum swings",
+        "exercise_ar": "أرجحة البندول",
+        "description_en": "Lean forward, let arm hang, gently swing in circles",
+        "description_ar": "انحنِ للأمام، دع الذراع معلقة، أرجحها برفق في دوائر",
+        "sets": "3",
+        "duration": "30 seconds each direction"
+      },
+      {
+        "exercise_en": "Wall slides",
+        "exercise_ar": "انزلاقات الحائط",
+        "description_en": "Back to wall, slide arms up and down maintaining contact",
+        "description_ar": "الظهر للحائط، انزلق بالذراعين للأعلى والأسفل مع الحفاظ على التماس",
+        "sets": "3",
+        "reps": "10-15"
+      },
+      {
+        "exercise_en": "Resistance band external rotations",
+        "exercise_ar": "دوران خارجي بشريط المقاومة",
+        "description_en": "Elbow at side, rotate arm outward against band",
+        "description_ar": "المرفق بجانب الجسم، أدر الذراع للخارج ضد الشريط",
+        "sets": "3",
+        "reps": "15-20"
+      }
+    ],
+    "modifications": [
+      {
+        "tip_en": "Avoid overhead pressing until pain-free",
+        "tip_ar": "تجنب الضغط العلوي حتى تختفي الألم"
+      },
+      {
+        "tip_en": "Use lighter weights and focus on form",
+        "tip_ar": "استخدم أوزان أخف وركز على الشكل"
+      },
+      {
+        "tip_en": "Perform warm-up thoroughly before any shoulder exercise",
+        "tip_ar": "قم بالإحماء بدقة قبل أي تمرين للكتف"
+      }
+    ]
+  },
+  "monthly_workout_plan": {
+    "month1_healing": {
+      "week1": {
+        "focus_en": "Pain relief and gentle mobility",
+        "focus_ar": "تخفيف الألم والحركة اللطيفة",
+        "daily_routine": [
+          {
+            "time": "Morning",
+            "exercise_en": "Pendulum swings",
+            "exercise_ar": "أرجحة البندول",
+            "duration": "5 minutes"
+          },
+          {
+            "time": "Afternoon",
+            "exercise_en": "Gentle range of motion",
+            "exercise_ar": "نطاق الحركة اللطيف",
+            "duration": "10 minutes"
+          },
+          {
+            "time": "Evening",
+            "exercise_en": "Heat therapy and relaxation",
+            "exercise_ar": "العلاج بالحرارة والاسترخاء",
+            "duration": "15 minutes"
+          }
+        ]
+      },
+      "week2": {
+        "focus_en": "Increased mobility and light strengthening",
+        "focus_ar": "زيادة الحركة والتقوية الخفيفة",
+        "exercises": [
+          {
+            "name_en": "Wall slides",
+            "name_ar": "انزلاقات الحائط",
+            "sets": "3",
+            "reps": "10",
+            "frequency": "Twice daily"
+          },
+          {
+            "name_en": "Cross-body stretches",
+            "name_ar": "تمددات عبر الجسم",
+            "hold": "30 seconds",
+            "frequency": "3 times daily"
+          }
+        ]
+      },
+      "week3_4": {
+        "focus_en": "Progressive strengthening",
+        "focus_ar": "التقوية التدريجية",
+        "exercises": [
+          {
+            "name_en": "Resistance band exercises",
+            "name_ar": "تمارين شريط المقاومة",
+            "sets": "3",
+            "reps": "15",
+            "frequency": "Daily"
+          },
+          {
+            "name_en": "Isometric holds",
+            "name_ar": "الثبات الإيزوميتري",
+            "hold": "10 seconds",
+            "sets": "3",
+            "frequency": "Twice daily"
+          }
+        ]
+      }
+    }
+  },
+  "rehabilitation_exercises": {
+    "phase1_acute": [
+      {
+        "exercise_en": "Passive range of motion",
+        "exercise_ar": "نطاق الحركة السلبي",
+        "description_en": "Use unaffected arm to gently move injured shoulder",
+        "description_ar": "استخدم الذراع السليمة لتحريك الكتف المصاب برفق",
+        "frequency": "Every 2 hours",
+        "duration": "5 minutes"
+      },
+      {
+        "exercise_en": "Gentle neck stretches",
+        "exercise_ar": "تمددات الرقبة اللطيفة",
+        "description_en": "Relieve tension in neck and upper trapezius",
+        "description_ar": "تخفيف التوتر في الرقبة والعضلة المدورة العلوية",
+        "hold": "20 seconds",
+        "frequency": "4-5 times daily"
+      }
+    ],
+    "phase2_mobility": [
+      {
+        "exercise_en": "Active-assisted range of motion",
+        "exercise_ar": "نطاق الحركة النشط المساعد",
+        "description_en": "Begin active movement with assistance as needed",
+        "description_ar": "ابدأ الحركة النشطة مع المساعدة حسب الحاجة",
+        "reps": "10-15",
+        "frequency": "3 times daily"
+      },
+      {
+        "exercise_en": "Shoulder blade squeezes",
+        "exercise_ar": "عصر لوحي الكتف",
+        "description_en": "Strengthen muscles that stabilize shoulder blade",
+        "description_ar": "قوِ العضلات التي تثبت لوح الكتف",
+        "hold": "5 seconds",
+        "reps": "15",
+        "frequency": "3 times daily"
+      }
+    ],
+    "phase3_strengthening": [
+      {
+        "exercise_en": "Progressive resistance training",
+        "exercise_ar": "تدريب المقاومة التدريجي",
+        "description_en": "Gradually increase resistance using bands and weights",
+        "description_ar": "زد المقاومة تدريجياً باستخدام الأشرطة والأوزان",
+        "progression": "Light band → medium band → light weights",
+        "frequency": "Every other day"
+      }
+    ]
+  },
+  "return_to_gym_protocol": {
+    "phase1_preparation": {
+      "week1": "Pain-free range of motion in all directions",
+      "week2": "Light resistance band exercises without pain"
+    },
+    "phase2_basic_movements": {
+      "week3": "Bodyweight exercises (wall push-ups, arm circles)",
+      "week4": "Light dumbbells (2-5 lbs) for basic movements"
+    },
+    "phase3_progressive_loading": {
+      "week5": "Moderate weights with perfect form",
+      "week6": "Gradual return to previous workout intensity"
+    },
+    "guidelines": [
+      "Stop immediately if pain occurs",
+      "Progress slowly - rushing leads to re-injury",
+      "Always warm up thoroughly",
+      "Focus on form over weight"
+    ]
+  },
+  "additional_therapies": {
+    "self_care": [
+      {
+        "therapy_en": "Heat therapy",
+        "therapy_ar": "العلاج بالحرارة",
+        "application_en": "15-20 minutes before exercises to improve flexibility",
+        "application_ar": "15-20 دقيقة قبل التمارين لتحسين المرونة"
+      },
+      {
+        "therapy_en": "Ice massage",
+        "therapy_ar": "تدليك بالثلج",
+        "application_en": "5-7 minutes after exercises to reduce inflammation",
+        "application_ar": "5-7 دقائق بعد التمارين لتقليل الالتهاب"
+      }
+    ],
+    "professional_treatments": [
+      {
+        "treatment_en": "Physical therapy",
+        "treatment_ar": "العلاج الطبيعي",
+        "description_en": "Manual therapy and specific exercise prescription"
+      },
+      {
+        "treatment_en": "Massage therapy",
+        "treatment_ar": "العلاج بالتدليك",
+        "description_en": "Deep tissue massage for muscle tension release"
+      },
+      {
+        "treatment_en": "Dry needling/Acupuncture",
+        "treatment_ar": "الوخز الجاف/الوخز بالإبر",
+        "description_en": "Target trigger points and improve muscle function"
+      }
+    ]
+  },
+  "evidence_based_references": {
+    "scientific_studies": [
+      "Ludewig PM, et al. Motion of the shoulder complex during multiplanar humeral elevation. J Bone Joint Surg Am. 2009;91(2):378-389.",
+      "Michener LA, et al. American Physical Therapy Association's clinical practice guidelines for shoulder impingement syndrome. Phys Ther. 2013;93(8):1087-1099.",
+      "Page MJ, et al. Manual therapy and exercise for rotator cuff disease. Cochrane Database Syst Rev. 2016;(6):CD012224."
+    ],
+    "professional_organizations": [
+      "American Shoulder and Elbow Surgeons: https://www.ases-assn.org/",
+      "International Association of Orthopaedic Surgery and Traumatology: https://www.iota.org/",
+      "American Physical Therapy Association: https://www.apta.org/",
+      "Arthroscopy Association of North America: https://www.arthroscopy.org/"
+    ],
+    "clinical_guidelines": [
+      "APTA Clinical Practice Guidelines for Shoulder Impingement Syndrome",
+      "American Academy of Orthopaedic Surgeons Clinical Practice Guidelines for Rotator Cuff Problems",
+      "British Elbow and Shoulder Society Guidelines for Shoulder Impingement"
+    ]
+  },
+  "disclaimer": {
+    "english": "This information is for educational purposes only and is not intended as medical advice. Shoulder injuries can involve complex structures including rotator cuff tears, labral injuries, or instability requiring surgical intervention. Persistent pain, weakness, numbness, or loss of range of motion requires immediate medical evaluation. Some shoulder injuries may require imaging studies (MRI, ultrasound) for proper diagnosis. This content should not replace professional medical consultation, diagnosis, or treatment by qualified healthcare providers including orthopedic specialists or physical therapists.",
+    "arabic": "هذه المعلومات لأغراض تعليمية فقط وليست مخصصة كنصيحة طبية. إصابات الكتف يمكن أن تشمل هياكل معقدة بما في ذلك تمزق الكفة المدورة أو إصابات الشفا أو عدم الاستقرار التي تتطلب تدخلاً جراحياً. الألم المستمر أو الضعف أو التنميل أو فقدان نطاق الحركة يتطلب تقييماً طبياً فورياً. بعض إصابات الكتف قد تتطلب دراسات تصويرية (الرنين المغناطيسي، الموجات فوق الصوتية) للتشخيص الصحيح. لا يجب أن يحل هذا المحتوى محل الاستشارة الطبية المهنية أو التشخيص أو العلاج من قبل مقدمي الرعاية الصحية المؤهلين بما في ذلك أخصائيي العظام أو أخصائيي العلاج الطبيعي."
+  }
+}

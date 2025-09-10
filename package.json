@@ -1,0 +1,24 @@
+{
+  "name": "doctorhealthy1",
+  "version": "1.0.0",
+  "description": "DoctorHealthy1 - Comprehensive Health Platform",
+  "main": "main.go",
+  "scripts": {
+    "build": "go build -o doctorhealthy1 main.go",
+    "start": "./doctorhealthy1",
+    "dev": "go run main.go"
+  },
+  "keywords": [
+    "health",
+    "nutrition",
+    "meal-planning",
+    "workout",
+    "disease-management",
+    "pwa"
+  ],
+  "author": "DoctorHealthy1 Team",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}

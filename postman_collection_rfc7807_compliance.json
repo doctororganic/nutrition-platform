@@ -1,0 +1,637 @@
+{
+  "info": {
+    "name": "NutriTracker Pro API v1 - RFC 7807 Compliance Tests",
+    "description": "Comprehensive test collection for REST API v1 with RFC 7807 error handling validation",
+    "version": "1.0.0",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "auth": {
+    "type": "bearer",
+    "bearer": [
+      {
+        "key": "token",
+        "value": "{{jwt_token}}",
+        "type": "string"
+      }
+    ]
+  },
+  "event": [
+    {
+      "listen": "prerequest",
+      "script": {
+        "type": "text/javascript",
+        "exec": [
+          "// Set base URL",
+          "pm.environment.set('base_url', 'http://localhost:8080');"
+        ]
+      }
+    }
+  ],
+  "variable": [
+    {
+      "key": "base_url",
+      "value": "http://localhost:8080",
+      "type": "string"
+    },
+    {
+      "key": "jwt_token",
+      "value": "",
+      "type": "string"
+    },
+    {
+      "key": "nutrition_plan_id",
+      "value": "",
+      "type": "string"
+    }
+  ],
+  "item": [
+    {
+      "name": "Health Check",
+      "event": [
+        {
+          "listen": "test",
+          "script": {
+            "type": "text/javascript",
+            "exec": [
+              "// Test 1: Status code should be 200",
+              "pm.test('Status code is 200', function () {",
+              "    pm.response.to.have.status(200);",
+              "});",
+              "",
+              "// Test 2: Response should be JSON",
+              "pm.test('Response is JSON', function () {",
+              "    pm.response.to.be.json;",
+              "});",
+              "",
+              "// Test 3: Content-Type should be application/json",
+              "pm.test('Content-Type is application/json', function () {",
+              "    pm.expect(pm.response.headers.get('Content-Type')).to.include('application/json');",
+              "});",
+              "",
+              "// Test 4: Response should have required fields",
+              "pm.test('Response has required health fields', function () {",
+              "    const response = pm.response.json();",
+              "    pm.expect(response).to.have.property('status');",
+              "    pm.expect(response).to.have.property('timestamp');",
+              "    pm.expect(response).to.have.property('version');",
+              "});",
+              "",
+              "// Test 5: No HTML content",
+              "pm.test('Response contains no HTML', function () {",
+              "    const responseText = pm.response.text();",
+              "    pm.expect(responseText).to.not.include('<html>');",
+              "    pm.expect(responseText).to.not.include('<!DOCTYPE');",
+              "});"
+            ]
+          }
+        }
+      ],
+      "request": {
+        "method": "GET",
+        "header": [
+          {
+            "key": "Accept",
+            "value": "application/json"
+          }
+        ],
+        "url": {
+          "raw": "{{base_url}}/api/v1/health",
+          "host": ["{{base_url}}"],
+          "path": ["api", "v1", "health"]
+        }
+      }
+    },
+    {
+      "name": "Register User",
+      "event": [
+        {
+          "listen": "test",
+          "script": {
+            "type": "text/javascript",
+            "exec": [
+              "// Test 1: Status code should be 201 for successful creation",
+              "pm.test('Status code is 201', function () {",
+              "    pm.response.to.have.status(201);",
+              "});",
+              "",
+              "// Test 2: Response should be JSON",
+              "pm.test('Response is JSON', function () {",
+              "    pm.response.to.be.json;",
+              "});",
+              "",
+              "// Test 3: Content-Type should be application/json",
+              "pm.test('Content-Type is application/json', function () {",
+              "    pm.expect(pm.response.headers.get('Content-Type')).to.include('application/json');",
+              "});",
+              "",
+              "// Test 4: Response should have user data",
+              "pm.test('Response has user data', function () {",
+              "    const response = pm.response.json();",
+              "    pm.expect(response).to.have.property('data');",
+              "    pm.expect(response.data).to.have.property('user');",
+              "});"
+            ]
+          }
+        }
+      ],
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          },
+          {
+            "key": "Accept",
+            "value": "application/json"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n    \"username\": \"testuser_{{$randomInt}}\",\n    \"email\": \"test{{$randomInt}}@example.com\",\n    \"password\": \"SecurePass123!\",\n    \"full_name\": \"Test User\"\n}"
+        },
+        "url": {
+          "raw": "{{base_url}}/api/v1/auth/register",
+          "host": ["{{base_url}}"],
+          "path": ["api", "v1", "auth", "register"]
+        }
+      }
+    },
+    {
+      "name": "Login User",
+      "event": [
+        {
+          "listen": "test",
+          "script": {
+            "type": "text/javascript",
+            "exec": [
+              "// Test 1: Status code should be 200",
+              "pm.test('Status code is 200', function () {",
+              "    pm.response.to.have.status(200);",
+              "});",
+              "",
+              "// Test 2: Response should be JSON",
+              "pm.test('Response is JSON', function () {",
+              "    pm.response.to.be.json;",
+              "});",
+              "",
+              "// Test 3: Response should have token",
+              "pm.test('Response has JWT token', function () {",
+              "    const response = pm.response.json();",
+              "    pm.expect(response).to.have.property('data');",
+              "    pm.expect(response.data).to.have.property('token');",
+              "    ",
+              "    // Store token for subsequent requests",
+              "    pm.environment.set('jwt_token', response.data.token);",
+              "});"
+            ]
+          }
+        }
+      ],
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          },
+          {
+            "key": "Accept",
+            "value": "application/json"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n    \"username\": \"admin\",\n    \"password\": \"admin123\"\n}"
+        },
+        "url": {
+          "raw": "{{base_url}}/api/v1/auth/login",
+          "host": ["{{base_url}}"],
+          "path": ["api", "v1", "auth", "login"]
+        }
+      }
+    },
+    {
+      "name": "Get Nutrition Plans - Authorized",
+      "event": [
+        {
+          "listen": "test",
+          "script": {
+            "type": "text/javascript",
+            "exec": [
+              "// Test 1: Status code should be 200",
+              "pm.test('Status code is 200', function () {",
+              "    pm.response.to.have.status(200);",
+              "});",
+              "",
+              "// Test 2: Response should be JSON",
+              "pm.test('Response is JSON', function () {",
+              "    pm.response.to.be.json;",
+              "});",
+              "",
+              "// Test 3: Response should have plans array",
+              "pm.test('Response has plans array', function () {",
+              "    const response = pm.response.json();",
+              "    pm.expect(response).to.have.property('data');",
+              "    pm.expect(response.data).to.have.property('plans');",
+              "    pm.expect(response.data.plans).to.be.an('array');",
+              "});"
+            ]
+          }
+        }
+      ],
+      "request": {
+        "method": "GET",
+        "header": [
+          {
+            "key": "Authorization",
+            "value": "Bearer {{jwt_token}}"
+          },
+          {
+            "key": "Accept",
+            "value": "application/json"
+          }
+        ],
+        "url": {
+          "raw": "{{base_url}}/api/v1/nutrition/plans",
+          "host": ["{{base_url}}"],
+          "path": ["api", "v1", "nutrition", "plans"]
+        }
+      }
+    },
+    {
+      "name": "Create Nutrition Plan",
+      "event": [
+        {
+          "listen": "test",
+          "script": {
+            "type": "text/javascript",
+            "exec": [
+              "// Test 1: Status code should be 201",
+              "pm.test('Status code is 201', function () {",
+              "    pm.response.to.have.status(201);",
+              "});",
+              "",
+              "// Test 2: Response should be JSON",
+              "pm.test('Response is JSON', function () {",
+              "    pm.response.to.be.json;",
+              "});",
+              "",
+              "// Test 3: Response should have created plan",
+              "pm.test('Response has created plan', function () {",
+              "    const response = pm.response.json();",
+              "    pm.expect(response).to.have.property('data');",
+              "    pm.expect(response.data).to.have.property('plan');",
+              "    pm.expect(response.data.plan).to.have.property('id');",
+              "    ",
+              "    // Store plan ID for subsequent tests",
+              "    pm.environment.set('nutrition_plan_id', response.data.plan.id);",
+              "});"
+            ]
+          }
+        }
+      ],
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Authorization",
+            "value": "Bearer {{jwt_token}}"
+          },
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          },
+          {
+            "key": "Accept",
+            "value": "application/json"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n    \"name\": \"Test Nutrition Plan\",\n    \"description\": \"A test nutrition plan for API validation\",\n    \"goals\": [\"weight_loss\", \"muscle_gain\"],\n    \"diet_type\": \"balanced\",\n    \"calories_target\": 2000,\n    \"macros\": {\n        \"protein\": 30,\n        \"carbs\": 40,\n        \"fat\": 30\n    }\n}"
+        },
+        "url": {
+          "raw": "{{base_url}}/api/v1/nutrition/plans",
+          "host": ["{{base_url}}"],
+          "path": ["api", "v1", "nutrition", "plans"]
+        }
+      }
+    },
+    {
+      "name": "Get Nutrition Plan by ID",
+      "event": [
+        {
+          "listen": "test",
+          "script": {
+            "type": "text/javascript",
+            "exec": [
+              "// Test 1: Status code should be 200",
+              "pm.test('Status code is 200', function () {",
+              "    pm.response.to.have.status(200);",
+              "});",
+              "",
+              "// Test 2: Response should be JSON",
+              "pm.test('Response is JSON', function () {",
+              "    pm.response.to.be.json;",
+              "});",
+              "",
+              "// Test 3: Response should have plan data",
+              "pm.test('Response has plan data', function () {",
+              "    const response = pm.response.json();",
+              "    pm.expect(response).to.have.property('data');",
+              "    pm.expect(response.data).to.have.property('plan');",
+              "});"
+            ]
+          }
+        }
+      ],
+      "request": {
+        "method": "GET",
+        "header": [
+          {
+            "key": "Authorization",
+            "value": "Bearer {{jwt_token}}"
+          },
+          {
+            "key": "Accept",
+            "value": "application/json"
+          }
+        ],
+        "url": {
+          "raw": "{{base_url}}/api/v1/nutrition/plans/{{nutrition_plan_id}}",
+          "host": ["{{base_url}}"],
+          "path": ["api", "v1", "nutrition", "plans", "{{nutrition_plan_id}}"]
+        }
+      }
+    },
+    {
+      "name": "Update Nutrition Plan",
+      "event": [
+        {
+          "listen": "test",
+          "script": {
+            "type": "text/javascript",
+            "exec": [
+              "// Test 1: Status code should be 200",
+              "pm.test('Status code is 200', function () {",
+              "    pm.response.to.have.status(200);",
+              "});",
+              "",
+              "// Test 2: Response should be JSON",
+              "pm.test('Response is JSON', function () {",
+              "    pm.response.to.be.json;",
+              "});",
+              "",
+              "// Test 3: Response should have updated plan",
+              "pm.test('Response has updated plan', function () {",
+              "    const response = pm.response.json();",
+              "    pm.expect(response).to.have.property('data');",
+              "    pm.expect(response.data).to.have.property('plan');",
+              "});"
+            ]
+          }
+        }
+      ],
+      "request": {
+        "method": "PUT",
+        "header": [
+          {
+            "key": "Authorization",
+            "value": "Bearer {{jwt_token}}"
+          },
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          },
+          {
+            "key": "Accept",
+            "value": "application/json"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n    \"name\": \"Updated Test Nutrition Plan\",\n    \"description\": \"An updated test nutrition plan for API validation\",\n    \"goals\": [\"weight_loss\"],\n    \"diet_type\": \"keto\",\n    \"calories_target\": 1800,\n    \"macros\": {\n        \"protein\": 25,\n        \"carbs\": 5,\n        \"fat\": 70\n    }\n}"
+        },
+        "url": {
+          "raw": "{{base_url}}/api/v1/nutrition/plans/{{nutrition_plan_id}}",
+          "host": ["{{base_url}}"],
+          "path": ["api", "v1", "nutrition", "plans", "{{nutrition_plan_id}}"]
+        }
+      }
+    },
+    {
+      "name": "Test 400 Bad Request - RFC 7807",
+      "event": [
+        {
+          "listen": "test",
+          "script": {
+            "type": "text/javascript",
+            "exec": [
+              "// Test 1: Status code should be 400",
+              "pm.test('Status code is 400', function () {",
+              "    pm.response.to.have.status(400);",
+              "});",
+              "",
+              "// Test 2: Response should be JSON",
+              "pm.test('Response is JSON', function () {",
+              "    pm.response.to.be.json;",
+              "});",
+              "",
+              "// Test 3: Content-Type should be application/problem+json",
+              "pm.test('Content-Type is application/problem+json', function () {",
+              "    pm.expect(pm.response.headers.get('Content-Type')).to.include('application/problem+json');",
+              "});",
+              "",
+              "// Test 4: RFC 7807 compliance - required fields",
+              "pm.test('RFC 7807 compliance - has required fields', function () {",
+              "    const response = pm.response.json();",
+              "    pm.expect(response).to.have.property('type');",
+              "    pm.expect(response).to.have.property('title');",
+              "    pm.expect(response).to.have.property('status');",
+              "    pm.expect(response.status).to.equal(400);",
+              "});",
+              "",
+              "// Test 5: RFC 7807 compliance - optional fields",
+              "pm.test('RFC 7807 compliance - has optional fields', function () {",
+              "    const response = pm.response.json();",
+              "    pm.expect(response).to.have.property('detail');",
+              "    pm.expect(response).to.have.property('instance');",
+              "});"
+            ]
+          }
+        }
+      ],
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Authorization",
+            "value": "Bearer {{jwt_token}}"
+          },
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          },
+          {
+            "key": "Accept",
+            "value": "application/json"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n    \"invalid_field\": \"this should cause a 400 error\"\n}"
+        },
+        "url": {
+          "raw": "{{base_url}}/api/v1/nutrition/plans",
+          "host": ["{{base_url}}"],
+          "path": ["api", "v1", "nutrition", "plans"]
+        }
+      }
+    },
+    {
+      "name": "Test 401 Unauthorized - RFC 7807",
+      "event": [
+        {
+          "listen": "test",
+          "script": {
+            "type": "text/javascript",
+            "exec": [
+              "// Test 1: Status code should be 401",
+              "pm.test('Status code is 401', function () {",
+              "    pm.response.to.have.status(401);",
+              "});",
+              "",
+              "// Test 2: Response should be JSON",
+              "pm.test('Response is JSON', function () {",
+              "    pm.response.to.be.json;",
+              "});",
+              "",
+              "// Test 3: Content-Type should be application/problem+json",
+              "pm.test('Content-Type is application/problem+json', function () {",
+              "    pm.expect(pm.response.headers.get('Content-Type')).to.include('application/problem+json');",
+              "});",
+              "",
+              "// Test 4: RFC 7807 compliance",
+              "pm.test('RFC 7807 compliance', function () {",
+              "    const response = pm.response.json();",
+              "    pm.expect(response).to.have.property('type');",
+              "    pm.expect(response).to.have.property('title');",
+              "    pm.expect(response).to.have.property('status');",
+              "    pm.expect(response.status).to.equal(401);",
+              "});"
+            ]
+          }
+        }
+      ],
+      "request": {
+        "method": "GET",
+        "header": [
+          {
+            "key": "Accept",
+            "value": "application/json"
+          }
+        ],
+        "url": {
+          "raw": "{{base_url}}/api/v1/nutrition/plans",
+          "host": ["{{base_url}}"],
+          "path": ["api", "v1", "nutrition", "plans"]
+        }
+      }
+    },
+    {
+      "name": "Test 404 Not Found - RFC 7807",
+      "event": [
+        {
+          "listen": "test",
+          "script": {
+            "type": "text/javascript",
+            "exec": [
+              "// Test 1: Status code should be 404",
+              "pm.test('Status code is 404', function () {",
+              "    pm.response.to.have.status(404);",
+              "});",
+              "",
+              "// Test 2: Response should be JSON",
+              "pm.test('Response is JSON', function () {",
+              "    pm.response.to.be.json;",
+              "});",
+              "",
+              "// Test 3: Content-Type should be application/problem+json",
+              "pm.test('Content-Type is application/problem+json', function () {",
+              "    pm.expect(pm.response.headers.get('Content-Type')).to.include('application/problem+json');",
+              "});",
+              "",
+              "// Test 4: RFC 7807 compliance",
+              "pm.test('RFC 7807 compliance', function () {",
+              "    const response = pm.response.json();",
+              "    pm.expect(response).to.have.property('type');",
+              "    pm.expect(response).to.have.property('title');",
+              "    pm.expect(response).to.have.property('status');",
+              "    pm.expect(response.status).to.equal(404);",
+              "});"
+            ]
+          }
+        }
+      ],
+      "request": {
+        "method": "GET",
+        "header": [
+          {
+            "key": "Authorization",
+            "value": "Bearer {{jwt_token}}"
+          },
+          {
+            "key": "Accept",
+            "value": "application/json"
+          }
+        ],
+        "url": {
+          "raw": "{{base_url}}/api/v1/nutrition/plans/nonexistent-id",
+          "host": ["{{base_url}}"],
+          "path": ["api", "v1", "nutrition", "plans", "nonexistent-id"]
+        }
+      }
+    },
+    {
+      "name": "Delete Nutrition Plan",
+      "event": [
+        {
+          "listen": "test",
+          "script": {
+            "type": "text/javascript",
+            "exec": [
+              "// Test 1: Status code should be 204",
+              "pm.test('Status code is 204', function () {",
+              "    pm.response.to.have.status(204);",
+              "});",
+              "",
+              "// Test 2: Response body should be empty",
+              "pm.test('Response body is empty', function () {",
+              "    pm.expect(pm.response.text()).to.be.empty;",
+              "});"
+            ]
+          }
+        }
+      ],
+      "request": {
+        "method": "DELETE",
+        "header": [
+          {
+            "key": "Authorization",
+            "value": "Bearer {{jwt_token}}"
+          },
+          {
+            "key": "Accept",
+            "value": "application/json"
+          }
+        ],
+        "url": {
+          "raw": "{{base_url}}/api/v1/nutrition/plans/{{nutrition_plan_id}}",
+          "host": ["{{base_url}}"],
+          "path": ["api", "v1", "nutrition", "plans", "{{nutrition_plan_id}}"]
+        }
+      }
+    }
+  ]
+}

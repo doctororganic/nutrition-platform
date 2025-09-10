@@ -1,0 +1,126 @@
+{
+  "injury": {
+    "name_en": "Hamstring Quick Fix",
+    "name_ar": "إصلاح سريع لأوتار الركبة",
+    "type_en": "Hamstring Strain/Pulled Hamstring",
+    "type_ar": "إجهاد أوتار الركبة/شد أوتار الركبة",
+    "description_en": "Comprehensive treatment plan for hamstring strains, muscle pulls, and posterior thigh injuries common in running and sports activities",
+    "description_ar": "خطة علاج شاملة لإجهاد أوتار الركبة وشد العضلات وإصابات الفخذ الخلفية الشائعة في الجري والأنشطة الرياضية"
+  },
+  "immediate_care": {
+    "protocol_en": [
+      "Stop activity immediately and avoid further stretching",
+      "Apply ice for 15-20 minutes every 2-3 hours for first 48 hours",
+      "Avoid stretching the hamstring during acute phase",
+      "Keep leg slightly bent when sitting or lying down",
+      "Use compression bandage if swelling is present",
+      "Elevate leg when resting to reduce swelling"
+    ],
+    "protocol_ar": [
+      "توقف عن النشاط فوراً وتجنب المزيد من التمدد",
+      "تطبيق الثلج لمدة 15-20 دقيقة كل 2-3 ساعات لأول 48 ساعة",
+      "تجنب تمديد أوتار الركبة أثناء المرحلة الحادة",
+      "أبق الساق مثنية قليلاً عند الجلوس أو الاستلقاء",
+      "استخدم ضمادة ضاغطة إذا كان هناك تورم",
+      "ارفع الساق عند الراحة لتقليل التورم"
+    ]
+  },
+  "supplements_and_medications": {
+    "pain_relief": [
+      {
+        "name": "Ibuprofen",
+        "dose_en": "400-600mg every 6-8 hours with food",
+        "dose_ar": "400-600 ملغ كل 6-8 ساعات مع الطعام",
+        "duration": "5-7 days maximum",
+        "purpose_en": "Reduce inflammation and muscle pain",
+        "purpose_ar": "تقليل الالتهاب وألم العضلات"
+      }
+    ],
+    "muscle_recovery": [
+      {
+        "name": "Magnesium glycinate",
+        "dose_en": "400-600mg before bedtime",
+        "dose_ar": "400-600 ملغ قبل النوم",
+        "purpose_en": "Muscle relaxation and prevent cramping",
+        "purpose_ar": "استرخاء العضلات ومنع التشنج"
+      },
+      {
+        "name": "BCAAs (Branched-Chain Amino Acids)",
+        "dose_en": "10-15g before and after exercise",
+        "dose_ar": "10-15 غرام قبل وبعد التمرين",
+        "purpose_en": "Muscle protein synthesis and recovery",
+        "purpose_ar": "تخليق بروتين العضلات والتعافي"
+      }
+    ]
+  },
+  "healing_plants": {
+    "topical_applications": [
+      {
+        "name": "Arnica gel",
+        "usage_en": "Apply 3-4 times daily to hamstring area",
+        "usage_ar": "تطبق 3-4 مرات يومياً على منطقة أوتار الركبة",
+        "benefits_en": "Reduce muscle soreness and bruising",
+        "benefits_ar": "تقليل ألم العضلات والكدمات"
+      }
+    ]
+  },
+  "recovery_recipes": {
+    "muscle_recovery_smoothie": {
+      "name_en": "Hamstring Recovery Smoothie",
+      "name_ar": "عصير تعافي أوتار الركبة",
+      "ingredients_en": [
+        "1 banana (potassium)",
+        "1 cup tart cherry juice",
+        "1 tbsp protein powder",
+        "1 cup coconut water",
+        "1 tsp turmeric powder"
+      ]
+    }
+  },
+  "gym_tips": {
+    "rehabilitation": [
+      {
+        "exercise_en": "Gentle hamstring stretches",
+        "exercise_ar": "تمددات أوتار الركبة اللطيفة",
+        "description_en": "Start after acute phase, very gentle progression",
+        "description_ar": "ابدأ بعد المرحلة الحادة، تقدم لطيف جداً"
+      }
+    ]
+  },
+  "monthly_workout_plan": {
+    "month1_healing": {
+      "week1": {
+        "focus_en": "Complete rest and ice therapy",
+        "focus_ar": "راحة تامة والعلاج بالثلج"
+      }
+    }
+  },
+  "rehabilitation_exercises": {
+    "phase1_acute": [
+      {
+        "exercise_en": "Gentle walking",
+        "exercise_ar": "المشي اللطيف",
+        "description_en": "Only if pain-free, start with 5-10 minutes",
+        "description_ar": "فقط إذا كان خالياً من الألم، ابدأ بـ 5-10 دقائق"
+      }
+    ]
+  },
+  "additional_therapies": {
+    "self_care": [
+      {
+        "therapy_en": "Ice therapy",
+        "therapy_ar": "العلاج بالثلج",
+        "application_en": "15-20 minutes every 2-3 hours for first 48 hours"
+      }
+    ]
+  },
+  "evidence_based_references": {
+    "scientific_studies": [
+      "Sherry MA, et al. A comparison of 2 rehabilitation programs in the treatment of acute hamstring strains. J Orthop Sports Phys Ther. 2004;34(3):116-125."
+    ]
+  },
+  "disclaimer": {
+    "english": "This information is for educational purposes only. Severe hamstring strains may require medical imaging and professional treatment.",
+    "arabic": "هذه المعلومات لأغراض تعليمية فقط. إجهاد أوتار الركبة الشديد قد يتطلب تصوير طبي وعلاج مهني."
+  }
+}

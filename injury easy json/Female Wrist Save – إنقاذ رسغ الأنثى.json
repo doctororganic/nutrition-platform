@@ -1,0 +1,372 @@
+{
+  "injury": {
+    "name_en": "Female Wrist Save",
+    "name_ar": "إنقاذ رسغ الأنثى",
+    "type_en": "Carpal Tunnel Syndrome/Wrist Strain",
+    "type_ar": "متلازمة النفق الرسغي/إجهاد الرسغ",
+    "description_en": "Comprehensive treatment plan for female-specific wrist issues including carpal tunnel syndrome, repetitive strain injury, and pregnancy-related wrist pain",
+    "description_ar": "خطة علاج شاملة لمشاكل الرسغ الخاصة بالإناث بما في ذلك متلازمة النفق الرسغي وإصابة الإجهاد المتكرر وألم الرسغ المرتبط بالحمل"
+  },
+  "immediate_care": {
+    "protocol_en": [
+      "Stop all repetitive wrist activities immediately",
+      "Apply ice for 15 minutes every 2-3 hours during acute phase",
+      "Elevate wrist above heart level when resting",
+      "Wear wrist splint, especially at night",
+      "Avoid gripping or pinching activities",
+      "Take frequent breaks from keyboard and phone use"
+    ],
+    "protocol_ar": [
+      "توقف عن جميع أنشطة الرسغ المتكررة فوراً",
+      "تطبيق الثلج لمدة 15 دقيقة كل 2-3 ساعات أثناء المرحلة الحادة",
+      "ارفع الرسغ فوق مستوى القلب عند الراحة",
+      "ارتدِ جبيرة الرسغ، خاصة في الليل",
+      "تجنب أنشطة القبض أو القرص",
+      "خذ استراحات متكررة من استخدام لوحة المفاتيح والهاتف"
+    ]
+  },
+  "supplements_and_medications": {
+    "pain_relief": [
+      {
+        "name": "Ibuprofen",
+        "dose_en": "400mg every 6-8 hours with food (avoid during pregnancy)",
+        "dose_ar": "400 ملغ كل 6-8 ساعات مع الطعام (تجنب أثناء الحمل)",
+        "duration": "3-7 days maximum",
+        "purpose_en": "Reduce inflammation and pain",
+        "purpose_ar": "تقليل الالتهاب والألم"
+      },
+      {
+        "name": "Acetaminophen",
+        "dose_en": "500-650mg every 6 hours (pregnancy-safe)",
+        "dose_ar": "500-650 ملغ كل 6 ساعات (آمن للحمل)",
+        "duration": "As needed",
+        "purpose_en": "Pain relief without anti-inflammatory effects",
+        "purpose_ar": "تسكين الألم دون تأثيرات مضادة للالتهاب"
+      }
+    ],
+    "nerve_support": [
+      {
+        "name": "Vitamin B6 (Pyridoxine)",
+        "dose_en": "100-200mg daily for 12 weeks",
+        "dose_ar": "100-200 ملغ يومياً لمدة 12 أسبوع",
+        "purpose_en": "Nerve function and carpal tunnel relief",
+        "purpose_ar": "وظيفة الأعصاب وتخفيف النفق الرسغي"
+      },
+      {
+        "name": "Alpha-lipoic acid",
+        "dose_en": "300-600mg daily",
+        "dose_ar": "300-600 ملغ يومياً",
+        "purpose_en": "Nerve protection and pain reduction",
+        "purpose_ar": "حماية الأعصاب وتقليل الألم"
+      },
+      {
+        "name": "Omega-3 fatty acids",
+        "dose_en": "2000-3000mg daily",
+        "dose_ar": "2000-3000 ملغ يومياً",
+        "purpose_en": "Anti-inflammatory effects",
+        "purpose_ar": "تأثيرات مضادة للالتهاب"
+      }
+    ],
+    "hormonal_support": [
+      {
+        "name": "Magnesium glycinate",
+        "dose_en": "400mg before bedtime",
+        "dose_ar": "400 ملغ قبل النوم",
+        "purpose_en": "Muscle relaxation and PMS-related swelling",
+        "purpose_ar": "استرخاء العضلات وتورم متلازمة ما قبل الحيض"
+      },
+      {
+        "name": "Evening primrose oil",
+        "dose_en": "1000mg twice daily (avoid if pregnant/breastfeeding)",
+        "dose_ar": "1000 ملغ مرتين يومياً (تجنب إذا كنت حاملاً/مرضعة)",
+        "purpose_en": "Hormonal balance and inflammation reduction",
+        "purpose_ar": "توازن هرموني وتقليل الالتهاب"
+      }
+    ]
+  },
+  "healing_plants": {
+    "topical_applications": [
+      {
+        "name": "Arnica gel",
+        "usage_en": "Apply 3-4 times daily to wrist and forearm",
+        "usage_ar": "تطبق 3-4 مرات يومياً على الرسغ والساعد",
+        "benefits_en": "Reduce inflammation and bruising",
+        "benefits_ar": "تقليل الالتهاب والكدمات"
+      },
+      {
+        "name": "Calendula cream",
+        "usage_en": "Gentle massage into wrist area twice daily",
+        "usage_ar": "تدليك لطيف في منطقة الرسغ مرتين يومياً",
+        "benefits_en": "Healing and skin protection",
+        "benefits_ar": "الشفاء وحماية الجلد"
+      },
+      {
+        "name": "Comfrey poultice",
+        "usage_en": "Apply fresh leaves or cream for 20 minutes",
+        "usage_ar": "تطبيق الأوراق الطازجة أو الكريم لمدة 20 دقيقة",
+        "benefits_en": "Tissue repair and pain relief",
+        "benefits_ar": "إصلاح الأنسجة وتسكين الألم"
+      }
+    ],
+    "oral_remedies": [
+      {
+        "name": "Turmeric with black pepper",
+        "usage_en": "1 tsp turmeric + pinch black pepper in warm milk, twice daily",
+        "usage_ar": "ملعقة صغيرة كركم + رشة فلفل أسود في حليب دافئ، مرتين يومياً",
+        "benefits_en": "Powerful anti-inflammatory effects",
+        "benefits_ar": "تأثيرات قوية مضادة للالتهاب"
+      },
+      {
+        "name": "Ginger tea",
+        "usage_en": "2-3 cups daily between meals",
+        "usage_ar": "2-3 أكواب يومياً بين الوجبات",
+        "benefits_en": "Natural pain relief and circulation improvement",
+        "benefits_ar": "تسكين طبيعي للألم وتحسين الدورة الدموية"
+      }
+    ]
+  },
+  "recovery_recipes": {
+    "anti_inflammatory_smoothie": {
+      "name_en": "Wrist Relief Smoothie",
+      "name_ar": "عصير تخفيف الرسغ",
+      "ingredients_en": [
+        "1 cup pineapple chunks (bromelain for inflammation)",
+        "1/2 cup blueberries (antioxidants)",
+        "1 tsp fresh ginger",
+        "1/2 tsp turmeric powder",
+        "1 cup unsweetened almond milk",
+        "1 tbsp flaxseed oil",
+        "1 tsp honey"
+      ],
+      "ingredients_ar": [
+        "كوب قطع أناناس (بروميلين للالتهاب)",
+        "1/2 كوب توت أزرق (مضادات أكسدة)",
+        "ملعقة صغيرة زنجبيل طازج",
+        "1/2 ملعقة صغيرة مسحوق كركم",
+        "كوب حليب لوز غير محلى",
+        "ملعقة كبيرة زيت بذر الكتان",
+        "ملعقة صغيرة عسل"
+      ],
+      "instructions_en": "Blend all ingredients until smooth. Drink twice daily on empty stomach.",
+      "instructions_ar": "اخلط جميع المكونات حتى تصبح ناعمة. اشرب مرتين يومياً على معدة فارغة."
+    }
+  },
+  "gym_tips": {
+    "wrist_strengthening": [
+      {
+        "exercise_en": "Wrist curls with light weights",
+        "exercise_ar": "ثني الرسغ بأوزان خفيفة",
+        "weight": "1-2 lbs (0.5-1 kg)",
+        "sets": "3",
+        "reps": "15-20",
+        "frequency": "3x/week after acute phase"
+      },
+      {
+        "exercise_en": "Grip strengthening with stress ball",
+        "exercise_ar": "تقوية القبضة بكرة الضغط",
+        "description_en": "Squeeze and hold for 5 seconds, release slowly",
+        "description_ar": "اضغط واثبت لمدة 5 ثوانٍ، اتركها ببطء",
+        "reps": "10-15",
+        "frequency": "2-3 times daily"
+      }
+    ],
+    "ergonomic_modifications": [
+      {
+        "tip_en": "Use ergonomic keyboard and mouse with wrist support",
+        "tip_ar": "استخدم لوحة مفاتيح وفأرة مريحة مع دعم الرسغ"
+      },
+      {
+        "tip_en": "Keep wrists in neutral position while typing",
+        "tip_ar": "حافظ على الرسغين في وضعية محايدة أثناء الكتابة"
+      },
+      {
+        "tip_en": "Take 5-minute breaks every 30 minutes",
+        "tip_ar": "خذ استراحة 5 دقائق كل 30 دقيقة"
+      }
+    ]
+  },
+  "monthly_workout_plan": {
+    "month1_healing": {
+      "week1": {
+        "focus_en": "Rest and gentle mobility",
+        "focus_ar": "الراحة والحركة اللطيفة",
+        "daily_routine": [
+          {
+            "time": "Morning",
+            "exercise_en": "Gentle wrist circles",
+            "exercise_ar": "دوائر الرسغ اللطيفة",
+            "reps": "10 each direction"
+          },
+          {
+            "time": "Afternoon",
+            "exercise_en": "Tendon glides",
+            "exercise_ar": "انزلاق الأوتار",
+            "reps": "10 repetitions"
+          },
+          {
+            "time": "Evening",
+            "exercise_en": "Prayer stretch",
+            "exercise_ar": "تمدد الصلاة",
+            "hold": "30 seconds"
+          }
+        ]
+      },
+      "week2": {
+        "focus_en": "Gentle strengthening",
+        "focus_ar": "التقوية اللطيفة",
+        "exercises": [
+          {
+            "name_en": "Wrist flexor stretches",
+            "name_ar": "تمديد عضلات ثني الرسغ",
+            "sets": "3",
+            "hold": "30 seconds",
+            "frequency": "3x daily"
+          },
+          {
+            "name_en": "Nerve gliding exercises",
+            "name_ar": "تمارين انزلاق الأعصاب",
+            "sets": "2",
+            "reps": "10",
+            "frequency": "2x daily"
+          }
+        ]
+      },
+      "week3_4": {
+        "focus_en": "Progressive strengthening",
+        "focus_ar": "التقوية التدريجية",
+        "exercises": [
+          {
+            "name_en": "Resistance band wrist exercises",
+            "name_ar": "تمارين الرسغ بشريط المقاومة",
+            "sets": "2",
+            "reps": "15",
+            "frequency": "Every other day"
+          },
+          {
+            "name_en": "Grip strengthening",
+            "name_ar": "تقوية القبضة",
+            "sets": "3",
+            "hold": "5 seconds",
+            "frequency": "Daily"
+          }
+        ]
+      }
+    }
+  },
+  "rehabilitation_exercises": {
+    "phase1_acute": [
+      {
+        "exercise_en": "Tendon gliding",
+        "exercise_ar": "انزلاق الأوتار",
+        "description_en": "Move fingers through different positions: straight, hook fist, full fist",
+        "description_ar": "حرك الأصابع عبر أوضاع مختلفة: مستقيمة، قبضة خطاف، قبضة كاملة",
+        "reps": "10 each position",
+        "frequency": "Every 2 hours"
+      },
+      {
+        "exercise_en": "Nerve gliding",
+        "exercise_ar": "انزلاق الأعصاب",
+        "description_en": "Gentle wrist and finger movements to mobilize median nerve",
+        "description_ar": "حركات الرسغ والأصابع اللطيفة لتحريك العصب المتوسط",
+        "reps": "10 repetitions",
+        "frequency": "3 times daily"
+      }
+    ],
+    "phase2_strengthening": [
+      {
+        "exercise_en": "Wrist extension with resistance",
+        "exercise_ar": "تمديد الرسغ مع المقاومة",
+        "description_en": "Using resistance band or light weight, extend wrist against resistance",
+        "description_ar": "باستخدام شريط المقاومة أو وزن خفيف، مدد الرسغ ضد المقاومة",
+        "sets": "3",
+        "reps": "12-15"
+      }
+    ]
+  },
+  "female_specific_considerations": {
+    "hormonal_factors": [
+      {
+        "condition_en": "Pregnancy-related carpal tunnel",
+        "condition_ar": "النفق الرسغي المرتبط بالحمل",
+        "recommendations_en": [
+          "Usually resolves after delivery",
+          "Avoid NSAIDs during pregnancy",
+          "Use splints and gentle exercises only",
+          "Consider prenatal massage therapy"
+        ],
+        "recommendations_ar": [
+          "عادة ما يختفي بعد الولادة",
+          "تجنب مضادات الالتهاب غير الستيرويدية أثناء الحمل",
+          "استخدم الجبائر والتمارين اللطيفة فقط",
+          "فكر في العلاج بالتدليك قبل الولادة"
+        ]
+      },
+      {
+        "condition_en": "Menstrual cycle-related swelling",
+        "condition_ar": "تورم مرتبط بالدورة الشهرية",
+        "recommendations_en": [
+          "Symptoms may worsen before menstruation",
+          "Reduce sodium intake during this time",
+          "Use extra wrist support",
+          "Consider magnesium supplementation"
+        ],
+        "recommendations_ar": [
+          "قد تزداد الأعراض سوءاً قبل الحيض",
+          "قلل من تناول الصوديوم خلال هذا الوقت",
+          "استخدم دعم إضافي للرسغ",
+          "فكر في مكملات المغنيسيوم"
+        ]
+      }
+    ]
+  },
+  "additional_therapies": {
+    "self_care": [
+      {
+        "therapy_en": "Cold therapy",
+        "therapy_ar": "العلاج بالبرد",
+        "application_en": "15 minutes, 3-4 times daily during acute inflammation",
+        "application_ar": "15 دقيقة، 3-4 مرات يومياً أثناء الالتهاب الحاد"
+      },
+      {
+        "therapy_en": "Contrast baths",
+        "therapy_ar": "حمامات متباينة",
+        "application_en": "Alternate between warm and cold water for 5 minutes each",
+        "application_ar": "تناوب بين الماء الدافئ والبارد لمدة 5 دقائق لكل منهما"
+      }
+    ],
+    "professional_treatments": [
+      {
+        "treatment_en": "Occupational therapy",
+        "treatment_ar": "العلاج المهني",
+        "description_en": "Ergonomic assessment and adaptive techniques"
+      },
+      {
+        "treatment_en": "Acupuncture",
+        "treatment_ar": "الوخز بالإبر",
+        "description_en": "May help reduce pain and improve nerve function"
+      }
+    ]
+  },
+  "evidence_based_references": {
+    "scientific_studies": [
+      "Piazzini DB, et al. A systematic review of conservative treatment of carpal tunnel syndrome. Clin Rehabil. 2007;21(4):299-314.",
+      "Huisstede BM, et al. Carpal tunnel syndrome. Part I: effectiveness of nonsurgical treatments. Arch Phys Med Rehabil. 2010;91(7):981-1004.",
+      "Tal-Akabi A, Rushton A. An investigation to compare the effectiveness of carpal tunnel decompression and local steroid injection versus local steroid injection alone. J Hand Surg Eur Vol. 2000;25(1):90-95."
+    ],
+    "professional_organizations": [
+      "American Society for Surgery of the Hand: https://www.assh.org/",
+      "International Association of Hand Therapists: https://www.iht-education.org/",
+      "Occupational Safety and Health Administration: https://www.osha.gov/",
+      "American Occupational Therapy Association: https://www.aota.org/"
+    ],
+    "clinical_guidelines": [
+      "American Academy of Orthopaedic Surgeons Clinical Practice Guidelines for Carpal Tunnel Syndrome",
+      "AAOS Evidence-Based Clinical Practice Guideline on the Treatment of Carpal Tunnel Syndrome",
+      "Occupational Health Guidelines for the Management of Occupational Repetitive Strain Injuries"
+    ]
+  },
+  "disclaimer": {
+    "english": "This information is for educational purposes only and is not intended as medical advice. Carpal tunnel syndrome and wrist injuries can have serious long-term consequences if not properly treated. Pregnant women should consult their obstetrician before starting any treatment. Persistent numbness, tingling, or loss of strength requires immediate medical evaluation. Some supplements may interact with medications or be contraindicated during pregnancy and breastfeeding. This content should not replace professional medical consultation, diagnosis, or treatment by qualified healthcare providers.",
+    "arabic": "هذه المعلومات لأغراض تعليمية فقط وليست مخصصة كنصيحة طبية. متلازمة النفق الرسغي وإصابات الرسغ يمكن أن تكون لها عواقب خطيرة طويلة المدى إذا لم تُعالج بشكل صحيح. يجب على النساء الحوامل استشارة طبيب النساء والتوليد قبل بدء أي علاج. التنميل المستمر أو الوخز أو فقدان القوة يتطلب تقييماً طبياً فورياً. بعض المكملات قد تتفاعل مع الأدوية أو تكون مضادة للاستطباب أثناء الحمل والرضاعة. لا يجب أن يحل هذا المحتوى محل الاستشارة الطبية المهنية أو التشخيص أو العلاج من قبل مقدمي الرعاية الصحية المؤهلين."
+  }
+}

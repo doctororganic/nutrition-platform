@@ -1,0 +1,499 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nutrition Platform - منصة التغذية</title>
+    
+    <!-- Meta tags for PWA -->
+    <meta name="description" content="Complete nutrition and fitness platform for Arabian Gulf countries">
+    <meta name="theme-color" content="#7c3aed">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="default">
+    <meta name="apple-mobile-web-app-title" content="Nutrition Platform">
+    
+    <!-- PWA Manifest -->
+    <link rel="manifest" href="manifest.json">
+    
+    <!-- Icons -->
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/icons/icon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/icons/icon-16x16.png">
+    <link rel="apple-touch-icon" href="assets/icons/icon-192x192.png">
+    
+    <!-- Stylesheets -->
+    <link id="bootstrap-css" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Offline Indicator -->
+    <div id="offline-indicator" class="offline-indicator">
+        <i class="bi bi-wifi-off"></i> <span data-i18n="message.offline">You are offline. Some features may not be available.</span>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-white">
+        <div class="container">
+            <a class="navbar-brand" href="#" onclick="app.navigateToSection('home')">
+                <i class="bi bi-heart-pulse text-success me-2"></i>
+                <span data-i18n="app.title">Nutrition Platform</span>
+            </a>
+            
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav me-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#" onclick="app.navigateToSection('home')" data-i18n="nav.home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#" data-i18n="nav.about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#" data-i18n="nav.contact">Contact</a>
+                    </li>
+                </ul>
+                
+                <button id="language-switcher" class="language-switcher" data-i18n="nav.language">
+                    العربية
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Home Section -->
+    <section id="home-section" class="main-section">
+        <!-- Hero Section -->
+        <div class="hero-section">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-lg-8 mx-auto text-center">
+                        <h1 class="display-4 fw-bold mb-4" data-i18n="home.hero.title">
+                            Your Complete Health & Nutrition Platform
+                        </h1>
+                        <p class="lead mb-4" data-i18n="home.hero.subtitle">
+                            Personalized diet plans, workout routines, and health guidance for the Arabian Gulf region
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Features Section -->
+        <div class="container my-5">
+            <h2 class="text-center mb-5" data-i18n="home.features.title">Our Services</h2>
+            
+            <div class="row g-4">
+                <div class="col-lg-4 col-md-6">
+                    <div class="feature-card">
+                        <a href="#" class="feature-icon diet" data-section="diet" title="Health & Diet - صحتك ووجباتك" aria-label="Go to Health & Diet section">
+                            <i class="bi bi-heart-pulse"></i>
+                        </a>
+                        <h4 class="feature-title" data-i18n="feature.diet.title">صحتك ووجباتك</h4>
+                        <p class="text-muted" data-i18n="feature.diet.desc">Personalized nutrition plans and healthy meal recommendations</p>
+                    </div>
+                </div>
+                
+                <div class="col-lg-4 col-md-6">
+                    <div class="feature-card">
+                        <a href="#" class="feature-icon workout" data-section="workout" title="Gym & Injuries - الجيم والإصابات" aria-label="Go to Workout & Injuries section">
+                            <i class="bi bi-person-arms-up"></i>
+                        </a>
+                        <h4 class="feature-title" data-i18n="feature.workout.title">الجيم والإصابات</h4>
+                        <p class="text-muted" data-i18n="feature.workout.desc">Custom fitness plans and injury prevention guidance</p>
+                    </div>
+                </div>
+                
+                <div class="col-lg-4 col-md-6">
+                    <div class="feature-card">
+                        <a href="#" class="feature-icon sports" data-section="sports" title="Sports & Games - الرياضات والألعاب" aria-label="Go to Sports & Games section">
+                            <i class="bi bi-trophy"></i>
+                        </a>
+                        <h4 class="feature-title" data-i18n="feature.sports.title">الرياضات والألعاب</h4>
+                        <p class="text-muted" data-i18n="feature.sports.desc">Sports nutrition and performance optimization</p>
+                    </div>
+                </div>
+                
+                <div class="col-lg-4 col-md-6">
+                    <div class="feature-card">
+                        <a href="#" class="feature-icon reviews" data-section="reviews" title="Reviews - تقييمات الأكل ومنتجات التجميل" aria-label="Go to Reviews section">
+                            <i class="bi bi-star-fill"></i>
+                        </a>
+                        <h4 class="feature-title" data-i18n="feature.reviews.title">تقييمات الأكل ومنتجات التجميل</h4>
+                        <p class="text-muted" data-i18n="feature.reviews.desc">Product reviews and recommendations</p>
+                    </div>
+                </div>
+                
+                <div class="col-lg-4 col-md-6">
+                    <div class="feature-card">
+                        <a href="#" class="feature-icon drugs" data-section="drugs" title="Medications - جرعات الدواء" aria-label="Go to Medications section">
+                            <i class="bi bi-capsule"></i>
+                        </a>
+                        <h4 class="feature-title" data-i18n="feature.drugs.title">جرعات الدواء</h4>
+                        <p class="text-muted" data-i18n="feature.drugs.desc">Medication guidance and dosage information</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Diet Section -->
+    <section id="diet-section" class="main-section hidden">
+        <div class="container my-5">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="d-flex justify-content-between align-items-center mb-4">
+                        <h2><i class="bi bi-heart-pulse text-success me-2"></i><span data-i18n="feature.diet.title">Health & Diet</span></h2>
+                        <button class="btn btn-outline-secondary back-home">
+                            <i class="bi bi-arrow-left"></i> <span data-i18n="nav.home">Home</span>
+                        </button>
+                    </div>
+
+                    <!-- Tabs -->
+                    <ul class="nav nav-pills mb-4" id="dietTabs" role="tablist">
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link active" id="healthy-tab" data-bs-toggle="pill" data-bs-target="#healthy" type="button" role="tab">
+                                <i class="bi bi-person-check"></i> Healthy People
+                            </button>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link" id="patients-tab" data-bs-toggle="pill" data-bs-target="#patients" type="button" role="tab">
+                                <i class="bi bi-hospital"></i> Patients
+                            </button>
+                        </li>
+                    </ul>
+
+                    <!-- Tab Content -->
+                    <div class="tab-content" id="dietTabContent">
+                        <!-- Healthy People Tab -->
+                        <div class="tab-pane fade show active" id="healthy" role="tabpanel">
+                            <div class="row">
+                                <div class="col-lg-6">
+                                    <div class="form-container">
+                                        <h4 class="mb-4">Personal Information</h4>
+                                        <form id="diet-form">
+                                            <div class="row">
+                                                <div class="col-md-6 mb-3">
+                                                    <label class="form-label" data-i18n="form.name">Full Name</label>
+                                                    <input type="text" class="form-control" name="name" required data-i18n-placeholder="form.name">
+                                                </div>
+                                                <div class="col-md-6 mb-3">
+                                                    <label class="form-label" data-i18n="form.age">Age</label>
+                                                    <input type="number" class="form-control" name="age" min="13" max="120" required>
+                                                </div>
+                                            </div>
+                                            
+                                            <div class="row">
+                                                <div class="col-md-6 mb-3">
+                                                    <label class="form-label" data-i18n="form.height">Height (cm)</label>
+                                                    <input type="number" class="form-control" name="height" min="100" max="250" required>
+                                                </div>
+                                                <div class="col-md-6 mb-3">
+                                                    <label class="form-label" data-i18n="form.weight">Weight (kg)</label>
+                                                    <input type="number" class="form-control" name="weight" min="30" max="300" step="0.1" required>
+                                                </div>
+                                            </div>
+                                            
+                                            <div class="row">
+                                                <div class="col-md-6 mb-3">
+                                                    <label class="form-label" data-i18n="form.gender">Gender</label>
+                                                    <select class="form-select" name="gender" required>
+                                                        <option value="">Select Gender</option>
+                                                        <option value="male" data-i18n="form.gender.male">Male</option>
+                                                        <option value="female" data-i18n="form.gender.female">Female</option>
+                                                    </select>
+                                                </div>
+                                                <div class="col-md-6 mb-3">
+                                                    <label class="form-label" data-i18n="form.activity">Activity Level</label>
+                                                    <select class="form-select" name="activity_level" required>
+                                                        <option value="">Select Activity Level</option>
+                                                        <option value="sedentary" data-i18n="form.activity.sedentary">Sedentary</option>
+                                                        <option value="lightly_active" data-i18n="form.activity.light">Lightly Active</option>
+                                                        <option value="moderately_active" data-i18n="form.activity.moderate">Moderately Active</option>
+                                                        <option value="very_active" data-i18n="form.activity.very">Very Active</option>
+                                                        <option value="extremely_active" data-i18n="form.activity.extreme">Extremely Active</option>
+                                                    </select>
+                                                </div>
+                                            </div>
+                                            
+                                            <div class="row">
+                                                <div class="col-md-6 mb-3">
+                                                    <label class="form-label" data-i18n="form.goal">Goal</label>
+                                                    <select class="form-select" name="goal" required>
+                                                        <option value="">Select Goal</option>
+                                                        <option value="lose_weight" data-i18n="form.goal.lose">Lose Weight</option>
+                                                        <option value="maintain_weight" data-i18n="form.goal.maintain">Maintain Weight</option>
+                                                        <option value="gain_weight" data-i18n="form.goal.gain">Gain Weight</option>
+                                                    </select>
+                                                </div>
+                                                <div class="col-md-6 mb-3">
+                                                    <label class="form-label" data-i18n="form.country">Country</label>
+                                                    <select class="form-select" name="country" required>
+                                                        <option value="">Select Country</option>
+                                                        <option value="saudi_arabia" data-i18n="country.saudi_arabia">Saudi Arabia</option>
+                                                        <option value="uae" data-i18n="country.uae">UAE</option>
+                                                        <option value="kuwait" data-i18n="country.kuwait">Kuwait</option>
+                                                        <option value="qatar" data-i18n="country.qatar">Qatar</option>
+                                                        <option value="bahrain" data-i18n="country.bahrain">Bahrain</option>
+                                                        <option value="oman" data-i18n="country.oman">Oman</option>
+                                                    </select>
+                                                </div>
+                                            </div>
+                                            
+                                            <div class="mb-3">
+                                                <label class="form-label" data-i18n="form.ifschedule">Intermittent Fasting Schedule</label>
+                                                <select class="form-select" name="if_schedule" required>
+                                                    <option value="">Select IF Schedule</option>
+                                                    <option value="16_8" data-i18n="form.ifschedule.16_8">16:8</option>
+                                                    <option value="18_6" data-i18n="form.ifschedule.18_6">18:6</option>
+                                                    <option value="20_4" data-i18n="form.ifschedule.20_4">20:4</option>
+                                                    <option value="omad" data-i18n="form.ifschedule.omad">OMAD</option>
+                                                </select>
+                                            </div>
+                                            
+                                            <div class="mb-3">
+                                                <label class="form-label" data-i18n="form.drugs">Current Medications</label>
+                                                <textarea class="form-control" name="drugs" rows="2" data-i18n-placeholder="form.drugs"></textarea>
+                                            </div>
+                                            
+                                            <div class="mb-3">
+                                                <label class="form-label" data-i18n="form.diseases">Health Conditions</label>
+                                                <textarea class="form-control" name="diseases" rows="2" data-i18n-placeholder="form.diseases"></textarea>
+                                            </div>
+                                            
+                                            <div class="d-grid gap-2 d-md-flex justify-content-md-end">
+                                                <button type="button" class="btn btn-outline-primary" data-i18n="form.translate">
+                                                    <i class="bi bi-translate"></i> Translate
+                                                </button>
+                                                <button type="submit" class="btn btn-primary" data-i18n="form.submit">
+                                                    <i class="bi bi-calculator"></i> Calculate Plan
+                                                </button>
+                                            </div>
+                                        </form>
+                                    </div>
+                                </div>
+                                
+                                <div class="col-lg-6">
+                                    <div id="diet-results">
+                                        <div class="text-center text-muted">
+                                            <i class="bi bi-clipboard-data display-1"></i>
+                                            <h5 class="mt-3">Your Results Will Appear Here</h5>
+                                            <p>Fill out the form and click "Calculate Plan" to get your personalized nutrition plan.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Patients Tab -->
+                        <div class="tab-pane fade" id="patients" role="tabpanel">
+                            <div class="row">
+                                <div class="col-lg-6">
+                                    <div class="form-container">
+                                        <h4 class="mb-4">Patient Information</h4>
+                                        <form id="patient-form">
+                                            <!-- Similar form fields as healthy people -->
+                                            <div class="row">
+                                                <div class="col-md-6 mb-3">
+                                                    <label class="form-label" data-i18n="form.name">Full Name</label>
+                                                    <input type="text" class="form-control" name="name" required>
+                                                </div>
+                                                <div class="col-md-6 mb-3">
+                                                    <label class="form-label" data-i18n="form.age">Age</label>
+                                                    <input type="number" class="form-control" name="age" min="13" max="120" required>
+                                                </div>
+                                            </div>
+                                            
+                                            <!-- Additional disease dropdown -->
+                                            <div class="mb-3">
+                                                <label class="form-label">Primary Health Condition</label>
+                                                <select class="form-select" name="primary_disease" required>
+                                                    <option value="">Select Condition</option>
+                                                    <option value="diabetes" data-i18n="disease.diabetes">Diabetes</option>
+                                                    <option value="hypertension" data-i18n="disease.hypertension">Hypertension</option>
+                                                    <option value="heart_disease" data-i18n="disease.heart_disease">Heart Disease</option>
+                                                    <option value="thyroid" data-i18n="disease.thyroid">Thyroid Disorders</option>
+                                                    <option value="kidney" data-i18n="disease.kidney">Kidney Disease</option>
+                                                    <option value="liver" data-i18n="disease.liver">Liver Disease</option>
+                                                </select>
+                                            </div>
+                                            
+                                            <div class="d-grid">
+                                                <button type="submit" class="btn btn-primary">
+                                                    <i class="bi bi-clipboard-pulse"></i> Get Consultation
+                                                </button>
+                                            </div>
+                                        </form>
+                                    </div>
+                                </div>
+                                
+                                <div class="col-lg-6">
+                                    <div id="patient-results">
+                                        <div class="text-center text-muted">
+                                            <i class="bi bi-hospital display-1"></i>
+                                            <h5 class="mt-3">Consultation Results</h5>
+                                            <p>Complete the form to receive personalized health recommendations.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Workout Section -->
+    <section id="workout-section" class="main-section hidden">
+        <div class="container my-5">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="d-flex justify-content-between align-items-center mb-4">
+                        <h2><i class="bi bi-person-arms-up text-primary me-2"></i><span data-i18n="feature.workout.title">Workout & Injuries</span></h2>
+                        <button class="btn btn-outline-secondary back-home">
+                            <i class="bi bi-arrow-left"></i> <span data-i18n="nav.home">Home</span>
+                        </button>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <div class="form-container">
+                                <h4 class="mb-4">Workout Information</h4>
+                                <form id="workout-form">
+                                    <div class="row">
+                                        <div class="col-md-6 mb-3">
+                                            <label class="form-label" data-i18n="form.name">Full Name</label>
+                                            <input type="text" class="form-control" name="name" required>
+                                        </div>
+                                        <div class="col-md-6 mb-3">
+                                            <label class="form-label" data-i18n="workout.goal">Fitness Goal</label>
+                                            <select class="form-select" name="goal" required>
+                                                <option value="">Select Goal</option>
+                                                <option value="weight_loss" data-i18n="workout.goal.weight_loss">Weight Loss</option>
+                                                <option value="muscle_gain" data-i18n="workout.goal.muscle_gain">Muscle Gain</option>
+                                                <option value="endurance" data-i18n="workout.goal.endurance">Endurance</option>
+                                                <option value="strength" data-i18n="workout.goal.strength">Strength</option>
+                                                <option value="general" data-i18n="workout.goal.general">General Fitness</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                    
+                                    <div class="row">
+                                        <div class="col-md-6 mb-3">
+                                            <label class="form-label" data-i18n="form.weight">Weight (kg)</label>
+                                            <input type="number" class="form-control" name="weight" min="30" max="300" step="0.1" required>
+                                        </div>
+                                        <div class="col-md-6 mb-3">
+                                            <label class="form-label" data-i18n="form.height">Height (cm)</label>
+                                            <input type="number" class="form-control" name="height" min="100" max="250" required>
+                                        </div>
+                                    </div>
+                                    
+                                    <div class="mb-3">
+                                        <label class="form-label" data-i18n="form.injuries">Current Injuries</label>
+                                        <textarea class="form-control" name="injuries" rows="3" data-i18n-placeholder="form.injuries"></textarea>
+                                    </div>
+                                    
+                                    <div class="d-grid">
+                                        <button type="submit" class="btn btn-primary">
+                                            <i class="bi bi-lightning"></i> Generate Workout Plan
+                                        </button>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                        
+                        <div class="col-lg-6">
+                            <div id="workout-results">
+                                <div class="text-center text-muted">
+                                    <i class="bi bi-calendar-week display-1"></i>
+                                    <h5 class="mt-3">Your Workout Plan</h5>
+                                    <p>Fill out the form to get your personalized 7-day workout schedule.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 mb-4">
+                    <h5 data-i18n="footer.about">About Us</h5>
+                    <p>Complete nutrition and fitness platform designed specifically for the Arabian Gulf region.</p>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <h5 data-i18n="footer.services">Services</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="#" data-i18n="feature.diet.title">Health & Diet</a></li>
+                        <li><a href="#" data-i18n="feature.workout.title">Workout & Injuries</a></li>
+                        <li><a href="#" data-i18n="feature.sports.title">Sports & Games</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <h5 data-i18n="footer.contact">Contact</h5>
+                    <p><i class="bi bi-telephone"></i> <span data-i18n="footer.phone">Phone</span>: +966 123 456 789</p>
+                    <p><i class="bi bi-envelope"></i> <span data-i18n="footer.email">Email</span>: info@nutritionplatform.com</p>
+                    <p><i class="bi bi-geo-alt"></i> <span data-i18n="footer.address">Address</span>: Riyadh, Saudi Arabia</p>
+                </div>
+            </div>
+            <hr>
+            <div class="row">
+                <div class="col-12 text-center">
+                    <p>&copy; 2025 Nutrition Platform. <span data-i18n="footer.rights">All rights reserved</span>.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+    <script src="js/i18n.js"></script>
+    <script src="js/config.js"></script>
+    <script src="js/app.js"></script>
+    
+    <script>
+        // Initialize PWA install prompt
+        let deferredPrompt;
+        
+        window.addEventListener('beforeinstallprompt', (e) => {
+            e.preventDefault();
+            deferredPrompt = e;
+            
+            // Show install banner
+            const installBanner = document.createElement('div');
+            installBanner.className = 'alert alert-info alert-dismissible position-fixed bottom-0 start-0 end-0 mb-0';
+            installBanner.style.zIndex = '9999';
+            installBanner.innerHTML = `
+                <div class="d-flex align-items-center">
+                    <i class="bi bi-download me-2"></i>
+                    <span class="flex-grow-1">Install this app for a better experience!</span>
+                    <button class="btn btn-sm btn-outline-primary me-2" onclick="installPWA()">Install</button>
+                    <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
+                </div>
+            `;
+            document.body.appendChild(installBanner);
+        });
+        
+        function installPWA() {
+            if (deferredPrompt) {
+                deferredPrompt.prompt();
+                deferredPrompt.userChoice.then((choiceResult) => {
+                    if (choiceResult.outcome === 'accepted') {
+                        console.log('User accepted the install prompt');
+                    }
+                    deferredPrompt = null;
+                });
+            }
+        }
+    </script>
+</body>
+</html>

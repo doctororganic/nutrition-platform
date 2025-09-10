@@ -1,0 +1,47 @@
+[Unit]
+Description=Nutrition Platform API Server
+After=network.target
+Wants=network-online.target
+
+[Service]
+Type=simple
+User=www-data
+Group=www-data
+WorkingDirectory=/opt/nutrition-platform
+ExecStart=/opt/nutrition-platform/nutrition-platform
+ExecReload=/bin/kill -HUP $MAINPID
+KillMode=process
+Restart=on-failure
+RestartSec=5s
+TimeoutStartSec=infinity
+TimeoutStopSec=infinity
+StartLimitInterval=0
+
+# Security settings
+NoNewPrivileges=true
+ProtectSystem=strict
+ProtectHome=true
+ReadWritePaths=/opt/nutrition-platform/logs
+PrivateTmp=true
+PrivateDevices=true
+ProtectHostname=true
+ProtectClock=true
+ProtectKernelTunables=true
+ProtectKernelModules=true
+ProtectKernelLogs=true
+ProtectControlGroups=true
+RestrictSUIDSGID=true
+RemoveIPC=true
+RestrictRealtime=true
+
+# Environment variables
+Environment=PORT=8080
+Environment=GIN_MODE=release
+Environment=LOG_LEVEL=info
+
+# Resource limits
+LimitNOFILE=65536
+LimitNPROC=4096
+
+[Install]
+WantedBy=multi-user.target

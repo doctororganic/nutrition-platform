@@ -1,0 +1,640 @@
+{
+  "carb_cycling_system": {
+    "description": "نظام تدوير الكربوهيدرات المخصص للأهداف المختلفة",
+    "algorithm": {
+      "client_assessment": {
+        "basic_data": ["age", "height", "weight", "activity_level", "goal", "medical_conditions", "medications", "injuries", "food_preferences"],
+        "medical_conditions_priority": {
+          "diabetes_insulin_resistance": {
+            "recommended_diet": ["low_carb", "mediterranean"],
+            "carb_percentage": "20-30%",
+            "reason": "تحسين حساسية الأنسولين وخفض سكر الدم"
+          },
+          "heart_hypertension": {
+            "recommended_diet": ["dash", "mediterranean"],
+            "carb_percentage": "55%",
+            "protein_percentage": "25%",
+            "reason": "خفض الدهون والضغط"
+          },
+          "kidney_disease": {
+            "recommended_diet": "controlled_protein",
+            "protein_limit": "0.6-0.8g/kg",
+            "reason": "تجنب تفاقم الحالة"
+          },
+          "inflammation": {
+            "recommended_diet": "anti_inflammatory",
+            "focus": "زيادة أوميغا-3، تقليل السكر",
+            "reason": "تقليل الالتهابات"
+          }
+        }
+      }
+    },
+    "carb_cycling_types": {
+      "classic_carb_cycling": {
+        "name_ar": "تدوير الكربوهيدرات الكلاسيكي",
+        "name_en": "Classic Carb Cycling",
+        "description_ar": "نظام يناوب بين أيام عالية ومنخفضة الكربوهيدرات",
+        "description_en": "System alternating between high and low carb days",
+        "suitable_for": ["weight_loss", "muscle_building", "athletes"],
+        "cycle_pattern": {
+          "high_carb_days": {
+            "frequency": "2 days per week",
+            "carb_percentage": 45,
+            "protein_percentage": 30,
+            "fat_percentage": 25,
+            "timing": "training_days",
+            "carb_grams_per_kg": "4-6g"
+          },
+          "moderate_carb_days": {
+            "frequency": "3 days per week",
+            "carb_percentage": 35,
+            "protein_percentage": 35,
+            "fat_percentage": 30,
+            "timing": "light_training_days",
+            "carb_grams_per_kg": "2-3g"
+          },
+          "low_carb_days": {
+            "frequency": "2 days per week",
+            "carb_percentage": 20,
+            "protein_percentage": 40,
+            "fat_percentage": 40,
+            "timing": "rest_days",
+            "carb_grams_per_kg": "0.5-1g"
+          }
+        }
+      },
+      "targeted_carb_cycling": {
+        "name_ar": "تدوير الكربوهيدرات المستهدف",
+        "name_en": "Targeted Carb Cycling",
+        "description_ar": "نظام يركز الكربوهيدرات حول أوقات التمرين",
+        "description_en": "System focusing carbs around workout times",
+        "suitable_for": ["advanced_athletes", "bodybuilders"],
+        "daily_pattern": {
+          "pre_workout": {
+            "carb_amount": "30-50g",
+            "timing": "30-60 minutes before",
+            "type": "fast_absorbing"
+          },
+          "post_workout": {
+            "carb_amount": "30-80g",
+            "timing": "within 30 minutes",
+            "type": "fast_absorbing"
+          },
+          "rest_of_day": {
+            "carb_amount": "minimal",
+            "focus": "protein_and_fats"
+          }
+        }
+      }
+    },
+    "meal_plans": {
+      "high_carb_day": {
+        "total_calories": "calculated",
+        "macro_distribution": {
+          "carbs": 45,
+          "protein": 30,
+          "fat": 25
+        },
+        "meals": {
+          "breakfast": {
+            "name_ar": "فطار عالي الكربوهيدرات",
+            "name_en": "High Carb Breakfast",
+            "foods": [
+              {
+                "item_ar": "شوفان",
+                "item_en": "Oatmeal",
+                "amount": "80g dry",
+                "calories": 304,
+                "carbs": 54,
+                "protein": 11,
+                "fat": 6
+              },
+              {
+                "item_ar": "موز",
+                "item_en": "Banana",
+                "amount": "1 medium",
+                "calories": 105,
+                "carbs": 27,
+                "protein": 1,
+                "fat": 0.3
+              },
+              {
+                "item_ar": "توت أزرق",
+                "item_en": "Blueberries",
+                "amount": "100g",
+                "calories": 57,
+                "carbs": 14,
+                "protein": 0.7,
+                "fat": 0.3
+              },
+              {
+                "item_ar": "عسل طبيعي",
+                "item_en": "Honey",
+                "amount": "15g",
+                "calories": 46,
+                "carbs": 12,
+                "protein": 0,
+                "fat": 0
+              }
+            ],
+            "total": {
+              "calories": 512,
+              "carbs": 107,
+              "protein": 12.7,
+              "fat": 6.6
+            }
+          },
+          "pre_workout": {
+            "name_ar": "وجبة ما قبل التمرين",
+            "name_en": "Pre-Workout Meal",
+            "foods": [
+              {
+                "item_ar": "تمر",
+                "item_en": "Dates",
+                "amount": "3 pieces",
+                "calories": 66,
+                "carbs": 18,
+                "protein": 0.4,
+                "fat": 0.1
+              },
+              {
+                "item_ar": "قهوة عربية",
+                "item_en": "Arabic Coffee",
+                "amount": "1 cup",
+                "calories": 2,
+                "carbs": 0,
+                "protein": 0.3,
+                "fat": 0
+              }
+            ]
+          },
+          "post_workout": {
+            "name_ar": "وجبة ما بعد التمرين",
+            "name_en": "Post-Workout Meal",
+            "foods": [
+              {
+                "item_ar": "بروتين مصل اللبن",
+                "item_en": "Whey Protein",
+                "amount": "30g",
+                "calories": 120,
+                "carbs": 2,
+                "protein": 25,
+                "fat": 1
+              },
+              {
+                "item_ar": "أرز بني",
+                "item_en": "Brown Rice",
+                "amount": "150g cooked",
+                "calories": 216,
+                "carbs": 45,
+                "protein": 5,
+                "fat": 1.8
+              }
+            ]
+          },
+          "lunch": {
+            "name_ar": "غداء عالي الكربوهيدرات",
+            "name_en": "High Carb Lunch",
+            "foods": [
+              {
+                "item_ar": "صدر دجاج مشوي",
+                "item_en": "Grilled Chicken Breast",
+                "amount": "150g",
+                "calories": 231,
+                "carbs": 0,
+                "protein": 43.5,
+                "fat": 5
+              },
+              {
+                "item_ar": "بطاطا حلوة",
+                "item_en": "Sweet Potato",
+                "amount": "200g",
+                "calories": 180,
+                "carbs": 41,
+                "protein": 4,
+                "fat": 0.3
+              },
+              {
+                "item_ar": "سلطة خضراء",
+                "item_en": "Green Salad",
+                "amount": "100g",
+                "calories": 20,
+                "carbs": 4,
+                "protein": 1.5,
+                "fat": 0.2
+              },
+              {
+                "item_ar": "زيت زيتون",
+                "item_en": "Olive Oil",
+                "amount": "10ml",
+                "calories": 90,
+                "carbs": 0,
+                "protein": 0,
+                "fat": 10
+              }
+            ]
+          },
+          "dinner": {
+            "name_ar": "عشاء متوازن",
+            "name_en": "Balanced Dinner",
+            "foods": [
+              {
+                "item_ar": "سمك سلمون",
+                "item_en": "Salmon",
+                "amount": "150g",
+                "calories": 280,
+                "carbs": 0,
+                "protein": 39,
+                "fat": 12
+              },
+              {
+                "item_ar": "كينوا",
+                "item_en": "Quinoa",
+                "amount": "100g cooked",
+                "calories": 120,
+                "carbs": 22,
+                "protein": 4.4,
+                "fat": 1.9
+              },
+              {
+                "item_ar": "خضروات مشكلة",
+                "item_en": "Mixed Vegetables",
+                "amount": "150g",
+                "calories": 35,
+                "carbs": 7,
+                "protein": 2,
+                "fat": 0.3
+              }
+            ]
+          }
+        }
+      },
+      "low_carb_day": {
+        "total_calories": "calculated",
+        "macro_distribution": {
+          "carbs": 20,
+          "protein": 40,
+          "fat": 40
+        },
+        "meals": {
+          "breakfast": {
+            "name_ar": "فطار منخفض الكربوهيدرات",
+            "name_en": "Low Carb Breakfast",
+            "foods": [
+              {
+                "item_ar": "بيض مسلوق",
+                "item_en": "Boiled Eggs",
+                "amount": "3 whole eggs",
+                "calories": 210,
+                "carbs": 1.5,
+                "protein": 18,
+                "fat": 15
+              },
+              {
+                "item_ar": "أفوكادو",
+                "item_en": "Avocado",
+                "amount": "100g",
+                "calories": 160,
+                "carbs": 9,
+                "protein": 2,
+                "fat": 15
+              },
+              {
+                "item_ar": "سبانخ",
+                "item_en": "Spinach",
+                "amount": "50g",
+                "calories": 12,
+                "carbs": 1.8,
+                "protein": 1.5,
+                "fat": 0.2
+              },
+              {
+                "item_ar": "جبنة فيتا",
+                "item_en": "Feta Cheese",
+                "amount": "30g",
+                "calories": 75,
+                "carbs": 1.2,
+                "protein": 4,
+                "fat": 6
+              }
+            ]
+          },
+          "lunch": {
+            "name_ar": "غداء منخفض الكربوهيدرات",
+            "name_en": "Low Carb Lunch",
+            "foods": [
+              {
+                "item_ar": "لحم بقري مشوي",
+                "item_en": "Grilled Beef",
+                "amount": "150g",
+                "calories": 250,
+                "carbs": 0,
+                "protein": 35,
+                "fat": 11
+              },
+              {
+                "item_ar": "بروكلي",
+                "item_en": "Broccoli",
+                "amount": "150g",
+                "calories": 50,
+                "carbs": 10,
+                "protein": 5,
+                "fat": 0.5
+              },
+              {
+                "item_ar": "زبدة عشبية",
+                "item_en": "Herb Butter",
+                "amount": "15g",
+                "calories": 108,
+                "carbs": 0,
+                "protein": 0.1,
+                "fat": 12
+              }
+            ]
+          },
+          "dinner": {
+            "name_ar": "عشاء منخفض الكربوهيدرات",
+            "name_en": "Low Carb Dinner",
+            "foods": [
+              {
+                "item_ar": "دجاج مشوي بالأعشاب",
+                "item_en": "Herb Grilled Chicken",
+                "amount": "200g",
+                "calories": 330,
+                "carbs": 0,
+                "protein": 62,
+                "fat": 7
+              },
+              {
+                "item_ar": "سلطة جرجير",
+                "item_en": "Arugula Salad",
+                "amount": "100g",
+                "calories": 25,
+                "carbs": 3.6,
+                "protein": 2.6,
+                "fat": 0.7
+              },
+              {
+                "item_ar": "مكسرات مشكلة",
+                "item_en": "Mixed Nuts",
+                "amount": "30g",
+                "calories": 180,
+                "carbs": 6,
+                "protein": 6,
+                "fat": 16
+              }
+            ]
+          }
+        }
+      },
+      "moderate_carb_day": {
+        "total_calories": "calculated",
+        "macro_distribution": {
+          "carbs": 35,
+          "protein": 35,
+          "fat": 30
+        },
+        "meals": {
+          "breakfast": {
+            "name_ar": "فطار متوازن الكربوهيدرات",
+            "name_en": "Moderate Carb Breakfast",
+            "foods": [
+              {
+                "item_ar": "بيض مخفوق",
+                "item_en": "Scrambled Eggs",
+                "amount": "2 eggs",
+                "calories": 140,
+                "carbs": 1,
+                "protein": 12,
+                "fat": 10
+              },
+              {
+                "item_ar": "خبز أسمر",
+                "item_en": "Whole Wheat Bread",
+                "amount": "1 slice",
+                "calories": 80,
+                "carbs": 14,
+                "protein": 4,
+                "fat": 1
+              },
+              {
+                "item_ar": "زبدة اللوز",
+                "item_en": "Almond Butter",
+                "amount": "15g",
+                "calories": 98,
+                "carbs": 3,
+                "protein": 4,
+                "fat": 9
+              }
+            ]
+          }
+        }
+      }
+    },
+    "gulf_specific_foods": {
+      "traditional_carbs": [
+        {
+          "name_ar": "أرز بسمتي",
+          "name_en": "Basmati Rice",
+          "serving": "100g cooked",
+          "calories": 130,
+          "carbs": 25,
+          "protein": 2.7,
+          "fat": 0.3,
+          "gi_index": 58
+        },
+        {
+          "name_ar": "خبز إيراني",
+          "name_en": "Iranian Bread",
+          "serving": "1 piece",
+          "calories": 150,
+          "carbs": 30,
+          "protein": 5,
+          "fat": 1
+        },
+        {
+          "name_ar": "تمر خلاص",
+          "name_en": "Khalas Dates",
+          "serving": "3 pieces",
+          "calories": 60,
+          "carbs": 16,
+          "protein": 0.4,
+          "fat": 0.1
+        }
+      ],
+      "traditional_proteins": [
+        {
+          "name_ar": "لحم الغنم",
+          "name_en": "Lamb",
+          "serving": "100g",
+          "calories": 250,
+          "carbs": 0,
+          "protein": 25,
+          "fat": 16
+        },
+        {
+          "name_ar": "سمك الهامور",
+          "name_en": "Grouper Fish",
+          "serving": "150g",
+          "calories": 150,
+          "carbs": 0,
+          "protein": 32,
+          "fat": 2
+        },
+        {
+          "name_ar": "دجاج بلدي",
+          "name_en": "Local Chicken",
+          "serving": "150g",
+          "calories": 220,
+          "carbs": 0,
+          "protein": 40,
+          "fat": 6
+        }
+      ],
+      "healthy_fats": [
+        {
+          "name_ar": "زيت الزيتون البكر",
+          "name_en": "Extra Virgin Olive Oil",
+          "serving": "15ml",
+          "calories": 135,
+          "carbs": 0,
+          "protein": 0,
+          "fat": 15
+        },
+        {
+          "name_ar": "اللوز النيء",
+          "name_en": "Raw Almonds",
+          "serving": "30g",
+          "calories": 174,
+          "carbs": 6,
+          "protein": 6,
+          "fat": 15
+        }
+      ]
+    },
+    "ramadan_specific": {
+      "iftar_meals": {
+        "breaking_fast": {
+          "name_ar": "كسر الصيام",
+          "foods": [
+            {
+              "item_ar": "تمر وماء",
+              "item_en": "Dates and Water",
+              "amount": "3 dates + 250ml water",
+              "calories": 66,
+              "timing": "immediately"
+            }
+          ]
+        },
+        "main_iftar": {
+          "high_carb_version": {
+            "name_ar": "إفطار عالي الكربوهيدرات",
+            "foods": [
+              {
+                "item_ar": "شوربة عدس",
+                "item_en": "Lentil Soup",
+                "calories": 180,
+                "carbs": 30,
+                "protein": 12,
+                "fat": 2
+              },
+              {
+                "item_ar": "أرز بخاري",
+                "item_en": "Bukhari Rice",
+                "calories": 300,
+                "carbs": 55,
+                "protein": 8,
+                "fat": 6
+              }
+            ]
+          },
+          "low_carb_version": {
+            "name_ar": "إفطار منخفض الكربوهيدرات",
+            "foods": [
+              {
+                "item_ar": "شوربة خضار",
+                "item_en": "Vegetable Soup",
+                "calories": 120,
+                "carbs": 15,
+                "protein": 5,
+                "fat": 4
+              },
+              {
+                "item_ar": "سمك مشوي مع سلطة",
+                "item_en": "Grilled Fish with Salad",
+                "calories": 280,
+                "carbs": 8,
+                "protein": 35,
+                "fat": 12
+              }
+            ]
+          }
+        }
+      },
+      "suhoor_meals": {
+        "high_carb_suhoor": {
+          "name_ar": "سحور عالي الكربوهيدرات",
+          "foods": [
+            {
+              "item_ar": "فول مع خبز",
+              "item_en": "Fava Beans with Bread",
+              "calories": 320,
+              "carbs": 45,
+              "protein": 15,
+              "fat": 8
+            }
+          ]
+        },
+        "low_carb_suhoor": {
+          "name_ar": "سحور منخفض الكربوهيدرات",
+          "foods": [
+            {
+              "item_ar": "بيض مع جبنة وخضار",
+              "item_en": "Eggs with Cheese and Vegetables",
+              "calories": 280,
+              "carbs": 5,
+              "protein": 20,
+              "fat": 20
+            }
+          ]
+        }
+      }
+    },
+    "calculation_formulas": {
+      "bmr_calculation": {
+        "harris_benedict": {
+          "male": "BMR = 88.362 + (13.397 × weight in kg) + (4.799 × height in cm) - (5.677 × age in years)",
+          "female": "BMR = 447.593 + (9.247 × weight in kg) + (3.098 × height in cm) - (4.330 × age in years)"
+        },
+        "activity_multipliers": {
+          "sedentary": 1.2,
+          "lightly_active": 1.375,
+          "moderately_active": 1.55,
+          "very_active": 1.725,
+          "extremely_active": 1.9
+        }
+      },
+      "macro_calculations": {
+        "protein_per_kg": {
+          "sedentary": "0.8-1.2g",
+          "active": "1.2-1.6g",
+          "athlete": "1.6-2.2g"
+        },
+        "carb_cycling_ratios": {
+          "high_carb_day": {
+            "carbs_per_kg": "4-6g",
+            "percentage": "45-50%"
+          },
+          "moderate_carb_day": {
+            "carbs_per_kg": "2-3g",
+            "percentage": "30-35%"
+          },
+          "low_carb_day": {
+            "carbs_per_kg": "0.5-1g",
+            "percentage": "15-25%"
+          }
+        }
+      }
+    }
+  }
+}

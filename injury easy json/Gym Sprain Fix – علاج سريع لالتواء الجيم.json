@@ -1,0 +1,293 @@
+{
+  "injury": {
+    "name_en": "Gym Sprain Quick Fix",
+    "name_ar": "علاج سريع لالتواء الجيم",
+    "type_en": "Acute Muscle/Ligament Sprain",
+    "type_ar": "التواء حاد في العضلة/الرباط",
+    "description_en": "Comprehensive recovery plan for gym-related sprains including immediate care, rehabilitation exercises, and return-to-gym protocols",
+    "description_ar": "خطة تعافي شاملة لالتواءات الجيم تشمل الرعاية الفورية وتمارين التأهيل وبروتوكولات العودة للجيم"
+  },
+  "immediate_care": {
+    "protocol_en": [
+      "RICE protocol: Rest, Ice, Compression, Elevation",
+      "Apply ice for 15-20 minutes every 2-3 hours for first 48 hours",
+      "Use compression bandage to reduce swelling",
+      "Elevate injured area above heart level when possible",
+      "Avoid HARM: Heat, Alcohol, Running, Massage for first 48 hours"
+    ],
+    "protocol_ar": [
+      "بروتوكول RICE: الراحة، الثلج، الضغط، الرفع",
+      "تطبيق الثلج لمدة 15-20 دقيقة كل 2-3 ساعات لأول 48 ساعة",
+      "استخدام ضمادة ضاغطة لتقليل التورم",
+      "رفع المنطقة المصابة فوق مستوى القلب عند الإمكان",
+      "تجنب HARM: الحرارة، الكحول، الجري، التدليك لأول 48 ساعة"
+    ]
+  },
+  "supplements_and_medications": {
+    "anti_inflammatory": [
+      {
+        "name": "Ibuprofen",
+        "dose_en": "400-600mg every 6-8 hours (max 2400mg/day)",
+        "dose_ar": "400-600 ملغ كل 6-8 ساعات (الحد الأقصى 2400 ملغ/يوم)",
+        "duration": "3-5 days",
+        "purpose_en": "Reduce pain and inflammation",
+        "purpose_ar": "تقليل الألم والالتهاب"
+      },
+      {
+        "name": "Naproxen",
+        "dose_en": "220mg every 12 hours",
+        "dose_ar": "220 ملغ كل 12 ساعة",
+        "duration": "3-5 days",
+        "purpose_en": "Alternative anti-inflammatory",
+        "purpose_ar": "مضاد التهاب بديل"
+      }
+    ],
+    "recovery_supplements": [
+      {
+        "name": "Curcumin",
+        "dose_en": "500-1000mg daily with black pepper",
+        "dose_ar": "500-1000 ملغ يومياً مع الفلفل الأسود",
+        "purpose_en": "Natural anti-inflammatory and pain relief",
+        "purpose_ar": "مضاد طبيعي للالتهاب وتسكين الألم"
+      },
+      {
+        "name": "Omega-3 fatty acids",
+        "dose_en": "2000-3000mg EPA/DHA daily",
+        "dose_ar": "2000-3000 ملغ EPA/DHA يومياً",
+        "purpose_en": "Reduce inflammation and support healing",
+        "purpose_ar": "تقليل الالتهاب ودعم الشفاء"
+      },
+      {
+        "name": "Magnesium",
+        "dose_en": "400-600mg daily",
+        "dose_ar": "400-600 ملغ يومياً",
+        "purpose_en": "Muscle relaxation and recovery",
+        "purpose_ar": "استرخاء العضلات والتعافي"
+      }
+    ]
+  },
+  "healing_plants": {
+    "topical_applications": [
+      {
+        "name": "Arnica",
+        "usage_en": "Apply arnica gel/cream 3-4 times daily to affected area",
+        "usage_ar": "تطبيق جل/كريم الأرنيكا 3-4 مرات يومياً على المنطقة المصابة",
+        "benefits_en": "Reduces bruising and swelling",
+        "benefits_ar": "يقلل الكدمات والتورم"
+      },
+      {
+        "name": "Comfrey",
+        "usage_en": "Comfrey ointment applied 2-3 times daily",
+        "usage_ar": "مرهم السنفيتون يُطبق 2-3 مرات يومياً",
+        "benefits_en": "Promotes tissue healing",
+        "benefits_ar": "يعزز شفاء الأنسجة"
+      }
+    ],
+    "oral_remedies": [
+      {
+        "name": "Ginger",
+        "usage_en": "Fresh ginger tea 2-3 cups daily or 1g supplement",
+        "usage_ar": "شاي الزنجبيل الطازج 2-3 أكواب يومياً أو 1 غرام مكمل",
+        "benefits_en": "Anti-inflammatory and pain relief",
+        "benefits_ar": "مضاد للالتهاب ومسكن للألم"
+      },
+      {
+        "name": "Bromelain",
+        "usage_en": "500mg on empty stomach 2-3 times daily",
+        "usage_ar": "500 ملغ على معدة فارغة 2-3 مرات يومياً",
+        "benefits_en": "Reduces swelling and speeds healing",
+        "benefits_ar": "يقلل التورم ويسرع الشفاء"
+      }
+    ]
+  },
+  "recovery_recipes": {
+    "anti_inflammatory_smoothie": {
+      "name_en": "Recovery Power Smoothie",
+      "name_ar": "عصير القوة للتعافي",
+      "ingredients_en": [
+        "1 cup frozen pineapple (bromelain)",
+        "1 inch fresh ginger root",
+        "1 cup spinach (magnesium)",
+        "1 banana",
+        "1 tbsp chia seeds",
+        "1 cup coconut water",
+        "1 tsp turmeric powder"
+      ],
+      "ingredients_ar": [
+        "كوب أناناس مجمد (بروميلين)",
+        "قطعة زنجبيل طازج بحجم الإنش",
+        "كوب سبانخ (مغنيسيوم)",
+        "موزة واحدة",
+        "ملعقة كبيرة بذور الشيا",
+        "كوب ماء جوز الهند",
+        "ملعقة صغيرة مسحوق كركم"
+      ],
+      "instructions_en": "Blend all ingredients until smooth. Drink 1-2 times daily during recovery phase.",
+      "instructions_ar": "اخلط جميع المكونات حتى تصبح ناعمة. اشرب 1-2 مرة يومياً خلال مرحلة التعافي."
+    }
+  },
+  "gym_tips": {
+    "return_protocol": {
+      "phase1_en": "Days 1-3: Complete rest from gym activities",
+      "phase1_ar": "الأيام 1-3: راحة كاملة من أنشطة الجيم",
+      "phase2_en": "Days 4-7: Gentle range of motion exercises",
+      "phase2_ar": "الأيام 4-7: تمارين نطاق الحركة اللطيفة",
+      "phase3_en": "Week 2: Light resistance exercises at 50% intensity",
+      "phase3_ar": "الأسبوع 2: تمارين مقاومة خفيفة بشدة 50%",
+      "phase4_en": "Week 3-4: Gradual return to normal training",
+      "phase4_ar": "الأسبوع 3-4: عودة تدريجية للتدريب الطبيعي"
+    },
+    "prevention_tips": [
+      {
+        "tip_en": "Always warm up for 10-15 minutes before intensive training",
+        "tip_ar": "قم دائماً بالإحماء لمدة 10-15 دقيقة قبل التدريب المكثف"
+      },
+      {
+        "tip_en": "Use proper form and technique for all exercises",
+        "tip_ar": "استخدم الشكل والتقنية الصحيحة لجميع التمارين"
+      },
+      {
+        "tip_en": "Progress gradually - increase weight/intensity by 10% weekly",
+        "tip_ar": "تقدم تدريجياً - زد الوزن/الشدة بنسبة 10% أسبوعياً"
+      }
+    ]
+  },
+  "monthly_workout_plan": {
+    "month1_recovery": {
+      "week1": {
+        "focus_en": "Pain management and gentle mobility",
+        "focus_ar": "إدارة الألم والحركة اللطيفة",
+        "exercises": [
+          {
+            "name_en": "Gentle range of motion",
+            "name_ar": "نطاق الحركة اللطيف",
+            "sets": "2-3",
+            "reps": "10-15",
+            "frequency": "2-3x daily"
+          },
+          {
+            "name_en": "Deep breathing exercises",
+            "name_ar": "تمارين التنفس العميق",
+            "duration": "5-10 minutes",
+            "frequency": "3x daily"
+          }
+        ]
+      },
+      "week2": {
+        "focus_en": "Gentle strengthening",
+        "focus_ar": "تقوية لطيفة",
+        "exercises": [
+          {
+            "name_en": "Isometric holds",
+            "name_ar": "الحمل الإيزوميتري",
+            "sets": "3",
+            "duration": "10-15 seconds",
+            "frequency": "Daily"
+          },
+          {
+            "name_en": "Bodyweight movements (modified)",
+            "name_ar": "حركات وزن الجسم (معدلة)",
+            "sets": "2",
+            "reps": "8-12",
+            "frequency": "Every other day"
+          }
+        ]
+      },
+      "week3_4": {
+        "focus_en": "Progressive loading",
+        "focus_ar": "التحميل التدريجي",
+        "exercises": [
+          {
+            "name_en": "Light resistance training",
+            "name_ar": "تدريب المقاومة الخفيفة",
+            "intensity": "50-60% of pre-injury level",
+            "frequency": "3x per week"
+          },
+          {
+            "name_en": "Functional movement patterns",
+            "name_ar": "أنماط الحركة الوظيفية",
+            "sets": "2-3",
+            "reps": "10-15",
+            "frequency": "Daily"
+          }
+        ]
+      }
+    }
+  },
+  "rehabilitation_exercises": {
+    "early_phase": [
+      {
+        "exercise_en": "Gentle passive stretching",
+        "exercise_ar": "تمدد سلبي لطيف",
+        "description_en": "Carefully move the injured area through pain-free range of motion",
+        "description_ar": "حرك المنطقة المصابة بعناية عبر نطاق حركة خالٍ من الألم",
+        "frequency": "Every 2-3 hours",
+        "duration": "5-10 minutes"
+      }
+    ],
+    "intermediate_phase": [
+      {
+        "exercise_en": "Active range of motion",
+        "exercise_ar": "نطاق الحركة النشط",
+        "description_en": "Actively move the injured area without external assistance",
+        "description_ar": "حرك المنطقة المصابة بشكل نشط دون مساعدة خارجية",
+        "sets": "2-3",
+        "reps": "10-15",
+        "frequency": "3x daily"
+      }
+    ],
+    "advanced_phase": [
+      {
+        "exercise_en": "Progressive resistance exercises",
+        "exercise_ar": "تمارين المقاومة التدريجية",
+        "description_en": "Gradually increase resistance using bands, weights, or bodyweight",
+        "description_ar": "زد المقاومة تدريجياً باستخدام الأشرطة أو الأوزان أو وزن الجسم",
+        "progression": "Increase resistance by 10-20% weekly"
+      }
+    ]
+  },
+  "additional_therapies": {
+    "modalities": [
+      {
+        "therapy_en": "Ice therapy",
+        "therapy_ar": "العلاج بالثلج",
+        "application_en": "15-20 minutes every 2-3 hours for first 48 hours",
+        "application_ar": "15-20 دقيقة كل 2-3 ساعات لأول 48 ساعة"
+      },
+      {
+        "therapy_en": "Heat therapy",
+        "therapy_ar": "العلاج بالحرارة",
+        "application_en": "After 48 hours, 15-20 minutes 2-3 times daily",
+        "application_ar": "بعد 48 ساعة، 15-20 دقيقة 2-3 مرات يومياً"
+      },
+      {
+        "therapy_en": "Gentle massage",
+        "therapy_ar": "تدليك لطيف",
+        "application_en": "Light massage around (not on) injured area after acute phase",
+        "application_ar": "تدليك خفيف حول (وليس على) المنطقة المصابة بعد الطور الحاد"
+      }
+    ]
+  },
+  "evidence_based_references": {
+    "scientific_studies": [
+      "Bleakley C, et al. The use of ice in the treatment of acute soft-tissue injury: a systematic review of randomized controlled trials. Am J Sports Med. 2004;32(1):251-261.",
+      "van den Bekerom MP, et al. What is the evidence for rest, ice, compression, and elevation therapy in the treatment of ankle sprains in adults? J Athl Train. 2012;47(4):435-443.",
+      "Malliaropoulos N, et al. The role of stretching in rehabilitation of hamstring injuries: 80 athletes follow-up. Med Sci Sports Exerc. 2004;36(5):756-759."
+    ],
+    "professional_organizations": [
+      "American College of Sports Medicine: https://www.acsm.org/",
+      "National Athletic Trainers' Association: https://www.nata.org/",
+      "American Physical Therapy Association: https://www.apta.org/",
+      "International Association of Athletic Therapists: https://www.iaat.org/"
+    ],
+    "clinical_guidelines": [
+      "ACSM Guidelines for Exercise Testing and Prescription",
+      "NATA Position Statement on Acute Management of Soft Tissue Injuries",
+      "Cochrane Reviews on Sports Injury Treatment"
+    ]
+  },
+  "disclaimer": {
+    "english": "This information is for educational purposes only and is not intended as medical advice. Injuries require proper assessment and treatment by qualified healthcare professionals such as sports medicine physicians, physical therapists, or athletic trainers. Severity of injuries can vary significantly, and some may require immediate medical attention. Always consult with healthcare professionals before beginning any treatment or exercise program. Do not ignore persistent pain or symptoms. This content should not replace professional medical consultation, diagnosis, or treatment.",
+    "arabic": "هذه المعلومات لأغراض تعليمية فقط وليست مخصصة كنصيحة طبية. تتطلب الإصابات تقييم وعلاج مناسب من قبل متخصصي الرعاية الصحية المؤهلين مثل أطباء الطب الرياضي أو أخصائيي العلاج الطبيعي أو المدربين الرياضيين. شدة الإصابات يمكن أن تختلف بشكل كبير، وبعضها قد يتطلب رعاية طبية فورية. استشر دائماً متخصصي الرعاية الصحية قبل بدء أي برنامج علاج أو تمرين. لا تتجاهل الألم أو الأعراض المستمرة. لا يجب أن يحل هذا المحتوى محل الاستشارة الطبية المهنية أو التشخيص أو العلاج."
+  }
+}

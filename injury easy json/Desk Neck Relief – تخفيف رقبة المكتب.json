@@ -1,0 +1,308 @@
+{
+  "injury": {
+    "name_en": "Desk Neck Relief",
+    "name_ar": "تخفيف رقبة المكتب",
+    "type_en": "Cervical Strain/Forward Head Posture",
+    "type_ar": "إجهاد عنقي/وضعية الرأس الأمامية",
+    "description_en": "Comprehensive treatment plan for desk-related neck pain, forward head posture, and cervical strain from prolonged computer work",
+    "description_ar": "خطة علاج شاملة لآلام الرقبة المرتبطة بالمكتب ووضعية الرأس الأمامية وإجهاد العنق من العمل المطول على الكمبيوتر"
+  },
+  "immediate_care": {
+    "protocol_en": [
+      "Take regular breaks every 30-45 minutes from computer work",
+      "Apply heat therapy for 15-20 minutes to relax tight muscles",
+      "Gentle neck stretches every 2-3 hours",
+      "Adjust workstation ergonomics immediately",
+      "Use a cervical support pillow when sleeping"
+    ],
+    "protocol_ar": [
+      "خذ استراحات منتظمة كل 30-45 دقيقة من العمل على الكمبيوتر",
+      "تطبيق العلاج بالحرارة لمدة 15-20 دقيقة لاسترخاء العضلات المشدودة",
+      "تمارين تمدد الرقبة اللطيفة كل 2-3 ساعات",
+      "ضبط بيئة العمل المريحة فوراً",
+      "استخدام وسادة دعم عنقية عند النوم"
+    ]
+  },
+  "supplements_and_medications": {
+    "pain_relief": [
+      {
+        "name": "Acetaminophen",
+        "dose_en": "500-1000mg every 6-8 hours (max 3000mg/day)",
+        "dose_ar": "500-1000 ملغ كل 6-8 ساعات (الحد الأقصى 3000 ملغ/يوم)",
+        "duration": "As needed for pain",
+        "purpose_en": "Pain relief without stomach irritation",
+        "purpose_ar": "تسكين الألم دون تهيج المعدة"
+      },
+      {
+        "name": "Ibuprofen",
+        "dose_en": "400mg every 6-8 hours with food",
+        "dose_ar": "400 ملغ كل 6-8 ساعات مع الطعام",
+        "duration": "3-5 days maximum",
+        "purpose_en": "Reduce inflammation and muscle tension",
+        "purpose_ar": "تقليل الالتهاب وتوتر العضلات"
+      }
+    ],
+    "muscle_support": [
+      {
+        "name": "Magnesium glycinate",
+        "dose_en": "400-600mg before bedtime",
+        "dose_ar": "400-600 ملغ قبل النوم",
+        "purpose_en": "Muscle relaxation and better sleep",
+        "purpose_ar": "استرخاء العضلات ونوم أفضل"
+      },
+      {
+        "name": "Vitamin D3",
+        "dose_en": "2000-4000 IU daily",
+        "dose_ar": "2000-4000 وحدة دولية يومياً",
+        "purpose_en": "Muscle function and bone health",
+        "purpose_ar": "وظيفة العضلات وصحة العظام"
+      },
+      {
+        "name": "B-Complex vitamins",
+        "dose_en": "One tablet daily with breakfast",
+        "dose_ar": "قرص واحد يومياً مع الإفطار",
+        "purpose_en": "Nerve function and muscle recovery",
+        "purpose_ar": "وظيفة الأعصاب وتعافي العضلات"
+      }
+    ]
+  },
+  "healing_plants": {
+    "topical_applications": [
+      {
+        "name": "Peppermint oil",
+        "usage_en": "Dilute 2-3 drops in carrier oil, massage into neck 2-3 times daily",
+        "usage_ar": "خفف 2-3 قطرات في زيت ناقل، دلك الرقبة 2-3 مرات يومياً",
+        "benefits_en": "Cooling sensation and muscle relaxation",
+        "benefits_ar": "إحساس بالبرودة واسترخاء العضلات"
+      },
+      {
+        "name": "Eucalyptus oil",
+        "usage_en": "Add 5-6 drops to warm compress applied for 15 minutes",
+        "usage_ar": "أضف 5-6 قطرات إلى كمادة دافئة تُطبق لمدة 15 دقيقة",
+        "benefits_en": "Anti-inflammatory and pain relief",
+        "benefits_ar": "مضاد للالتهاب ومسكن للألم"
+      }
+    ],
+    "oral_remedies": [
+      {
+        "name": "Willow bark tea",
+        "usage_en": "1-2 cups daily between meals",
+        "usage_ar": "1-2 كوب يومياً بين الوجبات",
+        "benefits_en": "Natural pain relief (contains salicin)",
+        "benefits_ar": "تسكين طبيعي للألم (يحتوي على الساليسين)"
+      },
+      {
+        "name": "Chamomile tea",
+        "usage_en": "2-3 cups daily, especially before bedtime",
+        "usage_ar": "2-3 أكواب يومياً، خاصة قبل النوم",
+        "benefits_en": "Muscle relaxation and stress reduction",
+        "benefits_ar": "استرخاء العضلات وتقليل التوتر"
+      }
+    ]
+  },
+  "recovery_recipes": {
+    "anti_inflammatory_tea": {
+      "name_en": "Neck Relief Tea Blend",
+      "name_ar": "خليط شاي تخفيف الرقبة",
+      "ingredients_en": [
+        "1 tsp dried chamomile flowers",
+        "1 tsp dried peppermint leaves",
+        "1/2 tsp dried ginger root",
+        "1/2 tsp turmeric powder",
+        "1 tsp honey",
+        "1 cup hot water"
+      ],
+      "ingredients_ar": [
+        "ملعقة صغيرة أزهار البابونج المجففة",
+        "ملعقة صغيرة أوراق النعناع المجففة",
+        "1/2 ملعقة صغيرة جذر الزنجبيل المجفف",
+        "1/2 ملعقة صغيرة مسحوق كركم",
+        "ملعقة صغيرة عسل",
+        "كوب ماء ساخن"
+      ],
+      "instructions_en": "Steep herbs in hot water for 10 minutes, strain, add honey. Drink 2-3 cups daily.",
+      "instructions_ar": "انقع الأعشاب في الماء الساخن لمدة 10 دقائق، صفي، أضف العسل. اشرب 2-3 أكواب يومياً."
+    }
+  },
+  "gym_tips": {
+    "neck_strengthening": [
+      {
+        "exercise_en": "Neck isometric holds",
+        "exercise_ar": "حمل إيزوميتري للرقبة",
+        "description_en": "Hold hand against head in all directions for 10 seconds",
+        "description_ar": "امسك اليد ضد الرأس في جميع الاتجاهات لمدة 10 ثوانٍ",
+        "sets": "3",
+        "reps": "10 each direction"
+      },
+      {
+        "exercise_en": "Upper trap stretches",
+        "exercise_ar": "تمدد العضلة المدورة العلوية",
+        "description_en": "Gently tilt head to side while pulling opposite shoulder down",
+        "description_ar": "أمل الرأس برفق إلى الجانب مع سحب الكتف المقابل لأسفل",
+        "hold": "30 seconds each side",
+        "frequency": "3-4 times daily"
+      }
+    ],
+    "ergonomic_tips": [
+      {
+        "tip_en": "Monitor should be at eye level, arm's length away",
+        "tip_ar": "يجب أن تكون الشاشة على مستوى العين، على مسافة ذراع"
+      },
+      {
+        "tip_en": "Use a document holder next to your screen",
+        "tip_ar": "استخدم حامل المستندات بجانب الشاشة"
+      },
+      {
+        "tip_en": "Keep feet flat on floor, knees at 90 degrees",
+        "tip_ar": "اجعل القدمين مسطحتين على الأرض، والركبتين بزاوية 90 درجة"
+      }
+    ]
+  },
+  "monthly_workout_plan": {
+    "month1_correction": {
+      "week1": {
+        "focus_en": "Pain relief and basic mobility",
+        "focus_ar": "تخفيف الألم والحركة الأساسية",
+        "daily_routine": [
+          {
+            "time": "Morning",
+            "exercise_en": "Gentle neck rotations",
+            "exercise_ar": "دوران الرقبة اللطيف",
+            "reps": "10 each direction"
+          },
+          {
+            "time": "Midday break",
+            "exercise_en": "Chin tucks",
+            "exercise_ar": "سحب الذقن",
+            "reps": "15 repetitions"
+          },
+          {
+            "time": "Evening",
+            "exercise_en": "Upper trap stretches",
+            "exercise_ar": "تمدد العضلة المدورة العلوية",
+            "duration": "30 seconds each side"
+          }
+        ]
+      },
+      "week2": {
+        "focus_en": "Strengthening deep neck flexors",
+        "focus_ar": "تقوية عضلات الثني العنقية العميقة",
+        "exercises": [
+          {
+            "name_en": "Deep neck flexor strengthening",
+            "name_ar": "تقوية عضلات الثني العنقية العميقة",
+            "sets": "3",
+            "hold": "10 seconds",
+            "frequency": "2x daily"
+          },
+          {
+            "name_en": "Shoulder blade squeezes",
+            "name_ar": "عصر لوحي الكتف",
+            "sets": "3",
+            "reps": "15",
+            "frequency": "Daily"
+          }
+        ]
+      },
+      "week3_4": {
+        "focus_en": "Postural correction and strengthening",
+        "focus_ar": "تصحيح الوضعية والتقوية",
+        "exercises": [
+          {
+            "name_en": "Wall angels",
+            "name_ar": "ملائكة الحائط",
+            "sets": "3",
+            "reps": "20",
+            "frequency": "Daily"
+          },
+          {
+            "name_en": "Resistance band external rotations",
+            "name_ar": "دوران خارجي بشريط المقاومة",
+            "sets": "3",
+            "reps": "15 each arm",
+            "frequency": "Every other day"
+          }
+        ]
+      }
+    }
+  },
+  "rehabilitation_exercises": {
+    "phase1_mobility": [
+      {
+        "exercise_en": "Gentle neck side bends",
+        "exercise_ar": "ثني الرقبة الجانبي اللطيف",
+        "description_en": "Slowly tilt head to each side, hold for 15 seconds",
+        "description_ar": "أمل الرأس ببطء إلى كل جانب، اثبت لمدة 15 ثانية",
+        "frequency": "Every 2 hours"
+      },
+      {
+        "exercise_en": "Chin tucks",
+        "exercise_ar": "سحب الذقن",
+        "description_en": "Pull chin back to create double chin, hold 5 seconds",
+        "description_ar": "اسحب الذقن للخلف لإنشاء ذقن مزدوجة، اثبت 5 ثوانٍ",
+        "reps": "10-15 repetitions",
+        "frequency": "4-5 times daily"
+      }
+    ],
+    "phase2_strengthening": [
+      {
+        "exercise_en": "Isometric neck strengthening",
+        "exercise_ar": "تقوية الرقبة الإيزوميترية",
+        "description_en": "Resist movement in all directions with hand pressure",
+        "description_ar": "قاوم الحركة في جميع الاتجاهات بضغط اليد",
+        "hold": "10 seconds",
+        "sets": "3 sets each direction"
+      }
+    ]
+  },
+  "additional_therapies": {
+    "self_care": [
+      {
+        "therapy_en": "Heat therapy",
+        "therapy_ar": "العلاج بالحرارة",
+        "application_en": "15-20 minutes, 2-3 times daily for muscle relaxation",
+        "application_ar": "15-20 دقيقة، 2-3 مرات يومياً لاسترخاء العضلات"
+      },
+      {
+        "therapy_en": "Self-massage",
+        "therapy_ar": "التدليك الذاتي",
+        "application_en": "Gentle circular motions on neck and shoulders for 5-10 minutes",
+        "application_ar": "حركات دائرية لطيفة على الرقبة والكتفين لمدة 5-10 دقائق"
+      }
+    ],
+    "professional_treatments": [
+      {
+        "treatment_en": "Physical therapy",
+        "treatment_ar": "العلاج الطبيعي",
+        "description_en": "Manual therapy and specific exercises for postural correction"
+      },
+      {
+        "treatment_en": "Chiropractic care",
+        "treatment_ar": "رعاية العلاج بتقويم العمود الفقري",
+        "description_en": "Spinal alignment and joint mobilization"
+      }
+    ]
+  },
+  "evidence_based_references": {
+    "scientific_studies": [
+      "Falla D, et al. Unravelling the complexity of muscle impairment in chronic neck pain. Man Ther. 2004;9(3):125-133.",
+      "Gross A, et al. Exercises for mechanical neck disorders. Cochrane Database Syst Rev. 2015;(1):CD004250.",
+      "Johnston V, et al. Neck movement and muscle activity characteristics in female office workers with neck pain. Spine. 2008;33(5):555-563."
+    ],
+    "professional_organizations": [
+      "American Physical Therapy Association: https://www.apta.org/",
+      "Occupational Safety and Health Administration: https://www.osha.gov/",
+      "International Ergonomics Association: https://iea.cc/",
+      "American Occupational Therapy Association: https://www.aota.org/"
+    ],
+    "clinical_guidelines": [
+      "Clinical Practice Guidelines for Neck Pain",
+      "OSHA Guidelines for Computer Workstations",
+      "Ergonomic Guidelines for VDT Work Environments"
+    ]
+  },
+  "disclaimer": {
+    "english": "This information is for educational purposes only and is not intended as medical advice. Persistent neck pain may indicate serious underlying conditions requiring immediate medical attention. Consult healthcare professionals such as physicians, physical therapists, or occupational therapists for proper diagnosis and treatment. Severe symptoms like numbness, tingling, or radiating pain should be evaluated immediately. This content should not replace professional medical consultation, diagnosis, or treatment.",
+    "arabic": "هذه المعلومات لأغراض تعليمية فقط وليست مخصصة كنصيحة طبية. آلام الرقبة المستمرة قد تشير إلى حالات خطيرة تتطلب رعاية طبية فورية. استشر متخصصي الرعاية الصحية مثل الأطباء أو أخصائيي العلاج الطبيعي أو المعالجين المهنيين للتشخيص والعلاج المناسب. الأعراض الشديدة مثل التنميل أو الوخز أو الألم المشع يجب تقييمها فوراً. لا يجب أن يحل هذا المحتوى محل الاستشارة الطبية المهنية أو التشخيص أو العلاج."
+  }
+}

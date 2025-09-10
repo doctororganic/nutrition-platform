@@ -1,0 +1,398 @@
+{
+  "condition": {
+    "name_en": "Lactose Intolerance",
+    "name_ar": "عدم تحمل اللاكتوز",
+    "description_en": "The inability to digest lactose, a sugar found in milk and dairy products, due to deficiency in lactase enzyme",
+    "description_ar": "عدم القدرة على هضم اللاكتوز، وهو سكر موجود في الحليب ومنتجات الألبان، بسبب نقص إنزيم اللاكتاز"
+  },
+  "nutritional_recommendations": {
+    "primary_guidelines_en": [
+      "Eliminate or reduce lactose-containing dairy products based on tolerance level",
+      "Choose lactose-free or low-lactose alternatives",
+      "Ensure adequate calcium and vitamin D intake from non-dairy sources",
+      "Consider enzyme supplements when consuming small amounts of dairy",
+      "Monitor individual tolerance levels - some can handle small amounts",
+      "Focus on fermented dairy products which are naturally lower in lactose"
+    ],
+    "primary_guidelines_ar": [
+      "إزالة أو تقليل منتجات الألبان المحتوية على اللاكتوز حسب مستوى التحمل",
+      "اختيار بدائل خالية من اللاكتوز أو قليلة اللاكتوز",
+      "ضمان تناول كافٍ للكالسيوم وفيتامين د من مصادر غير الألبان",
+      "النظر في مكملات الإنزيم عند تناول كميات صغيرة من الألبان",
+      "مراقبة مستويات التحمل الفردية - يمكن للبعض تحمل كميات صغيرة",
+      "التركيز على منتجات الألبان المتخمرة التي تحتوي طبيعياً على لاكتوز أقل"
+    ],
+    "allowed_foods_en": [
+      "Lactose-free milk and dairy products",
+      "Plant-based milk alternatives (almond, soy, oat, rice, coconut)",
+      "Hard cheeses (aged cheddar, Swiss, Parmesan) - naturally low in lactose",
+      "Fermented dairy products (yogurt with live cultures, kefir)",
+      "All fruits and vegetables",
+      "Grains and cereals (check for milk additives)",
+      "Lean meats, poultry, fish, eggs",
+      "Nuts, seeds, and legumes",
+      "Calcium-fortified foods"
+    ],
+    "allowed_foods_ar": [
+      "الحليب ومنتجات الألبان الخالية من اللاكتوز",
+      "بدائل الحليب النباتية (اللوز، الصويا، الشوفان، الأرز، جوز الهند)",
+      "الأجبان الصلبة (الشيدر المعتق، السويسري، البارميزان) - قليلة اللاكتوز طبيعياً",
+      "منتجات الألبان المتخمرة (اللبن مع الثقافات الحية، الكفير)",
+      "جميع الفواكه والخضار",
+      "الحبوب والعصائد (تحقق من إضافات الحليب)",
+      "اللحوم الخالية من الدهون، الدواجن، الأسماك، البيض",
+      "المكسرات والبذور والبقوليات",
+      "الأطعمة المدعمة بالكالسيوم"
+    ],
+    "foods_to_avoid_en": [
+      "Regular milk (cow, goat, sheep)",
+      "Ice cream and frozen dairy desserts",
+      "Soft cheeses (cottage cheese, ricotta, cream cheese)",
+      "Butter and margarine with milk ingredients",
+      "Milk chocolate and creamy candies",
+      "Cream soups and creamy sauces",
+      "Processed foods with milk derivatives (whey, casein, lactose)",
+      "Some breads and baked goods with milk",
+      "Protein powders containing whey or casein"
+    ],
+    "foods_to_avoid_ar": [
+      "الحليب العادي (البقر، الماعز، الخروف)",
+      "الآيس كريم والحلويات المجمدة من الألبان",
+      "الأجبان الطرية (الجبن القريش، الريكوتا، الجبن الكريمي)",
+      "الزبدة والمارجرين مع مكونات الحليب",
+      "شوكولاتة الحليب والحلويات الكريمية",
+      "الشوربات الكريمية والصلصات الكريمية",
+      "الأطعمة المعالجة مع مشتقات الحليب (مصل اللبن، الكازين، اللاكتوز)",
+      "بعض أنواع الخبز والمخبوزات مع الحليب",
+      "مساحيق البروتين المحتوية على مصل اللبن أو الكازين"
+    ]
+  },
+  "therapeutic_supplements": {
+    "essential_supplements_en": [
+      {
+        "name": "Lactase Enzyme",
+        "dose": "3000-9000 FCC lactase units",
+        "administration": "Take with first bite of dairy-containing meal",
+        "purpose": "Helps digest lactose in small amounts of dairy"
+      },
+      {
+        "name": "Calcium Carbonate/Citrate",
+        "dose": "1000-1200 mg daily (adults)",
+        "administration": "Split doses, take with meals",
+        "purpose": "Maintain bone health without dairy"
+      },
+      {
+        "name": "Vitamin D3",
+        "dose": "1000-2000 IU daily",
+        "administration": "With fat-containing meal",
+        "purpose": "Enhance calcium absorption and bone health"
+      },
+      {
+        "name": "Magnesium",
+        "dose": "300-400 mg daily",
+        "administration": "With meals or before bed",
+        "purpose": "Support calcium metabolism and bone health"
+      },
+      {
+        "name": "Vitamin K2",
+        "dose": "45-180 mcg daily",
+        "administration": "With fat-containing meal",
+        "purpose": "Direct calcium to bones, away from arteries"
+      },
+      {
+        "name": "Probiotics",
+        "dose": "10-50 billion CFU daily",
+        "administration": "Between meals or as directed",
+        "purpose": "Support digestive health and may improve lactose tolerance"
+      }
+    ],
+    "essential_supplements_ar": [
+      {
+        "name": "إنزيم اللاكتاز",
+        "dose": "3000-9000 وحدة لاكتاز FCC",
+        "administration": "تناول مع أول قضمة من وجبة تحتوي على ألبان",
+        "purpose": "يساعد على هضم اللاكتوز في كميات صغيرة من الألبان"
+      },
+      {
+        "name": "كربونات/سترات الكالسيوم",
+        "dose": "1000-1200 ملغ يومياً (البالغين)",
+        "administration": "جرعات مقسمة، تناول مع الوجبات",
+        "purpose": "الحفاظ على صحة العظام بدون ألبان"
+      },
+      {
+        "name": "فيتامين د3",
+        "dose": "1000-2000 وحدة دولية يومياً",
+        "administration": "مع وجبة تحتوي على دهون",
+        "purpose": "تعزيز امتصاص الكالسيوم وصحة العظام"
+      },
+      {
+        "name": "المغنيسيوم",
+        "dose": "300-400 ملغ يومياً",
+        "administration": "مع الوجبات أو قبل النوم",
+        "purpose": "دعم استقلاب الكالسيوم وصحة العظام"
+      },
+      {
+        "name": "فيتامين ك2",
+        "dose": "45-180 ميكروغرام يومياً",
+        "administration": "مع وجبة تحتوي على دهون",
+        "purpose": "توجيه الكالسيوم إلى العظام، بعيداً عن الشرايين"
+      },
+      {
+        "name": "البروبيوتيك",
+        "dose": "10-50 مليار وحدة CFU يومياً",
+        "administration": "بين الوجبات أو حسب التوجيهات",
+        "purpose": "دعم صحة الجهاز الهضمي وقد يحسن تحمل اللاكتوز"
+      }
+    ]
+  },
+  "risks_and_causes_to_avoid": {
+    "risk_factors_en": [
+      "Hidden lactose in processed foods and medications",
+      "Cross-contamination from shared preparation surfaces",
+      "Inadequate calcium intake leading to osteoporosis",
+      "Vitamin D deficiency affecting bone health",
+      "Social situations where dairy is prevalent",
+      "Traveling to areas with limited lactose-free options",
+      "Medications and supplements containing lactose as filler",
+      "Restaurant meals with undisclosed dairy ingredients"
+    ],
+    "risk_factors_ar": [
+      "اللاكتوز المخفي في الأطعمة المعالجة والأدوية",
+      "التلوث المتبادل من أسطح التحضير المشتركة",
+      "عدم كفاية تناول الكالسيوم مما يؤدي إلى هشاشة العظام",
+      "نقص فيتامين د الذي يؤثر على صحة العظام",
+      "المواقف الاجتماعية حيث الألبان منتشرة",
+      "السفر إلى مناطق ذات خيارات محدودة خالية من اللاكتوز",
+      "الأدوية والمكملات المحتوية على اللاكتوز كمادة مالئة",
+      "وجبات المطاعم مع مكونات الألبان غير المكشوفة"
+    ],
+    "complications_en": [
+      "Calcium deficiency and increased fracture risk",
+      "Osteoporosis in later life",
+      "Digestive discomfort and social anxiety",
+      "Nutritional deficiencies if diet is overly restrictive",
+      "Dehydration from severe diarrhea",
+      "Weight loss from food avoidance",
+      "Reduced quality of life from dietary restrictions"
+    ],
+    "complications_ar": [
+      "نقص الكالسيوم وزيادة خطر الكسور",
+      "هشاشة العظام في الحياة اللاحقة",
+      "عدم الراحة الهضمية والقلق الاجتماعي",
+      "نقص التغذية إذا كان النظام الغذائي مقيداً بشكل مفرط",
+      "الجفاف من الإسهال الشديد",
+      "فقدان الوزن من تجنب الطعام",
+      "انخفاض جودة الحياة من القيود الغذائية"
+    ]
+  },
+  "healthy_plants": {
+    "beneficial_plants_en": [
+      {
+        "name": "Ginger",
+        "benefits": "Digestive support, anti-nausea, anti-inflammatory",
+        "usage": "Fresh ginger tea, cooking spice, crystallized ginger"
+      },
+      {
+        "name": "Peppermint",
+        "benefits": "Soothes digestive tract, reduces gas and bloating",
+        "usage": "Herbal tea, fresh leaves, essential oil (diluted)"
+      },
+      {
+        "name": "Fennel",
+        "benefits": "Digestive aid, reduces bloating and gas",
+        "usage": "Fennel seed tea, fresh bulb in cooking"
+      },
+      {
+        "name": "Chamomile",
+        "benefits": "Calming digestive effects, anti-inflammatory",
+        "usage": "Herbal tea, especially before meals"
+      },
+      {
+        "name": "Dandelion",
+        "benefits": "Supports digestion, rich in calcium",
+        "usage": "Leaves in salads, root tea, supplements"
+      },
+      {
+        "name": "Nettle",
+        "benefits": "High in calcium and minerals, digestive support",
+        "usage": "Dried leaf tea, fresh leaves (cooked), supplements"
+      }
+    ],
+    "beneficial_plants_ar": [
+      {
+        "name": "الزنجبيل",
+        "benefits": "دعم الهضم، مضاد للغثيان، مضاد للالتهاب",
+        "usage": "شاي الزنجبيل الطازج، توابل الطبخ، الزنجبيل المتبلور"
+      },
+      {
+        "name": "النعناع",
+        "benefits": "يهدئ الجهاز الهضمي، يقلل الغازات والانتفاخ",
+        "usage": "شاي عشبي، أوراق طازجة، زيت عطري (مخفف)"
+      },
+      {
+        "name": "الشمر",
+        "benefits": "مساعد للهضم، يقلل الانتفاخ والغازات",
+        "usage": "شاي بذور الشمر، البصلة الطازجة في الطبخ"
+      },
+      {
+        "name": "البابونج",
+        "benefits": "تأثيرات مهدئة للجهاز الهضمي، مضاد للالتهاب",
+        "usage": "شاي عشبي، خاصة قبل الوجبات"
+      },
+      {
+        "name": "الهندباء",
+        "benefits": "يدعم الهضم، غني بالكالسيوم",
+        "usage": "الأوراق في السلطات، شاي الجذور، المكملات"
+      },
+      {
+        "name": "القراص",
+        "benefits": "عالي في الكالسيوم والمعادن، دعم الهضم",
+        "usage": "شاي الأوراق المجففة، الأوراق الطازجة (مطبوخة)، المكملات"
+      }
+    ]
+  },
+  "fasting_effects": {
+    "intermittent_fasting_en": {
+      "benefits": [
+        "Allows digestive system rest between meals",
+        "May improve gut microbiome diversity",
+        "Can help identify specific lactose tolerance levels",
+        "Reduces overall digestive load and discomfort",
+        "May improve insulin sensitivity and metabolic health"
+      ],
+      "precautions": [
+        "Ensure adequate calcium intake during eating windows",
+        "Monitor bone health markers regularly",
+        "Avoid fasting if experiencing malnutrition",
+        "May need to adjust supplement timing",
+        "Consider impact on social eating patterns"
+      ],
+      "recommended_approach": "Moderate intermittent fasting (12-14 hours) with focus on calcium-rich, lactose-free meals"
+    },
+    "intermittent_fasting_ar": {
+      "benefits": [
+        "يسمح بالراحة للجهاز الهضمي بين الوجبات",
+        "قد يحسن تنوع الميكروبيوم المعوي",
+        "يمكن أن يساعد في تحديد مستويات تحمل اللاكتوز المحددة",
+        "يقلل الحمولة الهضمية الإجمالية وعدم الراحة",
+        "قد يحسن حساسية الأنسولين والصحة الأيضية"
+      ],
+      "precautions": [
+        "ضمان تناول كافٍ للكالسيوم خلال نوافذ الأكل",
+        "مراقبة علامات صحة العظام بانتظام",
+        "تجنب الصوم في حالة سوء التغذية",
+        "قد تحتاج لتعديل توقيت المكملات",
+        "النظر في التأثير على أنماط الأكل الاجتماعية"
+      ],
+      "recommended_approach": "الصوم المتقطع المعتدل (12-14 ساعة) مع التركيز على وجبات غنية بالكالسيوم وخالية من اللاكتوز"
+    }
+  },
+  "medications_that_worsen": {
+    "problematic_drugs_en": [
+      {
+        "category": "Lactose-containing medications",
+        "examples": "Many tablets and capsules use lactose as filler",
+        "reason": "Direct lactose exposure can trigger symptoms"
+      },
+      {
+        "category": "Antibiotics",
+        "examples": "Broad-spectrum antibiotics",
+        "reason": "Can disrupt gut bacteria that help with lactose digestion"
+      },
+      {
+        "category": "Chemotherapy drugs",
+        "examples": "Various cancer medications",
+        "reason": "Can damage intestinal lining and reduce lactase production"
+      },
+      {
+        "category": "Calcium channel blockers",
+        "examples": "Some formulations contain lactose",
+        "reason": "Hidden lactose content can cause symptoms"
+      }
+    ],
+    "problematic_drugs_ar": [
+      {
+        "category": "الأدوية المحتوية على اللاكتوز",
+        "examples": "العديد من الأقراص والكبسولات تستخدم اللاكتوز كمادة مالئة",
+        "reason": "التعرض المباشر للاكتوز يمكن أن يثير الأعراض"
+      },
+      {
+        "category": "المضادات الحيوية",
+        "examples": "المضادات الحيوية واسعة الطيف",
+        "reason": "يمكن أن تعطل البكتيريا المعوية التي تساعد في هضم اللاكتوز"
+      },
+      {
+        "category": "أدوية العلاج الكيميائي",
+        "examples": "أدوية السرطان المختلفة",
+        "reason": "يمكن أن تضر بطانة الأمعاء وتقلل إنتاج اللاكتاز"
+      },
+      {
+        "category": "حاصرات قنوات الكالسيوم",
+        "examples": "بعض التركيبات تحتوي على اللاكتوز",
+        "reason": "محتوى اللاكتوز المخفي يمكن أن يسبب الأعراض"
+      }
+    ]
+  },
+  "psychological_support": {
+    "emotional_challenges_en": [
+      "Social anxiety around food choices",
+      "Frustration with dietary limitations",
+      "Fear of accidental dairy consumption",
+      "Stress from meal planning and label reading",
+      "Isolation from social eating situations",
+      "Worry about nutritional adequacy",
+      "Body image concerns from digestive symptoms"
+    ],
+    "emotional_challenges_ar": [
+      "القلق الاجتماعي حول خيارات الطعام",
+      "الإحباط من القيود الغذائية",
+      "الخوف من تناول الألبان بالخطأ",
+      "الضغط من تخطيط الوجبات وقراءة الملصقات",
+      "العزلة من مواقف الأكل الاجتماعية",
+      "القلق بشأن كفاية التغذية",
+      "مخاوف صورة الجسم من أعراض الجهاز الهضمي"
+    ],
+    "coping_strategies_en": [
+      "Join lactose intolerance support groups",
+      "Learn to communicate dietary needs confidently",
+      "Practice stress-reduction techniques",
+      "Focus on diverse, delicious lactose-free foods",
+      "Prepare for social situations with planning",
+      "Work with a dietitian for meal confidence",
+      "Celebrate successful dietary management"
+    ],
+    "coping_strategies_ar": [
+      "الانضمام إلى مجموعات دعم عدم تحمل اللاكتوز",
+      "تعلم التواصل بثقة حول الاحتياجات الغذائية",
+      "ممارسة تقنيات تقليل الضغط",
+      "التركيز على أطعمة متنوعة ولذيذة خالية من اللاكتوز",
+      "الاستعداد للمواقف الاجتماعية بالتخطيط",
+      "العمل مع أخصائي تغذية لثقة الوجبات",
+      "الاحتفال بالإدارة الغذائية الناجحة"
+    ]
+  },
+  "evidence_based_references": {
+    "scientific_studies": [
+      "Misselwitz B, et al. Lactose malabsorption and intolerance: pathogenesis, diagnosis and treatment. United European Gastroenterol J. 2013;1(3):151-159.",
+      "Storhaug CL, et al. Country, regional, and global estimates for lactose malabsorption in adults. Lancet Gastroenterol Hepatol. 2017;2(10):738-746.",
+      "Deng Y, et al. Lactose Intolerance in Adults: Biological Mechanism and Dietary Management. Nutrients. 2015;7(9):8020-8035.",
+      "Suchy FJ, et al. NIH Consensus Development Conference Statement: Lactose Intolerance and Health. NIH Consens State Sci Statements. 2010;27(2):1-27."
+    ],
+    "professional_organizations": [
+      "National Institute of Diabetes and Digestive and Kidney Diseases: https://www.niddk.nih.gov/",
+      "Academy of Nutrition and Dietetics: https://www.eatright.org/",
+      "International Foundation for Gastrointestinal Disorders: https://www.iffgd.org/",
+      "Lactose Intolerance Support Group: https://www.lactoseintolerance.org/"
+    ],
+    "dietary_guidelines": [
+      "American Gastroenterological Association: Lactose Intolerance Guidelines",
+      "European Society for Primary Care Gastroenterology: Lactose Intolerance",
+      "National Osteoporosis Foundation: Calcium and Bone Health",
+      "World Health Organization: Calcium and Vitamin D Requirements"
+    ]
+  },
+  "disclaimer": {
+    "english": "This information is for educational purposes only and is not intended as medical advice. Always consult with qualified healthcare professionals before making any changes to your diet, medications, or treatment plan. Individual lactose tolerance levels vary significantly, and some people may be able to consume small amounts of dairy without symptoms. Proper medical evaluation can help determine your specific level of lactose intolerance. This content should not replace professional medical consultation, diagnosis, or treatment.",
+    "arabic": "هذه المعلومات لأغراض تعليمية فقط وليست مخصصة كنصيحة طبية. استشر دائماً مع متخصصي الرعاية الصحية المؤهلين قبل إجراء أي تغييرات على نظامك الغذائي أو الأدوية أو خطة العلاج. تختلف مستويات تحمل اللاكتوز الفردية بشكل كبير، وقد يتمكن بعض الأشخاص من تناول كميات صغيرة من الألبان دون أعراض. يمكن للتقييم الطبي المناسب أن يساعد في تحديد مستوى عدم تحمل اللاكتوز المحدد لك. لا يجب أن يحل هذا المحتوى محل الاستشارة الطبية المهنية أو التشخيص أو العلاج."
+  }
+}

@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Offline - NutriTracker Pro</title>
+    <style>
+        *{box-sizing:border-box;margin:0;padding:0}
+        body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif;background:linear-gradient(135deg,#667eea 0%,#764ba2 100%);color:#fff;min-height:100vh;display:flex;align-items:center;justify-content:center;padding:1rem}
+        .container{text-align:center;max-width:500px;width:100%}
+        .icon{font-size:4rem;margin-bottom:1rem;opacity:0.9}
+        h1{font-size:2.5rem;margin-bottom:1rem;font-weight:300}
+        p{font-size:1.1rem;line-height:1.6;margin-bottom:2rem;opacity:0.9}
+        .actions{display:flex;gap:1rem;justify-content:center;flex-wrap:wrap;margin-bottom:2rem}
+        .btn{padding:0.75rem 1.5rem;background:rgba(255,255,255,0.2);border:2px solid rgba(255,255,255,0.3);color:#fff;text-decoration:none;border-radius:8px;font-weight:500;transition:all 0.3s ease;cursor:pointer;backdrop-filter:blur(10px)}
+        .btn:hover{background:rgba(255,255,255,0.3);border-color:rgba(255,255,255,0.5);transform:translateY(-2px)}
+        .offline-features{text-align:left;background:rgba(255,255,255,0.1);border-radius:12px;padding:1.5rem;margin-top:2rem;backdrop-filter:blur(10px)}
+        .feature{display:flex;align-items:center;margin-bottom:0.75rem;font-size:0.9rem}
+        .feature-icon{margin-right:0.5rem;font-size:1.2rem}
+        .status{margin-top:2rem;font-size:0.9rem;opacity:0.7}
+        @media (max-width:768px){
+            .icon{font-size:3rem}
+            h1{font-size:2rem}
+            .actions{flex-direction:column;align-items:center}
+            .btn{width:100%;max-width:200px}
+        }
+        @keyframes pulse{0%{opacity:0.7}50%{opacity:1}100%{opacity:0.7}}
+        .pulse{animation:pulse 2s infinite}
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="icon pulse">📱</div>
+        <h1>You're Offline</h1>
+        <p>
+            No worries! NutriTracker Pro works offline too. 
+            You can still access your saved nutrition data, meal plans, and health guides.
+        </p>
+        
+        <div class="actions">
+            <button class="btn" onclick="retry()">🔄 Try Again</button>
+            <button class="btn" onclick="goHome()">🏠 Go Home</button>
+            <button class="btn" onclick="viewCache()">📊 View Saved Data</button>
+        </div>
+        
+        <div class="offline-features">
+            <h3 style="margin-bottom:1rem;font-size:1.1rem;">✨ Available Offline Features</h3>
+            <div class="feature">
+                <span class="feature-icon">🥗</span>
+                <span>Calculate nutrition plans with cached data</span>
+            </div>
+            <div class="feature">
+                <span class="feature-icon">📚</span>
+                <span>Browse health condition guides</span>
+            </div>
+            <div class="feature">
+                <span class="feature-icon">💪</span>
+                <span>Access workout routines and plans</span>
+            </div>
+            <div class="feature">
+                <span class="feature-icon">🩹</span>
+                <span>View injury rehabilitation guides</span>
+            </div>
+            <div class="feature">
+                <span class="feature-icon">📱</span>
+                <span>Full PWA functionality maintained</span>
+            </div>
+            <div class="feature">
+                <span class="feature-icon">🔄</span>
+                <span>Auto-sync when back online</span>
+            </div>
+        </div>
+        
+        <div class="status">
+            <div id="connection-status">🔴 Checking connection...</div>
+            <small>Your data will sync automatically when you're back online.</small>
+        </div>
+    </div>
+
+    <script>
+        let retryCount = 0;
+        const maxRetries = 5;
+        
+        function retry() {
+            if (navigator.onLine) {
+                window.location.reload();
+            } else {
+                retryCount++;
+                if (retryCount < maxRetries) {
+                    updateStatus('🔄 Retrying... (' + retryCount + '/' + maxRetries + ')');
+                    setTimeout(() => {
+                        fetch('/')
+                            .then(() => window.location.reload())
+                            .catch(() => updateStatus('🔴 Still offline - please check your connection'));
+                    }, 1000);
+                } else {
+                    updateStatus('🔴 Max retries reached - please check your connection');
+                }
+            }
+        }
+        
+        function goHome() {
+            try {
+                window.location.href = '/';
+            } catch (e) {
+                if ('caches' in window) {
+                    caches.match('/').then(response => {
+                        if (response) {
+                            window.location.href = '/';
+                        } else {
+                            updateStatus('❌ No cached home page available');
+                        }
+                    });
+                }
+            }
+        }
+        
+        function viewCache() {
+            if ('caches' in window) {
+                caches.open('nutritracker-v1-1.0.0').then(cache => {
+                    cache.keys().then(requests => {
+                        const cachedData = requests
+                            .filter(req => req.url.includes('/api/'))
+                            .map(req => {
+                                const url = new URL(req.url);
+                                return url.pathname;
+                            });
+                        
+                        if (cachedData.length > 0) {
+                            const dataList = cachedData.join('\\n- ');
+                            alert('📊 Available Cached Data:\\n\\n- ' + dataList + '\\n\\nNavigating to nutrition calculator...');
+                            window.location.href = '/#nutrition';
+                        } else {
+                            alert('📭 No cached API data available.\\nYou can still use the nutrition calculator with built-in formulas.');
+                            window.location.href = '/#nutrition';
+                        }
+                    });
+                }).catch(() => {
+                    alert('❌ Unable to access cache.\\nNavigating to home page...');
+                    window.location.href = '/';
+                });
+            } else {
+                alert('❌ Cache API not supported.\\nNavigating to home page...');
+                window.location.href = '/';
+            }
+        }
+        
+        function updateStatus(message) {
+            document.getElementById('connection-status').textContent = message;
+        }
+        
+        function checkConnection() {
+            if (navigator.onLine) {
+                updateStatus('🟢 Connection restored!');
+                setTimeout(() => {
+                    window.location.reload();
+                }, 1000);
+            } else {
+                updateStatus('🔴 Still offline');
+            }
+        }
+        
+        // Auto-check connection every 10 seconds
+        setInterval(checkConnection, 10000);
+        
+        // Listen for online event
+        window.addEventListener('online', () => {
+            updateStatus('🟢 Connection restored! Reloading...');
+            setTimeout(() => {
+                window.location.reload();
+            }, 500);
+        });
+        
+        // Listen for offline event
+        window.addEventListener('offline', () => {
+            updateStatus('🔴 Connection lost');
+        });
+        
+        // Initial connection check
+        setTimeout(checkConnection, 2000);
+        
+        // Keyboard shortcuts
+        document.addEventListener('keydown', (e) => {
+            if (e.key === 'r' || e.key === 'R') {
+                retry();
+            } else if (e.key === 'h' || e.key === 'H') {
+                goHome();
+            } else if (e.key === 'd' || e.key === 'D') {
+                viewCache();
+            }
+        });
+        
+        // Show keyboard shortcuts hint
+        setTimeout(() => {
+            const shortcuts = document.createElement('div');
+            shortcuts.style.cssText = 'position:fixed;bottom:1rem;right:1rem;background:rgba(0,0,0,0.7);color:#fff;padding:0.5rem;border-radius:4px;font-size:0.8rem;';
+            shortcuts.innerHTML = 'Shortcuts: R (retry) | H (home) | D (data)';
+            document.body.appendChild(shortcuts);
+            
+            setTimeout(() => {
+                shortcuts.style.opacity = '0';
+                shortcuts.style.transition = 'opacity 1s';
+                setTimeout(() => shortcuts.remove(), 1000);
+            }, 5000);
+        }, 3000);
+        
+        console.log('🔌 NutriTracker Pro - Offline Mode Active');
+        console.log('📱 PWA features remain fully functional');
+        console.log('🔄 Will auto-sync when connection is restored');
+    </script>
+</body>
+</html>

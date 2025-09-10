@@ -1,0 +1,1382 @@
+
+
+```json
+{
+  "sports_nutrition_guide": {
+    "general_principles": {
+      "energy_systems": [
+        {
+          "system": "Phosphagen (ATP-PCr)",
+          "primary_fuel": "Creatine phosphate",
+          "duration": "0-10 sec",
+          "sports": ["Sprinting", "Weightlifting"],
+          "carb_fat_protein_ratio": "5% / 95% / 0%"
+        },
+        {
+          "system": "Glycolytic",
+          "primary_fuel": "Carbohydrates",
+          "duration": "10 sec - 2 min",
+          "sports": ["400m run", "Basketball"],
+          "carb_fat_protein_ratio": "70% / 25% / 5%"
+        },
+        {
+          "system": "Oxidative",
+          "primary_fuel": "Fats + Carbs",
+          "duration": ">2 min",
+          "sports": ["Distance running", "Swimming"],
+          "carb_fat_protein_ratio": "55% / 35% / 10%"
+        },
+        {
+          "system": "Mixed Systems",
+          "primary_fuel": "All fuels",
+          "duration": "Variable",
+          "sports": ["Team sports", "Tennis"],
+          "carb_fat_protein_ratio": "60% / 25% / 15%"
+        }
+      ],
+      "macronutrient_needs": {
+        "endurance_sports": {
+          "carbohydrates": "8-12g/kg/day",
+          "protein": "1.6-1.8g/kg/day",
+          "fat": "25-30% of total calories"
+        },
+        "strength_sports": {
+          "carbohydrates": "4-7g/kg/day",
+          "protein": "1.6-2.2g/kg/day",
+          "fat": "25-30% of total calories"
+        },
+        "team_sports": {
+          "carbohydrates": "6-8g/kg/day",
+          "protein": "1.8-2.2g/kg/day",
+          "fat": "20-25% of total calories"
+        }
+      },
+      "nutrient_timing": {
+        "pre_exercise_2_4hrs": {
+          "carbohydrates": "4-7g/kg",
+          "protein": "0.3g/kg",
+          "fat_fiber": "Low"
+        },
+        "pre_exercise_30_60min": {
+          "carbohydrates": "1-2g/kg",
+          "notes": "Easily digestible"
+        },
+        "during_exercise_60min_plus": {
+          "carbohydrates": "30-60g/hr",
+          "electrolytes": "Essential"
+        },
+        "post_exercise_0_2hrs": {
+          "carbohydrates": "1.2g/kg",
+          "protein": "0.3g/kg",
+          "ratio": "3:1 carb:protein"
+        },
+        "post_exercise_2_4hrs": {
+          "notes": "Balanced meal with 20-30g protein"
+        }
+      }
+    },
+    "sport_specific_recommendations": [
+      {
+        "sport": "Football (Soccer)",
+        "energy_demands": "90 min intermittent high-intensity running, sprints, jumps. Average 1,200-1,500 kcal/game",
+        "macronutrient_needs": {
+          "carbohydrates": "7-10g/kg/day",
+          "protein": "1.6-2.2g/kg/day",
+          "fat": "20-25% of total calories"
+        },
+        "hydration_strategy": {
+          "pre_game": ["500ml 2hrs before", "250ml 15min before"],
+          "during": ["150-350ml every 15min (6-8% carb solution)"],
+          "post": ["150% of fluid lost (weigh pre/post)"]
+        },
+        "supplements_enhancers": [
+          {
+            "supplement": "Creatine Monohydrate",
+            "dose": "5g/day",
+            "benefits": "Enhances sprint performance, repeat sprint ability"
+          },
+          {
+            "supplement": "Beta-Alanine",
+            "dose": "4-6g/day",
+            "benefits": "Delays fatigue, buffers lactic acid"
+          },
+          {
+            "supplement": "Sodium Bicarbonate",
+            "dose": "0.3g/kg 60-90min pre-game",
+            "benefits": "Buffering capacity"
+          },
+          {
+            "supplement": "Citrulline Malate",
+            "dose": "8g/day",
+            "benefits": "Improves oxygen uptake, reduces fatigue"
+          }
+        ],
+        "sample_diet_plan": [
+          {
+            "meal": "Breakfast (3 hrs pre-training)",
+            "components": "Oatmeal (100g dry) + Whey protein (30g) + Banana (1) + Honey (1 tbsp)",
+            "additional": "Whole grain toast (2 slices) + Almond butter (2 tbsp)"
+          },
+          {
+            "meal": "Pre-Training (60 min before)",
+            "components": "Sports drink (500ml) + Rice cakes (2) + Jam (1 tbsp)"
+          },
+          {
+            "meal": "During Training (90 min)",
+            "components": "Electrolyte drink (750ml) + Energy gel (1 at 45 min)"
+          },
+          {
+            "meal": "Post-Training (within 30 min)",
+            "components": "Recovery shake: Whey protein (40g) + Maltodextrin (60g) + Berries (1 cup)"
+          },
+          {
+            "meal": "Dinner",
+            "components": "Grilled salmon (200g) + Sweet potato (300g) + Broccoli (2 cups)",
+            "additional": "Quinoa (1 cup cooked) + Olive oil (1 tbsp) + Lemon"
+          },
+          {
+            "meal": "Evening Snack",
+            "components": "Greek yogurt (200g) + Mixed berries (1 cup) + Almonds (20g)"
+          }
+        ]
+      },
+      {
+        "sport": "Basketball",
+        "energy_demands": "Frequent jumps, sprints, direction changes. High-intensity intervals with short recovery",
+        "macronutrient_needs": {
+          "carbohydrates": "6-8g/kg/day",
+          "protein": "1.8-2.4g/kg/day",
+          "fat": "20-25% of total calories"
+        },
+        "hydration_strategy": {
+          "pre_game": ["500ml 2hrs before", "250ml with electrolytes 15min before"],
+          "during": ["200-300ml every timeout (6-8% carb + electrolytes)"],
+          "post": ["1.5L per kg weight lost"]
+        },
+        "supplements_enhancers": [
+          {
+            "supplement": "Creatine",
+            "dose": "5g/day",
+            "benefits": "Vertical jump power, repeat sprints"
+          },
+          {
+            "supplement": "HMB (β-Hydroxy β-Methylbutyrate)",
+            "dose": "3g/day",
+            "benefits": "Reduces muscle breakdown"
+          },
+          {
+            "supplement": "Taurine",
+            "dose": "2-3g/day",
+            "benefits": "Focus, reaction time"
+          },
+          {
+            "supplement": "Electrolyte Tabs",
+            "dose": "1-2 tabs/L water",
+            "benefits": "Sodium, potassium, magnesium"
+          }
+        ],
+        "sample_diet_plan": [
+          {
+            "meal": "Breakfast",
+            "components": "Scrambled eggs (4) + Whole grain toast (3 slices) + Avocado (1/2)",
+            "additional": "Fruit smoothie: Berries (1.5 cups) + Greek yogurt (200g) + Honey (1 tbsp)"
+          },
+          {
+            "meal": "Pre-Game (2 hrs before)",
+            "components": "Chicken breast (150g) + Brown rice (1.5 cups) + Steamed vegetables",
+            "additional": "Banana (1) + Almond butter (1 tbsp)"
+          },
+          {
+            "meal": "During Game",
+            "components": "Electrolyte drink (500ml) per quarter"
+          },
+          {
+            "meal": "Post-Game (within 30 min)",
+            "components": "Recovery shake: Whey protein (40g) + Dextrose (50g) + Creatine (5g)"
+          },
+          {
+            "meal": "Dinner",
+            "components": "Lean beef (200g) + Roasted potatoes (300g) + Asparagus (2 cups)",
+            "additional": "Olive oil (1 tbsp) + Garlic + Herbs"
+          },
+          {
+            "meal": "Evening Snack",
+            "components": "Cottage cheese (250g) + Pineapple (1 cup) + Chia seeds (1 tbsp)"
+          }
+        ]
+      },
+      {
+        "sport": "Swimming",
+        "energy_demands": "Full-body resistance training in water. High energy expenditure (700-900 kcal/hr)",
+        "macronutrient_needs": {
+          "carbohydrates": "8-10g/kg/day",
+          "protein": "1.6-2.0g/kg/day",
+          "fat": "25-30% of total calories"
+        },
+        "hydration_strategy": {
+          "pre_training": ["500ml 2hrs before", "250ml 15min before"],
+          "during": ["Sip water every 15min (pool environment masks thirst)"],
+          "post": ["1L per kg weight lost + electrolytes"]
+        },
+        "supplements_enhancers": [
+          {
+            "supplement": "Beta-Alanine",
+            "dose": "4-6g/day",
+            "benefits": "Delays shoulder fatigue, buffers acid"
+          },
+          {
+            "supplement": "Collagen",
+            "dose": "15g/day",
+            "benefits": "Shoulder and joint integrity"
+          },
+          {
+            "supplement": "Omega-3 (EPA/DHA)",
+            "dose": "2-3g/day",
+            "benefits": "Reduces inflammation, joint mobility"
+          },
+          {
+            "supplement": "Vitamin D",
+            "dose": "2000-4000 IU/day",
+            "benefits": "Bone health, immune function"
+          }
+        ],
+        "sample_diet_plan": [
+          {
+            "meal": "Breakfast",
+            "components": "Oatmeal (120g dry) + Whey protein (30g) + Flaxseeds (2 tbsp)",
+            "additional": "Mixed berries (1.5 cups) + Almond milk (300ml)"
+          },
+          {
+            "meal": "Pre-Training (2 hrs before)",
+            "components": "Whole grain pasta (150g dry) + Turkey breast (150g) + Tomato sauce",
+            "additional": "Side salad: Spinach (2 cups) + Olive oil (1 tbsp)"
+          },
+          {
+            "meal": "During Training (2 hrs)",
+            "components": "Electrolyte drink (750ml) + Energy chews (2 at 60 min)"
+          },
+          {
+            "meal": "Post-Training (within 30 min)",
+            "components": "Recovery shake: Whey protein (35g) + Maltodextrin (50g) + Collagen (10g)"
+          },
+          {
+            "meal": "Dinner",
+            "components": "Baked salmon (200g) + Sweet potato (250g) + Roasted Brussels sprouts (2 cups)",
+            "additional": "Quinoa (1 cup) + Tahini dressing (1 tbsp)"
+          },
+          {
+            "meal": "Evening Snack",
+            "components": "Greek yogurt (200g) + Kiwi (2) + Walnuts (15g)"
+          }
+        ]
+      },
+      {
+        "sport": "Running (Distance)",
+        "energy_demands": "Prolonged aerobic activity. Glycogen depletion, muscle damage",
+        "macronutrient_needs": {
+          "carbohydrates": "8-12g/kg/day",
+          "protein": "1.6-1.8g/kg/day",
+          "fat": "25-30% of total calories"
+        },
+        "hydration_strategy": {
+          "pre_run": ["500ml 2hrs before", "250ml 15min before"],
+          "during": ["150-350ml every 20min (6-8% carb + electrolytes)"],
+          "post": ["1.5L per kg lost + sodium (prevents hyponatremia)"]
+        },
+        "supplements_enhancers": [
+          {
+            "supplement": "Caffeine",
+            "dose": "3-6mg/kg 60min pre-run",
+            "benefits": "Endurance, fat oxidation"
+          },
+          {
+            "supplement": "Beta-Alanine",
+            "dose": "4-6g/day",
+            "benefits": "Delays fatigue in longer events"
+          },
+          {
+            "supplement": "Nitrates (Beetroot Juice)",
+            "dose": "300-600mg pre-run",
+            "benefits": "Improves efficiency"
+          },
+          {
+            "supplement": "BCAAs",
+            "dose": "5-10g during long runs (>90min)",
+            "benefits": "Reduces muscle breakdown"
+          }
+        ],
+        "sample_diet_plan": [
+          {
+            "meal": "Breakfast",
+            "components": "Overnight oats (100g oats) + Chia seeds (2 tbsp) + Almond milk (300ml)",
+            "additional": "Banana (1) + Honey (1 tbsp) + Cinnamon"
+          },
+          {
+            "meal": "Pre-Run (2 hrs before)",
+            "components": "Toast (2 slices) + Peanut butter (2 tbsp) + Banana (1/2)",
+            "additional": "Coffee (1 cup) with honey"
+          },
+          {
+            "meal": "During Run (2 hrs)",
+            "components": "Electrolyte drink (500ml) + Energy gel (1 at 45 min, 1 at 90 min)"
+          },
+          {
+            "meal": "Post-Run (within 30 min)",
+            "components": "Recovery shake: Whey protein (30g) + Maltodextrin (60g) + Salt (1/4 tsp)"
+          },
+          {
+            "meal": "Dinner",
+            "components": "Lentil curry (1.5 cups) + Brown rice (1 cup) + Spinach (2 cups)",
+            "additional": "Whole grain naan (1) + Yogurt sauce (1/4 cup)"
+          },
+          {
+            "meal": "Evening Snack",
+            "components": "Cottage cheese (200g) + Apple (1) + Pumpkin seeds (1 tbsp)"
+          }
+        ]
+      },
+      {
+        "sport": "Cycling",
+        "energy_demands": "Long duration, variable intensity. High energy expenditure (500-1000 kcal/hr)",
+        "macronutrient_needs": {
+          "carbohydrates": "8-12g/kg/day",
+          "protein": "1.6-2.0g/kg/day",
+          "fat": "25-30% of total calories"
+        },
+        "hydration_strategy": {
+          "pre_ride": ["500ml 2hrs before", "250ml 15min before"],
+          "during": ["500-1000ml/hr + 30-60g carbs/hr + electrolytes"],
+          "post": ["1.5L per kg lost + sodium"]
+        },
+        "supplements_enhancers": [
+          {
+            "supplement": "Caffeine",
+            "dose": "3-6mg/kg 60min pre-ride",
+            "benefits": "Endurance, focus"
+          },
+          {
+            "supplement": "Beta-Alanine",
+            "dose": "4-6g/day",
+            "benefits": "Delays fatigue in climbs"
+          },
+          {
+            "supplement": "Nitrates (Beetroot Juice)",
+            "dose": "300-600mg pre-ride",
+            "benefits": "Improves efficiency"
+          },
+          {
+            "supplement": "Electrolyte Tabs",
+            "dose": "1-2 tabs/L water",
+            "benefits": "Sodium, potassium, magnesium"
+          }
+        ],
+        "sample_diet_plan": [
+          {
+            "meal": "Breakfast",
+            "components": "Porridge (100g oats) + Whey protein (30g) + Almond butter (2 tbsp)",
+            "additional": "Mixed berries (1.5 cups) + Honey (1 tbsp)"
+          },
+          {
+            "meal": "Pre-Ride (2 hrs before)",
+            "components": "Whole grain toast (3 slices) + Avocado (1/2) + Eggs (2)",
+            "additional": "Coffee (1 cup) with honey"
+          },
+          {
+            "meal": "During Ride (3 hrs)",
+            "components": "Electrolyte drink (750ml) + Energy gel (1 per hour) + Banana (1 at 90 min)"
+          },
+          {
+            "meal": "Post-Ride (within 30 min)",
+            "components": "Recovery shake: Whey protein (40g) + Maltodextrin (70g) + Salt (1/2 tsp)"
+          },
+          {
+            "meal": "Dinner",
+            "components": "Grilled chicken (200g) + Sweet potato (300g) + Roasted vegetables (2 cups)",
+            "additional": "Quinoa (1 cup) + Olive oil (1 tbsp) + Lemon"
+          },
+          {
+            "meal": "Evening Snack",
+            "components": "Greek yogurt (250g) + Mixed berries (1 cup) + Almonds (20g)"
+          }
+        ]
+      },
+      {
+        "sport": "Weightlifting/Strength Training",
+        "energy_demands": "Short, intense bursts. Focus on muscle protein synthesis",
+        "macronutrient_needs": {
+          "carbohydrates": "4-7g/kg/day",
+          "protein": "1.6-2.2g/kg/day",
+          "fat": "25-30% of total calories"
+        },
+        "hydration_strategy": {
+          "pre_training": ["500ml 2hrs before", "250ml 15min before"],
+          "during": ["Sip water if session >60min"],
+          "post": ["1L per kg lost"]
+        },
+        "supplements_enhancers": [
+          {
+            "supplement": "Creatine Monohydrate",
+            "dose": "5g/day",
+            "benefits": "Strength, power, muscle mass"
+          },
+          {
+            "supplement": "HMB",
+            "dose": "3g/day",
+            "benefits": "Reduces muscle breakdown"
+          },
+          {
+            "supplement": "Beta-Alanine",
+            "dose": "4-6g/day",
+            "benefits": "Delays fatigue in high-rep sets"
+          },
+          {
+            "supplement": "ZMA",
+            "dose": "30mg zinc + 450mg magnesium pre-bed",
+            "benefits": "Testosterone support"
+          }
+        ],
+        "sample_diet_plan": [
+          {
+            "meal": "Breakfast",
+            "components": "Scrambled eggs (6) + Whole grain toast (3 slices) + Avocado (1/2)",
+            "additional": "Greek yogurt (200g) + Berries (1 cup) + Honey (1 tbsp)"
+          },
+          {
+            "meal": "Pre-Training (2 hrs before)",
+            "components": "Chicken breast (200g) + Brown rice (1.5 cups) + Broccoli (2 cups)",
+            "additional": "Sweet potato (1 medium) + Olive oil (1 tbsp)"
+          },
+          {
+            "meal": "Post-Training (within 30 min)",
+            "components": "Recovery shake: Whey protein (50g) + Dextrose (50g) + Creatine (5g)"
+          },
+          {
+            "meal": "Dinner",
+            "components": "Lean beef (250g) + Roasted potatoes (300g) + Asparagus (2 cups)",
+            "additional": "Whole grain pasta (1 cup) + Tomato sauce + Parmesan"
+          },
+          {
+            "meal": "Evening Snack",
+            "components": "Cottage cheese (300g) + Peanut butter (2 tbsp) + Flaxseeds (1 tbsp)"
+          }
+        ]
+      },
+      {
+        "sport": "Tennis",
+        "energy_demands": "Explosive movements, direction changes, endurance. High-intensity intervals",
+        "macronutrient_needs": {
+          "carbohydrates": "6-8g/kg/day",
+          "protein": "1.8-2.2g/kg/day",
+          "fat": "20-25% of total calories"
+        },
+        "hydration_strategy": {
+          "pre_match": ["500ml 2hrs before", "250ml 15min before"],
+          "during": ["150-250ml every changeover (6-8% carb + electrolytes)"],
+          "post": ["1.5L per kg lost"]
+        },
+        "supplements_enhancers": [
+          {
+            "supplement": "Creatine",
+            "dose": "5g/day",
+            "benefits": "Serve speed, power"
+          },
+          {
+            "supplement": "Beta-Alanine",
+            "dose": "4-6g/day",
+            "benefits": "Delays fatigue in long rallies"
+          },
+          {
+            "supplement": "Collagen",
+            "dose": "15g/day",
+            "benefits": "Elbow, shoulder, knee integrity"
+          },
+          {
+            "supplement": "Electrolyte Tabs",
+            "dose": "1-2 tabs/L water",
+            "benefits": "Sodium, potassium, magnesium"
+          }
+        ],
+        "sample_diet_plan": [
+          {
+            "meal": "Breakfast",
+            "components": "Oatmeal (100g dry) + Whey protein (30g) + Berries (1.5 cups)",
+            "additional": "Whole grain toast (2 slices) + Almond butter (1 tbsp)"
+          },
+          {
+            "meal": "Pre-Match (2 hrs before)",
+            "components": "Grilled chicken (150g) + Quinoa (1 cup) + Roasted vegetables (2 cups)",
+            "additional": "Banana (1) + Honey (1 tbsp)"
+          },
+          {
+            "meal": "During Match",
+            "components": "Electrolyte drink (500ml) per set + Energy gel (1 at 2nd set)"
+          },
+          {
+            "meal": "Post-Match (within 30 min)",
+            "components": "Recovery shake: Whey protein (35g) + Maltodextrin (50g) + Collagen (10g)"
+          },
+          {
+            "meal": "Dinner",
+            "components": "Salmon (200g) + Sweet potato (250g) + Broccoli (2 cups)",
+            "additional": "Brown rice (1 cup) + Olive oil (1 tbsp) + Lemon"
+          },
+          {
+            "meal": "Evening Snack",
+            "components": "Greek yogurt (200g) + Pineapple (1 cup) + Chia seeds (1 tbsp)"
+          }
+        ]
+      }
+    ],
+    "comprehensive_supplement_guide": [
+      {
+        "supplement": "Creatine Monohydrate",
+        "dose": "3-5g/day",
+        "timing": "Daily",
+        "benefits": "↑ Strength, power, muscle mass",
+        "evidence_level": "A"
+      },
+      {
+        "supplement": "Beta-Alanine",
+        "dose": "4-6g/day",
+        "timing": "Daily",
+        "benefits": "Delays fatigue, buffers acid",
+        "evidence_level": "A"
+      },
+      {
+        "supplement": "Caffeine",
+        "dose": "3-6mg/kg",
+        "timing": "60min pre-exercise",
+        "benefits": "↑ Endurance, focus, fat oxidation",
+        "evidence_level": "A"
+      },
+      {
+        "supplement": "Nitrates (Beetroot)",
+        "dose": "300-600mg",
+        "timing": "2-3hrs pre-exercise",
+        "benefits": "↑ Efficiency, O2 utilization",
+        "evidence_level": "A"
+      },
+      {
+        "supplement": "BCAAs",
+        "dose": "5-10g",
+        "timing": "During exercise (>90min)",
+        "benefits": "↓ Muscle breakdown, fatigue",
+        "evidence_level": "B"
+      },
+      {
+        "supplement": "HMB",
+        "dose": "3g/day",
+        "timing": "Daily",
+        "benefits": "↓ Muscle breakdown, ↑ recovery",
+        "evidence_level": "B"
+      },
+      {
+        "supplement": "Collagen",
+        "dose": "15g/day",
+        "timing": "Daily",
+        "benefits": "↑ Joint/tendon health",
+        "evidence_level": "B"
+      },
+      {
+        "supplement": "Omega-3 (EPA/DHA)",
+        "dose": "2-3g/day",
+        "timing": "With meals",
+        "benefits": "↓ Inflammation, joint health",
+        "evidence_level": "A"
+      },
+      {
+        "supplement": "Vitamin D",
+        "dose": "2000-4000 IU/day",
+        "timing": "With fatty meal",
+        "benefits": "↑ Immune function, bone health",
+        "evidence_level": "A"
+      },
+      {
+        "supplement": "Magnesium",
+        "dose": "200-400mg/day",
+        "timing": "Evening",
+        "benefits": "↓ Cramps, ↑ sleep quality",
+        "evidence_level": "B"
+      },
+      {
+        "supplement": "Zinc",
+        "dose": "15-30mg/day",
+        "timing": "With meal",
+        "benefits": "↑ Immune function, recovery",
+        "evidence_level": "B"
+      },
+      {
+        "supplement": "Electrolyte Tabs",
+        "dose": "1-2 tabs/L water",
+        "timing": "During exercise",
+        "benefits": "Hydration, cramp prevention",
+        "evidence_level": "A"
+      }
+    ],
+    "performance_enhancing_nutrients": [
+      {
+        "nutrient": "Iron",
+        "food_sources": ["Red meat", "Spinach", "Lentils"],
+        "daily_target": "8-18mg",
+        "benefits": "Oxygen transport, energy"
+      },
+      {
+        "nutrient": "Calcium",
+        "food_sources": ["Dairy", "Leafy greens", "Fortified foods"],
+        "daily_target": "1000-1300mg",
+        "benefits": "Bone health, muscle contraction"
+      },
+      {
+        "nutrient": "Potassium",
+        "food_sources": ["Bananas", "Potatoes", "Coconut water"],
+        "daily_target": "3500-4700mg",
+        "benefits": "Fluid balance, nerve function"
+      },
+      {
+        "nutrient": "Sodium",
+        "food_sources": ["Salt", "Sports drinks", "Processed foods"],
+        "daily_target": "2300-5000mg (athletes)",
+        "benefits": "Fluid balance, nerve function"
+      },
+      {
+        "nutrient": "Magnesium",
+        "food_sources": ["Nuts", "Seeds", "Whole grains"],
+        "daily_target": "310-420mg",
+        "benefits": "Muscle function, energy production"
+      },
+      {
+        "nutrient": "Zinc",
+        "food_sources": ["Oysters", "Beef", "Pumpkin seeds"],
+        "daily_target": "8-11mg",
+        "benefits": "Immune function, protein synthesis"
+      },
+      {
+        "nutrient": "Vitamin C",
+        "food_sources": ["Citrus", "Berries", "Peppers"],
+        "daily_target": "75-90mg",
+        "benefits": "Collagen synthesis, immune function"
+      },
+      {
+        "nutrient": "Vitamin E",
+        "food_sources": ["Nuts", "Seeds", "Vegetable oils"],
+        "daily_target": "15mg",
+        "benefits": "Antioxidant, cell protection"
+      },
+      {
+        "nutrient": "B Vitamins",
+        "food_sources": ["Whole grains", "Meat", "Legumes"],
+        "daily_target": "Varies",
+        "benefits": "Energy metabolism, red blood cells"
+      }
+    ],
+    "general_tips": {
+      "nutrition_optimization": [
+        "Periodize Nutrition: Match intake to training phases (build vs. competition)",
+        "Food First: Get nutrients from whole foods before supplements",
+        "Hydration is Key: Monitor urine color (pale yellow = hydrated)",
+        "Recovery Window: Consume protein + carbs within 30-60min post-exercise",
+        "Individualize: Adjust based on sport, position, body composition, goals"
+      ],
+      "performance_tips": [
+        "Practice Race Day Nutrition: Never try anything new on competition day",
+        "Monitor Body Composition: Use DEXA/BIA, not just scale weight",
+        "Sleep for Recovery: 7-9 hours/night (critical for muscle repair)",
+        "Manage Stress: High cortisol = poor recovery",
+        "Periodize Training: Include rest weeks to prevent overtraining"
+      ],
+      "supplement_safety": [
+        "Third-Party Tested: Choose NSF/Informed Sport certified products",
+        "Avoid Banned Substances: Check with WADA/USADA lists",
+        "More Isn't Better: Follow evidence-based doses",
+        "Cycle When Appropriate: e.g., 8 weeks on creatine, 4 weeks off",
+        "Consult Professionals: Sports dietitian/nutritionist guidance"
+      ],
+      "special_considerations": [
+        "Vegetarian Athletes: Focus on plant-based protein (tofu, tempeh, legumes), supplement B12, iron, zinc",
+        "Teen Athletes: Higher protein needs (1.5-2.0g/kg), adequate calories for growth",
+        "Master Athletes: More protein (1.6-2.0g/kg), vitamin D, calcium",
+        "Female Athletes: Iron monitoring, calcium/vitamin D, adjust for menstrual cycle"
+      ]
+    },
+    "evidence_based_references": [
+      {
+        "citation": "Thomas DT, et al. (2016). Position of the Academy of Nutrition and Dietetics, Dietitians of Canada, and the American College of Sports Medicine: Nutrition and Athletic Performance. Journal of the Academy of Nutrition and Dietetics.",
+        "link": "https://doi.org/10.1016/j.jand.2015.12.006"
+      },
+      {
+        "citation": "Jäger R, et al. (2017). International Society of Sports Nutrition Position Stand: Creatine Supplementation and Exercise. Journal of the International Society of Sports Nutrition.",
+        "link": "https://doi.org/10.1186/s12970-017-0173-z"
+      },
+      {
+        "citation": "Stellingwerff T, et al. (2019). Nutrition and Athletic Performance: A Consensus Statement. Medicine & Science in Sports & Exercise.",
+        "link": "https://doi.org/10.1249/MSS.0000000000002110"
+      },
+      {
+        "citation": "Kerksick CM, et al. (2018). International Society of Sports Nutrition Position Stand: Nutrient Timing. Journal of the International Society of Sports Nutrition.",
+        "link": "https://doi.org/10.1186/s12970-018-0240-y"
+      },
+      {
+        "citation": "Peeling P, et al. (2019). Hydration and Athletic Performance. Sports Medicine.",
+        "link": "https://doi.org/10.1007/s40279-019-01125-7"
+      },
+      {
+        "citation": "Close GL, et al. (2016). Beta-Alanine Supplementation for High-Intensity Exercise. Amino Acids.",
+        "link": "https://doi.org/10.1007/s00726-016-2314-6"
+      },
+      {
+        "citation": "Lundberg TR, et al. (2020). Creatine Supplementation in Sports and Exercise. Frontiers in Nutrition.",
+        "link": "https://doi.org/10.3389/fnut.2020.00039"
+      },
+      {
+        "citation": "Maughan RJ, et al. (2021). Hydration and Physical Activity. Nutrition Reviews.",
+        "link": "https://doi.org/10.1093/nutrit/nuab084"
+      },
+      {
+        "citation": "Potgieter M. (2013). Sport Nutrition: A Review of the Latest Guidelines for Exercise and Sport. South African Journal of Clinical Nutrition.",
+        "link": "https://doi.org/10.1080/16070658.2013.839946"
+      },
+      {
+        "citation": "Rodriguez NR, et al. (2009). American College of Sports Medicine Position Stand. Nutrition and Athletic Performance. Medicine & Science in Sports & Exercise.",
+        "link": "https://doi.org/10.1249/MSS.0b013e31819cb025"
+      }
+    ]
+  }
+}
+```
+
+{
+  "sports_nutrition_api": {
+    "metadata": {
+      "version": "1.0",
+      "last_updated": "2023-11-01",
+      "disclaimer": "Consult a sports nutritionist before implementing any new diet or supplement regimen"
+    },
+    "sports": [
+      {
+        "id": 1,
+        "name": "Football (Soccer)",
+        "description": "High-intensity intermittent sport requiring endurance, speed, and agility",
+        "nutritional_needs": {
+          "calories": "2,500-3,500 kcal/day",
+          "macronutrients": {
+            "carbohydrates": "55-65%",
+            "protein": "15-20%",
+            "fat": "20-25%"
+          },
+          "key_nutrients": ["Iron", "Calcium", "Vitamin D", "Electrolytes", "B vitamins"]
+        },
+        "diet_plan_types": [
+          {
+            "name": "Match Day Nutrition",
+            "description": "Optimizing energy and recovery for game performance",
+            "pre_match": {
+              "timing": "3-4 hours before",
+              "meal": "High-carb, moderate protein, low-fat meal (e.g., pasta with chicken breast)",
+              "snack": "Banana with honey 30 minutes pre-game"
+            },
+            "during_match": {
+              "hydration": "500ml sports drink every 15-20 minutes",
+              "fuel": "30-60g carbs/hour (gels, chews, or dried fruit)"
+            },
+            "post_match": {
+              "timing": "Within 30 minutes",
+              "meal": "3:1 carb-to-protein ratio (e.g., chocolate milk, turkey sandwich)",
+              "recovery": "Antioxidant-rich fruits (berries, cherries)"
+            }
+          },
+          {
+            "name": "Training Phase Nutrition",
+            "description": "Supporting intense training and muscle development",
+            "focus": "Higher protein intake (1.6-2.0g/kg bodyweight)",
+            "meal_structure": "4-6 meals daily with protein distribution",
+            "carb_timing": "Around training sessions (1-1.2g/kg bodyweight pre-training)"
+          }
+        ],
+        "supplements": [
+          {
+            "name": "Creatine Monohydrate",
+            "dose": "3-5g daily",
+            "purpose": "Improves sprint performance and muscle recovery",
+            "enhancers": "Take with carbohydrates for better absorption",
+            "timing": "Post-workout"
+          },
+          {
+            "name": "Beta-Alanine",
+            "dose": "4-6g daily",
+            "purpose": "Reduces muscle fatigue during high-intensity efforts",
+            "enhancers": "Split doses to minimize tingling sensation",
+            "timing": "With meals"
+          },
+          {
+            "name": "Electrolyte Tablets",
+            "dose": "1-2 tablets with 500ml water during training",
+            "purpose": "Replenishes sodium and potassium lost in sweat",
+            "enhancers": "Add to carbohydrate drinks during long sessions",
+            "timing": "During exercise >60 minutes"
+          }
+        ],
+        "tips": [
+          "Practice carb-loading 48 hours before important matches",
+          "Hydrate with electrolyte drinks during hot weather training",
+          "Include nitrate-rich foods (beetroot, spinach) for improved endurance",
+          "Focus on complex carbs for sustained energy release",
+          "Prioritize sleep (8-10 hours) for optimal recovery"
+        ],
+        "skills": [
+          "Endurance running",
+          "Sprint acceleration",
+          "Ball control and dribbling",
+          "Agility and directional changes",
+          "Tactical awareness",
+          "Strength in challenges"
+        ],
+        "links": {
+          "information": "https://www.fifa.com/about-fifa/football-development/",
+          "images": "https://www.gettyimages.com/photos/soccer-nutrition",
+          "training_resources": "https://www.uefa.com/insideuefa/football-development/"
+        }
+      },
+      {
+        "id": 2,
+        "name": "Basketball",
+        "description": "Explosive sport requiring vertical power, agility, and endurance",
+        "nutritional_needs": {
+          "calories": "2,800-3,800 kcal/day",
+          "macronutrients": {
+            "carbohydrates": "50-60%",
+            "protein": "20-25%",
+            "fat": "20-25%"
+          },
+          "key_nutrients": ["Protein", "Magnesium", "Potassium", "Vitamin D", "BCAAs"]
+        },
+        "diet_plan_types": [
+          {
+            "name": "Game Performance Plan",
+            "description": "Fueling for explosive energy and quick recovery",
+            "pre_game": {
+              "timing": "3-4 hours before",
+              "meal": "Complex carbs with lean protein (e.g., brown rice with grilled chicken)",
+              "snack": "Greek yogurt with berries 60 minutes pre-game"
+            },
+            "during_game": {
+              "hydration": "Water + electrolyte drink during timeouts",
+              "fuel": "Quick-digesting carbs during halftime (sports drink, banana)"
+            },
+            "post_game": {
+              "timing": "Within 30 minutes",
+              "meal": "Protein shake with fruit, or chocolate milk",
+              "recovery": "Tart cherry juice for inflammation reduction"
+            }
+          },
+          {
+            "name": "Strength Development Phase",
+            "description": "Supporting muscle growth and power development",
+            "focus": "Higher protein intake (1.8-2.2g/kg bodyweight)",
+            "carb_timing": "Around strength and conditioning sessions",
+            "key_foods": "Lean meats, eggs, quinoa, sweet potatoes"
+          }
+        ],
+        "supplements": [
+          {
+            "name": "Whey Protein",
+            "dose": "20-30g post-workout",
+            "purpose": "Supports muscle repair and growth",
+            "enhancers": "Combine with fast-digesting carbs",
+            "timing": "Within 30 minutes post-training"
+          },
+          {
+            "name": "Caffeine",
+            "dose": "3-6mg/kg bodyweight",
+            "purpose": "Enhances alertness and explosive power",
+            "enhancers": "Take with water 45 minutes pre-game",
+            "timing": "Pre-game or pre-training"
+          },
+          {
+            "name": "Tart Cherry Extract",
+            "dose": "480mg daily",
+            "purpose": "Reduces muscle soreness and inflammation",
+            "enhancers": "Take with evening meal",
+            "timing": "Post-workout or before bed"
+          }
+        ],
+        "tips": [
+          "Focus on vertical power development through plyometrics",
+          "Hydrate with 500ml water 2 hours before games",
+          "Include collagen-rich foods for joint health",
+          "Practice intermittent fasting for body composition management",
+          "Use contrast baths (hot/cold) for recovery"
+        ],
+        "skills": [
+          "Vertical jumping",
+          "Explosive acceleration",
+          "Ball handling and dribbling",
+          "Shooting accuracy",
+          "Defensive footwork",
+          "Rebounding technique"
+        ],
+        "links": {
+          "information": "https://www.nba.com/nba-careers/basketball-training",
+          "images": "https://www.gettyimages.com/photos/basketball-nutrition",
+          "training_resources": "https://www.usab.com/youth/development"
+        }
+      },
+      {
+        "id": 3,
+        "name": "Swimming",
+        "description": "Endurance sport requiring full-body strength and technique efficiency",
+        "nutritional_needs": {
+          "calories": "3,000-5,000 kcal/day (varies by distance)",
+          "macronutrients": {
+            "carbohydrates": "60-70%",
+            "protein": "15-20%",
+            "fat": "15-20%"
+          },
+          "key_nutrients": ["Carbohydrates", "Iron", "Vitamin D", "Omega-3s", "Electrolytes"]
+        },
+        "diet_plan_types": [
+          {
+            "name": "Competition Taper Plan",
+            "description": "Optimizing glycogen stores while reducing training load",
+            "pre_race": {
+              "timing": "3 days before race",
+              "strategy": "Increase carbs to 70-75% of calories",
+              "focus": "Easily digestible carbs (rice, potatoes, bananas)"
+            },
+            "race_day": {
+              "timing": "2-3 hours before",
+              "meal": "High-carb, low-fiber, low-fat (e.g., oatmeal with banana)",
+              "during_race": "Carb drink/gel every 30-45 minutes for events >60min"
+            },
+            "post_race": {
+              "timing": "Within 30 minutes",
+              "meal": "Carb-protein recovery drink",
+              "focus": "Rehydration and glycogen replenishment"
+            }
+          },
+          {
+            "name": "High-Volume Training Plan",
+            "description": "Supporting intense training and recovery",
+            "focus": "High carb intake (8-10g/kg bodyweight)",
+            "hydration": "3-4L water daily + electrolytes",
+            "protein_timing": "Even distribution across meals (20-30g per meal)"
+          }
+        ],
+        "supplements": [
+          {
+            "name": "Beta-Alanine",
+            "dose": "4-6g daily",
+            "purpose": "Buffers lactic acid for sustained high-intensity efforts",
+            "enhancers": "Take with meals to reduce tingling",
+            "timing": "Split into 2 doses"
+          },
+          {
+            "name": "Sodium Bicarbonate",
+            "dose": "0.3g/kg bodyweight",
+            "purpose": "Improves buffering capacity for sprint events",
+            "enhancers": "Take with carbohydrate drink",
+            "timing": "60-90 minutes pre-race"
+          },
+          {
+            "name": "Vitamin D",
+            "dose": "2000-4000 IU daily",
+            "purpose": "Supports immune function and bone health",
+            "enhancers": "Take with fatty meal for absorption",
+            "timing": "With breakfast"
+          }
+        ],
+        "tips": [
+          "Practice open-water swimming techniques for triathlons",
+          "Use compression gear for recovery between sessions",
+          "Focus on bilateral breathing for balanced technique",
+          "Include dryland strength training 2-3x weekly",
+          "Monitor hydration with urine color (aim for pale yellow)"
+        ],
+        "skills": [
+          "Stroke efficiency (freestyle, backstroke, breaststroke, butterfly)",
+          "Diving technique",
+          "Turns and underwater work",
+          "Pacing strategies",
+          "Breathing control",
+          "Race strategy and tactics"
+        ],
+        "links": {
+          "information": "https://www.usaswimming.org/",
+          "images": "https://www.gettyimages.com/photos/swimming-technique",
+          "training_resources": "https://www.fina.org/"
+        }
+      },
+      {
+        "id": 4,
+        "name": "Running (Marathon/Distance)",
+        "description": "Endurance sport requiring cardiovascular efficiency and fatigue resistance",
+        "nutritional_needs": {
+          "calories": "2,500-4,000 kcal/day",
+          "macronutrients": {
+            "carbohydrates": "60-70%",
+            "protein": "15-20%",
+            "fat": "15-20%"
+          },
+          "key_nutrients": ["Carbohydrates", "Iron", "Electrolytes", "B vitamins", "Antioxidants"]
+        },
+        "diet_plan_types": [
+          {
+            "name": "Marathon Fueling Plan",
+            "description": "Strategic carbohydrate loading and race fueling",
+            "carb_loading": {
+              "timing": "3 days before race",
+              "method": "10-12g carbs/kg bodyweight daily",
+              "foods": "Pasta, rice, potatoes, bread, fruits"
+            },
+            "race_day": {
+              "pre_race": "High-carb, low-fiber breakfast 3 hours before",
+              "during_race": "30-60g carbs + 500ml water hourly",
+              "late_race": "Caffeine gel (if tolerated) at mile 18-20"
+            },
+            "post_race": {
+              "timing": "Within 30 minutes",
+              "meal": "3:1 carb-to-protein ratio",
+              "rehydration": "150% of fluid lost during race"
+            }
+          },
+          {
+            "name": "Training Periodization Nutrition",
+            "description": "Adjusting nutrition to training phases",
+            "base_phase": "Higher healthy fats for endurance adaptation",
+            "build_phase": "Increased carbs for intensity",
+            "peak_phase": "Carb manipulation for race specificity",
+            "recovery_phase": "Higher protein and antioxidants"
+          }
+        ],
+        "supplements": [
+          {
+            "name": "Caffeine",
+            "dose": "3-6mg/kg bodyweight",
+            "purpose": "Enhances endurance and reduces perceived effort",
+            "enhancers": "Take with carbohydrate gel",
+            "timing": "60 minutes before race or late in race"
+          },
+          {
+            "name": "Nitrates (Beetroot Juice)",
+            "dose": "500ml daily",
+            "purpose": "Improves running economy and time to exhaustion",
+            "enhancers": "Take consistently for 5-7 days before race",
+            "timing": "2-3 hours before training or race"
+          },
+          {
+            "name": "BCAAs",
+            "dose": "5-10g during long runs",
+            "purpose": "Reduces muscle breakdown during endurance efforts",
+            "enhancers": "Combine with carbohydrate drink",
+            "timing": "During runs >90 minutes"
+          }
+        ],
+        "tips": [
+          "Practice race-day nutrition during long training runs",
+          "Train your gut to handle fuel during running",
+          "Include downhill running in training for quad strength",
+          "Use foam rolling and compression for recovery",
+          "Focus on cadence (180 steps/minute) for efficiency"
+        ],
+        "skills": [
+          "Pacing strategy",
+          "Hill running technique",
+          "Downhill running form",
+          "Breathing patterns",
+          "Mental toughness",
+          "Race tactics and positioning"
+        ],
+        "links": {
+          "information": "https://www.runnersworld.com/",
+          "images": "https://www.gettyimages.com/photos/marathon-running",
+          "training_resources": "https://www.runningusa.org/"
+        }
+      },
+      {
+        "id": 5,
+        "name": "Cycling",
+        "description": "Endurance sport requiring power output and sustained effort",
+        "nutritional_needs": {
+          "calories": "3,000-6,000 kcal/day",
+          "macronutrients": {
+            "carbohydrates": "65-75%",
+            "protein": "15-20%",
+            "fat": "15-20%"
+          },
+          "key_nutrients": ["Carbohydrates", "Electrolytes", "Antioxidants", "Protein", "Iron"]
+        },
+        "diet_plan_types": [
+          {
+            "name": "Grand Tour Fueling",
+            "description": "Multi-day event nutrition strategy",
+            "during_race": {
+              "carbohydrates": "60-90g/hour from multiple sources",
+              "hydration": "750ml-1L/hour with electrolytes",
+              "protein": "15-20g during long stages"
+            },
+            "post_stage": {
+              "timing": "Within 30 minutes",
+              "meal": "Recovery drink with 3:1 carb-to-protein ratio",
+              "focus": "Replenish glycogen and repair muscle"
+            },
+            "daily_strategy": {
+              "calories": "Match energy expenditure (use power meter data)",
+              "timing": "Eat every 15-20 minutes during rides",
+              "hydration": "Pre-hydrate with 500ml before starting"
+            }
+          },
+          {
+            "name": "High-Intensity Training Plan",
+            "description": "Nutrition for interval and threshold work",
+            "pre_ride": "High-carb meal 2-3 hours before",
+            "during_ride": "30g carbs every 30 minutes",
+            "post_ride": "20-30g protein within 30 minutes"
+          }
+        ],
+        "supplements": [
+          {
+            "name": "Caffeine",
+            "dose": "3-6mg/kg bodyweight",
+            "purpose": "Enhances power output and reduces fatigue",
+            "enhancers": "Take with carbohydrate gel",
+            "timing": "60 minutes before key efforts"
+          },
+          {
+            "name": "Sodium Bicarbonate",
+            "dose": "0.3g/kg bodyweight",
+            "purpose": "Improves high-intensity performance",
+            "enhancers": "Take with small carbohydrate meal",
+            "timing": "90 minutes before high-intensity efforts"
+          },
+          {
+            "name": "Electrolyte Tablets",
+            "dose": "1 tablet per 500ml water",
+            "purpose": "Prevents cramps and maintains performance",
+            "enhancers": "Use in all bottles during hot weather",
+            "timing": "Throughout rides >60 minutes"
+          }
+        ],
+        "tips": [
+          "Practice eating and drinking during training rides",
+          "Use a power meter to match calorie intake to output",
+          "Include indoor training sessions for precise nutrition practice",
+          "Focus on cadence (85-95 RPM) for efficiency",
+          "Use compression gear for recovery between stages"
+        ],
+        "skills": [
+          "Climbing technique (seated vs standing)",
+          "Descending skills",
+          "Drafting and pack riding",
+          "Time trialing position",
+          "Bike handling and cornering",
+          "Pacing strategy"
+        ],
+        "links": {
+          "information": "https://www.uci.org/",
+          "images": "https://www.gettyimages.com/photos/cycling-nutrition",
+          "training_resources": "https://www.trainingpeaks.com/cycling"
+        }
+      },
+      {
+        "id": 6,
+        "name": "Tennis",
+        "description": "Explosive sport requiring quick movements and mental focus",
+        "nutritional_needs": {
+          "calories": "2,500-3,500 kcal/day",
+          "macronutrients": {
+            "carbohydrates": "50-60%",
+            "protein": "20-25%",
+            "fat": "20-25%"
+          },
+          "key_nutrients": ["Protein", "Electrolytes", "B vitamins", "Antioxidants", "Magnesium"]
+        },
+        "diet_plan_types": [
+          {
+            "name": "Match Day Strategy",
+            "description": "Fueling for explosive power and mental focus",
+            "pre_match": {
+              "timing": "3-4 hours before",
+              "meal": "Complex carbs with lean protein (e.g., salmon with quinoa)",
+              "snack": "Banana with almond butter 60 minutes before"
+            },
+            "during_match": {
+              "hydration": "Water + electrolytes every changeover",
+              "fuel": "Quick-digesting carbs during long matches (banana, dates)"
+            },
+            "post_match": {
+              "timing": "Within 30 minutes",
+              "meal": "Recovery shake with protein and carbs",
+              "focus": "Muscle repair and glycogen replenishment"
+            }
+          },
+          {
+            "name": "Tournament Nutrition",
+            "description": "Multi-match recovery strategy",
+            "between_matches": {
+              "timing": "Within 30 minutes post-match",
+              "focus": "3:1 carb-to-protein ratio",
+              "hydration": "150% of sweat loss"
+            },
+            "evening_recovery": {
+              "focus": "Anti-inflammatory foods (berries, fatty fish)",
+              "protein": "20-30g before bed for overnight recovery"
+            }
+          }
+        ],
+        "supplements": [
+          {
+            "name": "Caffeine",
+            "dose": "3-6mg/kg bodyweight",
+            "purpose": "Enhances reaction time and focus",
+            "enhancers": "Take with small carbohydrate snack",
+            "timing": "60 minutes before match"
+          },
+          {
+            "name": "Creatine",
+            "dose": "3-5g daily",
+            "purpose": "Improves explosive power and sprint recovery",
+            "enhancers": "Take with carbohydrate source",
+            "timing": "Post-workout"
+          },
+          {
+            "name": "Magnesium Glycinate",
+            "dose": "200-400mg daily",
+            "purpose": "Reduces muscle cramps and improves sleep",
+            "enhancers": "Take with evening meal",
+            "timing": "Before bed"
+          }
+        ],
+        "tips": [
+          "Practice match nutrition during training sessions",
+          "Include interval training for explosive power development",
+          "Focus on footwork drills for court coverage",
+          "Use contrast therapy (hot/cold showers) for recovery",
+          "Develop mental toughness through meditation and visualization"
+        ],
+        "skills": [
+          "Serve technique",
+          "Groundstrokes (forehand/backhand)",
+          "Net play and volleys",
+          "Footwork and court coverage",
+          "Mental focus and strategy",
+          "Match play tactics"
+        ],
+        "links": {
+          "information": "https://www.atptour.com/",
+          "images": "https://www.gettyimages.com/photos/tennis-training",
+          "training_resources": "https://www.playerdevelopment.usta.com/"
+        }
+      },
+      {
+        "id": 7,
+        "name": "Weightlifting/Powerlifting",
+        "description": "Strength sport requiring maximal force production and technique",
+        "nutritional_needs": {
+          "calories": "Bodyweight-dependent (surplus for gain, deficit for cut)",
+          "macronutrients": {
+            "carbohydrates": "40-50%",
+            "protein": "30-40%",
+            "fat": "20-30%"
+          },
+          "key_nutrients": ["Protein", "Creatine", "Zinc", "Magnesium", "Vitamin D"]
+        },
+        "diet_plan_types": [
+          {
+            "name": "Strength Building Phase",
+            "description": "Supporting muscle growth and strength gains",
+            "calories": "250-500 kcal surplus",
+            "protein": "2.0-2.5g/kg bodyweight",
+            "carb_timing": "Around training sessions (1.0-1.5g/kg pre/post)",
+            "key_foods": "Lean meats, eggs, dairy, whole grains, starchy vegetables"
+          },
+          {
+            "name": "Competition Prep (Peaking)",
+            "description": "Maximizing performance while making weight",
+            "weight_management": "Gradual deficit (0.5-1kg/week) if needed",
+            "protein": "High intake to preserve muscle (2.5-3.0g/kg)",
+            "carb_loading": "Increase carbs 2-3 days before competition",
+            "sodium_manipulation": "Adjust for fluid balance and muscle fullness"
+          }
+        ],
+        "supplements": [
+          {
+            "name": "Creatine Monohydrate",
+            "dose": "5g daily (or 0.1g/kg bodyweight)",
+            "purpose": "Increases strength, power, and muscle mass",
+            "enhancers": "Take with carbohydrate-rich meal",
+            "timing": "Post-workout"
+          },
+          {
+            "name": "Beta-Alanine",
+            "dose": "4-6g daily",
+            "purpose": "Improves performance in 1-4 minute efforts",
+            "enhancers": "Split doses to minimize tingling",
+            "timing": "With meals"
+          },
+          {
+            "name": "L-Citrulline",
+            "dose": "6-8g pre-workout",
+            "purpose": "Increases blood flow and reduces fatigue",
+            "enhancers": "Combine with malate for better absorption",
+            "timing": "60 minutes before training"
+          }
+        ],
+        "tips": [
+          "Focus on progressive overload in training",
+          "Prioritize sleep (7-9 hours) for recovery",
+          "Use deload weeks every 4-6 weeks to prevent overtraining",
+          "Practice competition lifts regularly",
+          "Film and analyze technique regularly"
+        ],
+        "skills": [
+          "Squat technique",
+          "Deadlift form",
+          "Bench press mechanics",
+          "Overhead press positioning",
+          "Accessory exercise selection",
+          "Competition strategy"
+        ],
+        "links": {
+          "information": "https://www.usapowerlifting.com/",
+          "images": "https://www.gettyimages.com/photos/weightlifting-technique",
+          "training_resources": "https://www.strongfirst.com/"
+        }
+      }
+    ],
+    "general_recommendations": {
+      "hydration": {
+        "general": "2-3L water daily + 500-1000ml per hour of exercise",
+        "electrolytes": "Sodium 500-700mg/L, Potassium 150-200mg/L for sessions >60min",
+        "monitoring": "Urine color (aim for pale yellow), weigh before/after exercise"
+      },
+      "supplement_safety": [
+        "Choose third-party tested supplements (NSF, Informed Sport)",
+        "Avoid proprietary blends with undisclosed ingredients",
+        "Start with minimum effective dose",
+        "Cycle off supplements periodically",
+        "Consult doctor before starting any new supplement"
+      ],
+      "performance_nutrition_principles": [
+        "Individualize nutrition based on sport, position, and goals",
+        "Periodize nutrition to match training cycles",
+        "Practice race/competition nutrition during training",
+        "Prioritize whole foods over supplements",
+        "Time nutrients around training sessions",
+        "Listen to your body and adjust accordingly"
+      ],
+      "recovery_strategies": [
+        "Post-workout nutrition within 30 minutes",
+        "7-9 hours of quality sleep",
+        "Active recovery (light movement on rest days)",
+        "Stress management techniques",
+        "Regular body composition monitoring",
+        "Periodized rest days in training program"
+      ]
+    },
+    "resources": {
+      "general_sports_nutrition": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6803123/",
+      "supplement_safety": "https://www.usada.org/supplement-411/",
+      "hydration_guidelines": "https://www.acsm.org/docs/default-files/ hydration.pdf",
+      "sports_nutrition_certification": "https://www.ciens.org/"
+    }
+  }
+}

@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Offline - Nutrition Platform</title>
+    <link id="bootstrap-css" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <style>
+        body {
+            background: linear-gradient(135deg, var(--primary-green) 0%, var(--secondary-green) 100%);
+            color: white;
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .offline-container {
+            text-align: center;
+            max-width: 500px;
+            padding: 2rem;
+        }
+        .offline-icon {
+            font-size: 4rem;
+            margin-bottom: 2rem;
+            opacity: 0.8;
+        }
+        .offline-title {
+            font-size: 2rem;
+            font-weight: 700;
+            margin-bottom: 1rem;
+        }
+        .offline-message {
+            font-size: 1.1rem;
+            margin-bottom: 2rem;
+            opacity: 0.9;
+        }
+        .retry-btn {
+            background: white;
+            color: var(--primary-green);
+            border: none;
+            padding: 0.75rem 2rem;
+            border-radius: 8px;
+            font-weight: 600;
+            font-size: 1.1rem;
+            transition: all 0.3s ease;
+        }
+        .retry-btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+        }
+        .feature-list {
+            text-align: left;
+            margin: 2rem 0;
+        }
+        .feature-list li {
+            margin: 0.5rem 0;
+            opacity: 0.8;
+        }
+        .feature-list .available {
+            color: #90EE90;
+        }
+        .feature-list .unavailable {
+            color: #FFB6C1;
+        }
+    </style>
+</head>
+<body>
+    <div class="offline-container">
+        <div class="offline-icon">
+            <i class="bi bi-wifi-off"></i>
+        </div>
+        
+        <h1 class="offline-title" data-i18n="offline.title">Limited Mode</h1>
+        
+        <p class="offline-message" data-i18n="offline.message">
+            You are currently offline. Some features are not available.
+        </p>
+        
+        <div class="feature-list">
+            <h5>Available Features:</h5>
+            <ul>
+                <li class="available"><i class="bi bi-check-circle"></i> Browse cached content</li>
+                <li class="available"><i class="bi bi-check-circle"></i> View previous calculations</li>
+                <li class="available"><i class="bi bi-check-circle"></i> Access workout guides</li>
+            </ul>
+            
+            <h5>Requires Internet:</h5>
+            <ul>
+                <li class="unavailable"><i class="bi bi-x-circle"></i> Calculate new diet plans</li>
+                <li class="unavailable"><i class="bi bi-x-circle"></i> Submit forms</li>
+                <li class="unavailable"><i class="bi bi-x-circle"></i> Download PDF reports</li>
+                <li class="unavailable"><i class="bi bi-x-circle"></i> Access subscription features</li>
+            </ul>
+        </div>
+        
+        <button class="retry-btn" onclick="checkConnection()" data-i18n="offline.retry">
+            <i class="bi bi-arrow-clockwise"></i> Retry Connection
+        </button>
+        
+        <div class="mt-3">
+            <small>
+                <a href="/" style="color: white; opacity: 0.8;">
+                    <i class="bi bi-house"></i> Return to Home
+                </a>
+            </small>
+        </div>
+    </div>
+
+    <script src="js/i18n.js"></script>
+    <script>
+        function checkConnection() {
+            if (navigator.onLine) {
+                // Attempt to fetch a small resource to verify actual connectivity
+                fetch('/manifest.json', { 
+                    method: 'HEAD',
+                    cache: 'no-cache'
+                })
+                .then(() => {
+                    window.location.href = '/';
+                })
+                .catch(() => {
+                    // Still offline, show message
+                    showRetryMessage();
+                });
+            } else {
+                showRetryMessage();
+            }
+        }
+        
+        function showRetryMessage() {
+            const btn = document.querySelector('.retry-btn');
+            const originalText = btn.innerHTML;
+            btn.innerHTML = '<i class="bi bi-exclamation-circle"></i> Still Offline';
+            btn.disabled = true;
+            
+            setTimeout(() => {
+                btn.innerHTML = originalText;
+                btn.disabled = false;
+            }, 2000);
+        }
+        
+        // Auto-retry when coming back online
+        window.addEventListener('online', () => {
+            setTimeout(() => {
+                checkConnection();
+            }, 1000);
+        });
+        
+        // Language switcher
+        document.addEventListener('DOMContentLoaded', () => {
+            // Add language switcher
+            const langSwitcher = document.createElement('div');
+            langSwitcher.style.position = 'fixed';
+            langSwitcher.style.top = '20px';
+            langSwitcher.style.right = '20px';
+            langSwitcher.innerHTML = `
+                <button class="btn btn-sm btn-outline-light" onclick="toggleLanguage()">
+                    ${i18n.currentLanguage === 'en' ? 'العربية' : 'English'}
+                </button>
+            `;
+            document.body.appendChild(langSwitcher);
+        });
+        
+        function toggleLanguage() {
+            const newLang = i18n.currentLanguage === 'en' ? 'ar' : 'en';
+            i18n.changeLanguage(newLang);
+            location.reload();
+        }
+    </script>
+</body>
+</html>
