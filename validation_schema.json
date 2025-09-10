@@ -1,0 +1,279 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "type": "object",
+  "title": "Nutrition Platform API Validation Schema",
+  "description": "Validation schema for the AI-powered nutrition and health management platform",
+  "definitions": {
+    "APIResponse": {
+      "type": "object",
+      "properties": {
+        "success": {
+          "type": "boolean",
+          "description": "Indicates if the request was successful"
+        },
+        "data": {
+          "type": "object",
+          "description": "Response data (present when success is true)"
+        },
+        "error": {
+          "type": "string",
+          "description": "Error message (present when success is false)"
+        },
+        "message": {
+          "type": "string",
+          "description": "Additional message or information"
+        }
+      },
+      "required": ["success"]
+    },
+    "HealthResponse": {
+      "type": "object",
+      "properties": {
+        "status": {
+          "type": "string",
+          "enum": ["healthy", "unhealthy"],
+          "description": "Overall health status"
+        },
+        "timestamp": {
+          "type": "string",
+          "format": "date-time",
+          "description": "Health check timestamp"
+        },
+        "services": {
+          "type": "object",
+          "properties": {
+            "database": {
+              "type": "string",
+              "enum": ["healthy", "unhealthy"]
+            },
+            "cache": {
+              "type": "string",
+              "enum": ["healthy", "unhealthy"]
+            },
+            "compression": {
+              "type": "string",
+              "enum": ["healthy", "unhealthy"]
+            }
+          }
+        },
+        "version": {
+          "type": "string",
+          "description": "API version"
+        }
+      },
+      "required": ["status", "timestamp"]
+    },
+    "User": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "string",
+          "description": "Unique user identifier"
+        },
+        "email": {
+          "type": "string",
+          "format": "email",
+          "description": "User email address"
+        },
+        "role": {
+          "type": "string",
+          "enum": ["admin", "user"],
+          "description": "User role"
+        },
+        "created_at": {
+          "type": "string",
+          "format": "date-time"
+        },
+        "updated_at": {
+          "type": "string",
+          "format": "date-time"
+        }
+      },
+      "required": ["id", "email", "role"]
+    },
+    "NutritionPlan": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "string"
+        },
+        "name": {
+          "type": "string"
+        },
+        "description": {
+          "type": "string"
+        },
+        "calories": {
+          "type": "number",
+          "minimum": 0
+        },
+        "macros": {
+          "type": "object",
+          "properties": {
+            "protein": {
+              "type": "number",
+              "minimum": 0,
+              "maximum": 100
+            },
+            "carbs": {
+              "type": "number",
+              "minimum": 0,
+              "maximum": 100
+            },
+            "fat": {
+              "type": "number",
+              "minimum": 0,
+              "maximum": 100
+            }
+          }
+        },
+        "diseases": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      },
+      "required": ["id", "name", "calories"]
+    },
+    "WorkoutPlan": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "string"
+        },
+        "name": {
+          "type": "string"
+        },
+        "description": {
+          "type": "string"
+        },
+        "duration": {
+          "type": "number",
+          "minimum": 0
+        },
+        "difficulty": {
+          "type": "string",
+          "enum": ["beginner", "intermediate", "advanced"]
+        },
+        "exercises": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "name": {
+                "type": "string"
+              },
+              "sets": {
+                "type": "number",
+                "minimum": 1
+              },
+              "reps": {
+                "type": "number",
+                "minimum": 1
+              }
+            }
+          }
+        }
+      },
+      "required": ["id", "name", "duration", "difficulty"]
+    }
+  },
+  "properties": {
+    "health_check": {
+      "$ref": "#/definitions/HealthResponse"
+    },
+    "user_management": {
+      "type": "object",
+      "properties": {
+        "register": {
+          "type": "object",
+          "properties": {
+            "email": {
+              "type": "string",
+              "format": "email"
+            },
+            "password": {
+              "type": "string",
+              "minLength": 8
+            }
+          },
+          "required": ["email", "password"]
+        },
+        "login": {
+          "type": "object",
+          "properties": {
+            "email": {
+              "type": "string",
+              "format": "email"
+            },
+            "password": {
+              "type": "string"
+            }
+          },
+          "required": ["email", "password"]
+        }
+      }
+    },
+    "nutrition_management": {
+      "type": "object",
+      "properties": {
+        "plans": {
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/NutritionPlan"
+          }
+        },
+        "meal_planning": {
+          "type": "object",
+          "properties": {
+            "diet_type": {
+              "type": "string",
+              "enum": ["keto", "paleo", "mediterranean", "vegan", "vegetarian", "balanced"]
+            },
+            "calories": {
+              "type": "number",
+              "minimum": 1000,
+              "maximum": 5000
+            },
+            "diseases": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            }
+          }
+        }
+      }
+    },
+    "workout_management": {
+      "type": "object",
+      "properties": {
+        "plans": {
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/WorkoutPlan"
+          }
+        },
+        "injury_management": {
+          "type": "object",
+          "properties": {
+            "injury_type": {
+              "type": "string"
+            },
+            "severity": {
+              "type": "string",
+              "enum": ["mild", "moderate", "severe"]
+            },
+            "recommendations": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

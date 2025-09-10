@@ -1,0 +1,26 @@
+services:
+  - type: web
+    name: nutrition-platform
+    env: go
+    plan: free
+    buildCommand: go mod download && go build -o nutrition-platform .
+    startCommand: ./nutrition-platform
+    envVars:
+      - key: ENVIRONMENT
+        value: production
+      - key: PORT
+        value: 10000
+      - key: HOST
+        value: 0.0.0.0
+      - key: JWT_SECRET
+        generateValue: true
+      - key: API_KEY_SECRET
+        generateValue: true
+      - key: CORS_ORIGIN
+        value: "*"
+      - key: GIN_MODE
+        value: release
+    healthCheckPath: /health
+    autoDeploy: true
+    branch: main
+    rootDir: .
