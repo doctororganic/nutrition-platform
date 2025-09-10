@@ -1,0 +1,414 @@
+{
+  "condition": {
+    "name_en": "Cancer Nutrition Support",
+    "name_ar": "دعم التغذية لمرضى السرطان",
+    "description_en": "Comprehensive nutritional guidance for cancer patients to support treatment tolerance, immune function, and overall recovery during various stages of cancer care",
+    "description_ar": "إرشادات غذائية شاملة لمرضى السرطان لدعم تحمل العلاج ووظيفة المناعة والشفاء العام أثناء مراحل مختلفة من رعاية السرطان"
+  },
+  "nutritional_recommendations": {
+    "primary_guidelines_en": [
+      "Maintain adequate protein intake to support immune function and healing",
+      "Focus on nutrient-dense foods to combat treatment side effects",
+      "Stay well-hydrated and maintain electrolyte balance",
+      "Adapt diet based on treatment type and side effects",
+      "Prevent malnutrition and unwanted weight loss",
+      "Support gut health during chemotherapy and radiation"
+    ],
+    "primary_guidelines_ar": [
+      "الحفاظ على تناول كافٍ من البروتين لدعم وظيفة المناعة والشفاء",
+      "التركيز على الأطعمة الغنية بالمغذيات لمكافحة آثار العلاج الجانبية",
+      "البقاء مرطباً جيداً والحفاظ على توازن الكهارل",
+      "تكييف النظام الغذائي بناءً على نوع العلاج والآثار الجانبية",
+      "منع سوء التغذية وفقدان الوزن غير المرغوب فيه",
+      "دعم صحة الأمعاء أثناء العلاج الكيميائي والإشعاعي"
+    ],
+    "allowed_foods_en": [
+      "High-quality proteins: lean meats, fish, eggs, legumes",
+      "Antioxidant-rich fruits: berries, citrus, pomegranates",
+      "Cruciferous vegetables: broccoli, cauliflower, Brussels sprouts",
+      "Whole grains: quinoa, brown rice, oats",
+      "Healthy fats: olive oil, avocados, nuts, seeds",
+      "Anti-inflammatory foods: turmeric, ginger, garlic",
+      "Probiotic foods: yogurt, kefir, fermented vegetables",
+      "Hydrating foods: soups, broths, herbal teas"
+    ],
+    "allowed_foods_ar": [
+      "البروتينات عالية الجودة: اللحوم الخالية من الدهن، الأسماك، البيض، البقوليات",
+      "الفواكه الغنية بمضادات الأكسدة: التوت، الحمضيات، الرمان",
+      "الخضراوات الصليبية: البروكلي، القرنبيط، كرنب بروكسل",
+      "الحبوب الكاملة: الكينوا، الأرز البني، الشوفان",
+      "الدهون الصحية: زيت الزيتون، الأفوكادو، المكسرات، البذور",
+      "الأطعمة المضادة للالتهاب: الكركم، الزنجبيل، الثوم",
+      "الأطعمة البروبيوتيكية: اللبن، الكفير، الخضراوات المخمرة",
+      "الأطعمة المرطبة: الشوربات، المرق، الشاي العشبي"
+    ],
+    "foods_to_avoid_en": [
+      "Processed and cured meats high in nitrates",
+      "Excessive alcohol consumption",
+      "High-sugar processed foods and refined carbohydrates",
+      "Raw or undercooked foods during treatment (infection risk)",
+      "Unpasteurized dairy products and juices",
+      "Unwashed raw fruits and vegetables during immunosuppression",
+      "Foods high in saturated and trans fats",
+      "Excessive caffeine and energy drinks"
+    ],
+    "foods_to_avoid_ar": [
+      "اللحوم المعالجة والمعتقة عالية النترات",
+      "الاستهلاك المفرط للكحول",
+      "الأطعمة المعالجة عالية السكر والكربوهيدرات المكررة",
+      "الأطعمة النيئة أو غير المطبوخة جيداً أثناء العلاج (خطر العدوى)",
+      "منتجات الألبان والعصائر غير المبسترة",
+      "الفواكه والخضراوات النيئة غير المغسولة أثناء كبت المناعة",
+      "الأطعمة عالية الدهون المشبعة والدهون المتحولة",
+      "الكافيين المفرط ومشروبات الطاقة"
+    ]
+  },
+  "therapeutic_supplements": {
+    "essential_supplements_en": [
+      {
+        "name": "Multivitamin/mineral",
+        "dose": "Comprehensive cancer-specific formula",
+        "administration": "With meals",
+        "purpose": "Prevent nutritional deficiencies during treatment"
+      },
+      {
+        "name": "Vitamin D3",
+        "dose": "2000-4000 IU daily (monitor blood levels)",
+        "administration": "With fat-containing meal",
+        "purpose": "Support immune function and bone health"
+      },
+      {
+        "name": "Omega-3 fatty acids",
+        "dose": "2000-3000 mg EPA/DHA daily",
+        "administration": "With meals",
+        "purpose": "Anti-inflammatory support and cachexia prevention"
+      },
+      {
+        "name": "Probiotics",
+        "dose": "Multi-strain, 25-50 billion CFU daily",
+        "administration": "Between meals",
+        "purpose": "Support gut health during chemotherapy"
+      },
+      {
+        "name": "Glutamine",
+        "dose": "10-15 grams daily (during treatment)",
+        "administration": "Between meals",
+        "purpose": "Reduce mucositis and support gut healing"
+      },
+      {
+        "name": "Curcumin",
+        "dose": "500-1000 mg daily (with black pepper)",
+        "administration": "With meals",
+        "purpose": "Anti-inflammatory and potential anti-cancer support"
+      },
+      {
+        "name": "Green tea extract",
+        "dose": "300-500 mg EGCG daily",
+        "administration": "Between meals",
+        "purpose": "Antioxidant support and potential anti-cancer properties"
+      }
+    ],
+    "essential_supplements_ar": [
+      {
+        "name": "الفيتامينات/المعادن المتعددة",
+        "dose": "تركيبة شاملة خاصة بالسرطان",
+        "administration": "مع الوجبات",
+        "purpose": "منع النقص الغذائي أثناء العلاج"
+      },
+      {
+        "name": "فيتامين د3",
+        "dose": "2000-4000 وحدة دولية يومياً (مراقبة مستويات الدم)",
+        "administration": "مع وجبة تحتوي على دهون",
+        "purpose": "دعم وظيفة المناعة وصحة العظام"
+      },
+      {
+        "name": "أحماض أوميغا-3 الدهنية",
+        "dose": "2000-3000 ملغ EPA/DHA يومياً",
+        "administration": "مع الوجبات",
+        "purpose": "دعم مضاد للالتهاب ومنع الهزال"
+      },
+      {
+        "name": "البروبيوتيك",
+        "dose": "متعدد السلالات، 25-50 مليار CFU يومياً",
+        "administration": "بين الوجبات",
+        "purpose": "دعم صحة الأمعاء أثناء العلاج الكيميائي"
+      },
+      {
+        "name": "الجلوتامين",
+        "dose": "10-15 غرام يومياً (أثناء العلاج)",
+        "administration": "بين الوجبات",
+        "purpose": "تقليل التهاب الأغشية المخاطية ودعم شفاء الأمعاء"
+      },
+      {
+        "name": "الكركمين",
+        "dose": "500-1000 ملغ يومياً (مع الفلفل الأسود)",
+        "administration": "مع الوجبات",
+        "purpose": "دعم مضاد للالتهاب ومحتمل مضاد للسرطان"
+      },
+      {
+        "name": "مستخلص الشاي الأخضر",
+        "dose": "300-500 ملغ EGCG يومياً",
+        "administration": "بين الوجبات",
+        "purpose": "دعم مضادات الأكسدة وخصائص محتملة مضادة للسرطان"
+      }
+    ]
+  },
+  "risks_and_causes_to_avoid": {
+    "risk_factors_en": [
+      "Tobacco use and exposure to secondhand smoke",
+      "Excessive alcohol consumption",
+      "Chronic inflammation and oxidative stress",
+      "Exposure to carcinogenic chemicals and radiation",
+      "Persistent viral infections (HPV, hepatitis, etc.)",
+      "Poor diet high in processed foods and low in vegetables",
+      "Obesity and sedentary lifestyle",
+      "Family history and genetic predisposition"
+    ],
+    "risk_factors_ar": [
+      "استخدام التبغ والتعرض للدخان السلبي",
+      "الاستهلاك المفرط للكحول",
+      "الالتهاب المزمن والضغط التأكسدي",
+      "التعرض للمواد الكيميائية المسرطنة والإشعاع",
+      "العدوى الفيروسية المستمرة (فيروس الورم الحليمي، التهاب الكبد، إلخ)",
+      "النظام الغذائي السيء عالي الأطعمة المعالجة ومنخفض الخضراوات",
+      "السمنة ونمط الحياة المستقر",
+      "التاريخ العائلي والاستعداد الوراثي"
+    ],
+    "complications_en": [
+      "Treatment-related side effects: nausea, fatigue, appetite loss",
+      "Mucositis and difficulty swallowing",
+      "Immune suppression and increased infection risk",
+      "Malnutrition and unintended weight loss",
+      "Bone marrow suppression and anemia",
+      "Digestive issues and altered taste",
+      "Secondary cancers from treatment",
+      "Long-term effects on organ function"
+    ],
+    "complications_ar": [
+      "الآثار الجانبية المتعلقة بالعلاج: الغثيان، التعب، فقدان الشهية",
+      "التهاب الأغشية المخاطية وصعوبة البلع",
+      "كبت المناعة وزيادة خطر العدوى",
+      "سوء التغذية وفقدان الوزن غير المقصود",
+      "كبت نخاع العظم وفقر الدم",
+      "مشاكل الهضم وتغير الطعم",
+      "السرطانات الثانوية من العلاج",
+      "التأثيرات طويلة المدى على وظائف الأعضاء"
+    ]
+  },
+  "healthy_plants": {
+    "beneficial_plants_en": [
+      {
+        "name": "Turmeric",
+        "benefits": "Powerful anti-inflammatory and potential anti-cancer properties",
+        "usage": "Turmeric supplements with black pepper, golden milk"
+      },
+      {
+        "name": "Green tea",
+        "benefits": "Rich in EGCG, antioxidant and potential anti-cancer effects",
+        "usage": "2-3 cups daily, green tea extract supplements"
+      },
+      {
+        "name": "Ginger",
+        "benefits": "Anti-nausea properties, helpful during chemotherapy",
+        "usage": "Fresh ginger tea, ginger supplements for nausea"
+      },
+      {
+        "name": "Garlic",
+        "benefits": "Immune support and potential anti-cancer compounds",
+        "usage": "Fresh garlic in cooking, aged garlic supplements"
+      },
+      {
+        "name": "Mushrooms (Reishi, Shiitake)",
+        "benefits": "Immune modulating properties and beta-glucans",
+        "usage": "Medicinal mushroom extracts, cooked mushrooms"
+      },
+      {
+        "name": "Astragalus",
+        "benefits": "Immune system support during treatment",
+        "usage": "Standardized extracts, herbal teas"
+      }
+    ],
+    "beneficial_plants_ar": [
+      {
+        "name": "الكركم",
+        "benefits": "خصائص قوية مضادة للالتهاب ومحتملة مضادة للسرطان",
+        "usage": "مكملات الكركم مع الفلفل الأسود، الحليب الذهبي"
+      },
+      {
+        "name": "الشاي الأخضر",
+        "benefits": "غني بـ EGCG، مضاد أكسدة وتأثيرات محتملة مضادة للسرطان",
+        "usage": "2-3 أكواب يومياً، مكملات مستخلص الشاي الأخضر"
+      },
+      {
+        "name": "الزنجبيل",
+        "benefits": "خصائص مضادة للغثيان، مفيد أثناء العلاج الكيميائي",
+        "usage": "شاي الزنجبيل الطازج، مكملات الزنجبيل للغثيان"
+      },
+      {
+        "name": "الثوم",
+        "benefits": "دعم المناعة ومركبات محتملة مضادة للسرطان",
+        "usage": "الثوم الطازج في الطبخ، مكملات الثوم المعتق"
+      },
+      {
+        "name": "الفطر (الريشي، الشيتاكي)",
+        "benefits": "خصائص تعديل المناعة والبيتا جلوكان",
+        "usage": "مستخلصات الفطر الطبي، الفطر المطبوخ"
+      },
+      {
+        "name": "الاستراجالوس",
+        "benefits": "دعم جهاز المناعة أثناء العلاج",
+        "usage": "مستخلصات معيارية، شاي عشبي"
+      }
+    ]
+  },
+  "fasting_effects": {
+    "intermittent_fasting_en": {
+      "benefits": [
+        "May enhance chemotherapy effectiveness and reduce side effects",
+        "Potential to protect healthy cells during treatment",
+        "May improve immune function and cellular repair",
+        "Could help with treatment-related fatigue",
+        "Potential autophagy benefits for cancer prevention"
+      ],
+      "precautions": [
+        "Must be carefully supervised during active treatment",
+        "Avoid if experiencing malnutrition or weight loss",
+        "Monitor blood sugar levels closely",
+        "Ensure adequate nutrition during eating windows",
+        "Coordinate with oncology team before attempting",
+        "May not be appropriate during all treatment phases"
+      ],
+      "recommended_approach": "Only under strict medical supervision with oncology team approval and regular monitoring"
+    },
+    "intermittent_fasting_ar": {
+      "benefits": [
+        "قد يعزز فعالية العلاج الكيميائي ويقلل الآثار الجانبية",
+        "إمكانية حماية الخلايا الصحية أثناء العلاج",
+        "قد يحسن وظيفة المناعة وإصلاح الخلايا",
+        "يمكن أن يساعد مع التعب المتعلق بالعلاج",
+        "فوائد محتملة للالتهام الذاتي لمنع السرطان"
+      ],
+      "precautions": [
+        "يجب الإشراف عليه بعناية أثناء العلاج النشط",
+        "تجنب إذا كنت تعاني من سوء التغذية أو فقدان الوزن",
+        "مراقبة مستويات سكر الدم عن كثب",
+        "ضمان التغذية الكافية أثناء نوافذ الأكل",
+        "التنسيق مع فريق الأورام قبل المحاولة",
+        "قد لا يكون مناسباً خلال جميع مراحل العلاج"
+      ],
+      "recommended_approach": "فقط تحت الإشراف الطبي الصارم مع موافقة فريق الأورام والمراقبة المنتظمة"
+    }
+  },
+  "medications_that_worsen": {
+    "problematic_drugs_en": [
+      {
+        "category": "NSAIDs (during treatment)",
+        "examples": "Ibuprofen, naproxen",
+        "reason": "May interfere with chemotherapy effectiveness and increase bleeding risk"
+      },
+      {
+        "category": "High-dose antioxidants during chemo",
+        "examples": "High-dose vitamin C, vitamin E",
+        "reason": "May interfere with oxidative damage mechanisms of chemotherapy"
+      },
+      {
+        "category": "Certain herbal supplements",
+        "examples": "St. John's wort, ginkgo biloba",
+        "reason": "May interact with chemotherapy drugs and affect metabolism"
+      },
+      {
+        "category": "Immunosuppressants (non-prescribed)",
+        "examples": "Corticosteroids without supervision",
+        "reason": "May interfere with immune-based cancer treatments"
+      }
+    ],
+    "problematic_drugs_ar": [
+      {
+        "category": "مضادات الالتهاب غير الستيرويدية (أثناء العلاج)",
+        "examples": "الإيبوبروفين، النابروكسين",
+        "reason": "قد تتداخل مع فعالية العلاج الكيميائي وتزيد خطر النزيف"
+      },
+      {
+        "category": "مضادات الأكسدة عالية الجرعة أثناء الكيميائي",
+        "examples": "فيتامين سي عالي الجرعة، فيتامين هـ",
+        "reason": "قد تتداخل مع آليات الضرر التأكسدي للعلاج الكيميائي"
+      },
+      {
+        "category": "مكملات عشبية معينة",
+        "examples": "عشبة القديس يوحنا، الجنكو بيلوبا",
+        "reason": "قد تتفاعل مع أدوية العلاج الكيميائي وتؤثر على الأيض"
+      },
+      {
+        "category": "مثبطات المناعة (غير الموصوفة)",
+        "examples": "الكورتيكوستيرويدات بدون إشراف",
+        "reason": "قد تتداخل مع علاجات السرطان القائمة على المناعة"
+      }
+    ]
+  },
+  "psychological_support": {
+    "emotional_challenges_en": [
+      "Fear and anxiety about diagnosis and prognosis",
+      "Depression from treatment side effects and fatigue",
+      "Body image changes from treatment effects",
+      "Stress from medical appointments and procedures",
+      "Concern about family burden and financial impact",
+      "Loss of appetite and food aversion from treatment",
+      "Social isolation and changes in relationships",
+      "Uncertainty about the future and treatment outcomes"
+    ],
+    "emotional_challenges_ar": [
+      "الخوف والقلق بشأن التشخيص والتنبؤ",
+      "الاكتئاب من الآثار الجانبية للعلاج والتعب",
+      "تغيرات صورة الجسم من تأثيرات العلاج",
+      "الضغط من المواعيد والإجراءات الطبية",
+      "القلق بشأن عبء الأسرة والأثر المالي",
+      "فقدان الشهية ونفور الطعام من العلاج",
+      "العزلة الاجتماعية وتغيرات في العلاقات",
+      "عدم اليقين بشأن المستقبل ونتائج العلاج"
+    ],
+    "coping_strategies_en": [
+      "Join cancer support groups and patient communities",
+      "Work with oncology social workers and counselors",
+      "Practice stress management and relaxation techniques",
+      "Maintain communication with healthcare team",
+      "Focus on nutrition goals you can control",
+      "Seek family support and caregiver resources",
+      "Consider professional therapy for adjustment",
+      "Connect with cancer survivors for inspiration"
+    ],
+    "coping_strategies_ar": [
+      "الانضمام إلى مجموعات دعم السرطان ومجتمعات المرضى",
+      "العمل مع الأخصائيين الاجتماعيين ومستشاري الأورام",
+      "ممارسة إدارة الضغط وتقنيات الاسترخاء",
+      "الحفاظ على التواصل مع فريق الرعاية الصحية",
+      "التركيز على أهداف التغذية التي يمكنك التحكم فيها",
+      "طلب دعم الأسرة وموارد مقدمي الرعاية",
+      "النظر في العلاج المهني للتكيف",
+      "التواصل مع الناجين من السرطان للإلهام"
+    ]
+  },
+  "evidence_based_references": {
+    "scientific_studies": [
+      "Rock CL, et al. American Cancer Society guideline for diet and physical activity for cancer prevention. CA Cancer J Clin. 2020;70(4):245-271.",
+      "Arends J, et al. ESPEN guidelines on nutrition in cancer patients. Clin Nutr. 2017;36(1):11-48.",
+      "Thompson KL, et al. Oncology Evidence-Based Nutrition Practice Guideline for Adults. J Acad Nutr Diet. 2017;117(2):297-310.e47.",
+      "van de Poll-Franse LV, et al. International development of four EORTC disease-specific quality of life questionnaires for patients with Hodgkin lymphoma, high- and low-grade non-Hodgkin lymphoma and chronic lymphocytic leukaemia. Qual Life Res. 2018;27(2):333-345."
+    ],
+    "professional_organizations": [
+      "American Cancer Society: https://www.cancer.org/",
+      "National Cancer Institute: https://www.cancer.gov/",
+      "American Society of Clinical Oncology: https://www.asco.org/",
+      "Academy of Nutrition and Dietetics: https://www.eatright.org/"
+    ],
+    "dietary_guidelines": [
+      "American Cancer Society Nutrition Guidelines",
+      "ESPEN Guidelines on Nutrition in Cancer Patients",
+      "ASCO Clinical Practice Guidelines",
+      "National Comprehensive Cancer Network Guidelines"
+    ]
+  },
+  "disclaimer": {
+    "english": "This information is for educational purposes only and is not intended as medical advice. Cancer treatment requires specialized medical management by oncologists, registered dietitians, and healthcare teams. Nutritional recommendations must be individualized based on cancer type, treatment protocol, and individual health status. Never stop prescribed treatments or make significant dietary changes without consulting your oncology team. This content should not replace professional medical consultation, diagnosis, or treatment.",
+    "arabic": "هذه المعلومات لأغراض تعليمية فقط وليست مخصصة كنصيحة طبية. يتطلب علاج السرطان إدارة طبية متخصصة من قبل أطباء الأورام وأخصائيي التغذية المسجلين وفرق الرعاية الصحية. يجب تفريد التوصيات الغذائية بناءً على نوع السرطان وبروتوكول العلاج والحالة الصحية الفردية. لا توقف العلاجات الموصوفة أو تجري تغييرات غذائية مهمة دون استشارة فريق الأورام. لا يجب أن يحل هذا المحتوى محل الاستشارة الطبية المهنية أو التشخيص أو العلاج."
+  }
+}

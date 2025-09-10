@@ -1,0 +1,455 @@
+{
+  "injury": {
+    "name_en": "Tennis Elbow Escape",
+    "name_ar": "هروب مرفق التنس",
+    "type_en": "Lateral Epicondylitis/Tennis Elbow",
+    "type_ar": "التهاب اللقيمة الوحشية/مرفق التنس",
+    "description_en": "Comprehensive treatment plan for lateral epicondylitis (tennis elbow), repetitive strain injury affecting the lateral aspect of the elbow from overuse of forearm muscles",
+    "description_ar": "خطة علاج شاملة لالتهاب اللقيمة الوحشية (مرفق التنس)، إصابة الإجهاد المتكرر التي تؤثر على الجانب الوحشي للمرفق من الإفراط في استخدام عضلات الساعد"
+  },
+  "immediate_care": {
+    "protocol_en": [
+      "Stop all gripping and twisting activities immediately",
+      "Apply ice for 15-20 minutes every 2-3 hours during acute phase",
+      "Use a tennis elbow brace or strap below the elbow",
+      "Avoid lifting, gripping, or repetitive wrist movements",
+      "Rest the arm completely for 48-72 hours",
+      "Elevate arm when possible to reduce swelling"
+    ],
+    "protocol_ar": [
+      "توقف عن جميع أنشطة القبض والالتواء فوراً",
+      "تطبيق الثلج لمدة 15-20 دقيقة كل 2-3 ساعات أثناء المرحلة الحادة",
+      "استخدم دعامة أو رباط مرفق التنس أسفل المرفق",
+      "تجنب الرفع أو القبض أو حركات الرسغ المتكررة",
+      "أرح الذراع تماماً لمدة 48-72 ساعة",
+      "ارفع الذراع عند الإمكان لتقليل التورم"
+    ]
+  },
+  "supplements_and_medications": {
+    "pain_relief": [
+      {
+        "name": "Ibuprofen",
+        "dose_en": "400mg every 6-8 hours with food",
+        "dose_ar": "400 ملغ كل 6-8 ساعات مع الطعام",
+        "duration": "7-10 days maximum",
+        "purpose_en": "Reduce inflammation in tendons and surrounding tissue",
+        "purpose_ar": "تقليل الالتهاب في الأوتار والأنسجة المحيطة"
+      },
+      {
+        "name": "Topical NSAIDs (diclofenac gel)",
+        "dose_en": "Apply 2-4g to elbow area 3-4 times daily",
+        "dose_ar": "تطبق 2-4 غرام على منطقة المرفق 3-4 مرات يومياً",
+        "duration": "Up to 2 weeks",
+        "purpose_en": "Localized anti-inflammatory without systemic effects",
+        "purpose_ar": "مضاد التهاب موضعي دون تأثيرات جهازية"
+      }
+    ],
+    "tendon_support": [
+      {
+        "name": "Collagen Type I & III",
+        "dose_en": "15g daily dissolved in liquid",
+        "dose_ar": "15 غرام يومياً مذاب في سائل",
+        "purpose_en": "Tendon repair and strengthening",
+        "purpose_ar": "إصلاح وتقوية الأوتار"
+      },
+      {
+        "name": "Vitamin C with bioflavonoids",
+        "dose_en": "2000mg daily in divided doses",
+        "dose_ar": "2000 ملغ يومياً مقسمة على جرعات",
+        "purpose_en": "Collagen synthesis and tissue healing",
+        "purpose_ar": "تخليق الكولاجين وشفاء الأنسجة"
+      },
+      {
+        "name": "Quercetin",
+        "dose_en": "500mg twice daily with meals",
+        "dose_ar": "500 ملغ مرتين يومياً مع الوجبات",
+        "purpose_en": "Natural anti-inflammatory and antioxidant",
+        "purpose_ar": "مضاد التهاب طبيعي ومضاد أكسدة"
+      }
+    ],
+    "circulation_support": [
+      {
+        "name": "Omega-3 fatty acids",
+        "dose_en": "3000mg EPA/DHA daily",
+        "dose_ar": "3000 ملغ EPA/DHA يومياً",
+        "purpose_en": "Reduce inflammation and improve circulation",
+        "purpose_ar": "تقليل الالتهاب وتحسين الدورة الدموية"
+      },
+      {
+        "name": "Ginkgo biloba extract",
+        "dose_en": "120mg twice daily",
+        "dose_ar": "120 ملغ مرتين يومياً",
+        "purpose_en": "Improve blood flow to affected area",
+        "purpose_ar": "تحسين تدفق الدم للمنطقة المصابة"
+      }
+    ]
+  },
+  "healing_plants": {
+    "topical_applications": [
+      {
+        "name": "Arnica gel",
+        "usage_en": "Apply 3-4 times daily to elbow and forearm",
+        "usage_ar": "تطبق 3-4 مرات يومياً على المرفق والساعد",
+        "benefits_en": "Reduce inflammation and bruising",
+        "benefits_ar": "تقليل الالتهاب والكدمات"
+      },
+      {
+        "name": "Comfrey root poultice",
+        "usage_en": "Apply for 20-30 minutes twice daily",
+        "usage_ar": "تطبق لمدة 20-30 دقيقة مرتين يومياً",
+        "benefits_en": "Accelerate tissue healing and reduce pain",
+        "benefits_ar": "تسريع شفاء الأنسجة وتقليل الألم"
+      },
+      {
+        "name": "Capsaicin cream (0.025%)",
+        "usage_en": "Apply thin layer 2-3 times daily, wash hands after",
+        "usage_ar": "تطبق طبقة رقيقة 2-3 مرات يومياً، اغسل اليدين بعدها",
+        "benefits_en": "Pain relief through nerve desensitization",
+        "benefits_ar": "تسكين الألم من خلال إزالة حساسية الأعصاب"
+      }
+    ],
+    "oral_remedies": [
+      {
+        "name": "Turmeric with piperine",
+        "usage_en": "1000mg curcumin with 10mg piperine twice daily",
+        "usage_ar": "1000 ملغ كركمين مع 10 ملغ بيبرين مرتين يومياً",
+        "benefits_en": "Powerful anti-inflammatory properties",
+        "benefits_ar": "خصائص قوية مضادة للالتهاب"
+      },
+      {
+        "name": "White willow bark tea",
+        "usage_en": "2-3 cups daily between meals",
+        "usage_ar": "2-3 أكواب يومياً بين الوجبات",
+        "benefits_en": "Natural pain relief (contains salicin)",
+        "benefits_ar": "تسكين طبيعي للألم (يحتوي على الساليسين)"
+      },
+      {
+        "name": "Boswellia serrata extract",
+        "usage_en": "400mg standardized extract 2-3 times daily",
+        "usage_ar": "400 ملغ مستخلص معياري 2-3 مرات يومياً",
+        "benefits_en": "Reduce inflammation and improve joint function",
+        "benefits_ar": "تقليل الالتهاب وتحسين وظيفة المفاصل"
+      }
+    ]
+  },
+  "recovery_recipes": {
+    "anti_inflammatory_drink": {
+      "name_en": "Elbow Recovery Tonic",
+      "name_ar": "منشط تعافي المرفق",
+      "ingredients_en": [
+        "1 cup tart cherry juice",
+        "1 tsp turmeric powder",
+        "1/2 tsp ginger powder",
+        "1/4 tsp black pepper",
+        "1 tbsp collagen powder",
+        "1 cup warm water",
+        "1 tsp honey"
+      ],
+      "ingredients_ar": [
+        "كوب عصير كرز حامض",
+        "ملعقة صغيرة مسحوق كركم",
+        "1/2 ملعقة صغيرة مسحوق زنجبيل",
+        "1/4 ملعقة صغيرة فلفل أسود",
+        "ملعقة كبيرة مسحوق كولاجين",
+        "كوب ماء دافئ",
+        "ملعقة صغيرة عسل"
+      ],
+      "instructions_en": "Mix all ingredients thoroughly. Drink twice daily for anti-inflammatory benefits.",
+      "instructions_ar": "اخلط جميع المكونات جيداً. اشرب مرتين يومياً للفوائد المضادة للالتهاب."
+    },
+    "healing_meal": {
+      "name_en": "Tendon Healing Bowl",
+      "name_ar": "وعاء شفاء الأوتار",
+      "ingredients_en": [
+        "4 oz wild salmon",
+        "1 cup steamed spinach",
+        "1/2 cup quinoa",
+        "1/4 avocado",
+        "2 tbsp pumpkin seeds",
+        "Turmeric ginger dressing"
+      ],
+      "benefits_en": "Rich in omega-3s, protein, and anti-inflammatory compounds",
+      "benefits_ar": "غني بأوميغا-3 والبروتين والمركبات المضادة للالتهاب"
+    }
+  },
+  "gym_tips": {
+    "elbow_rehabilitation": [
+      {
+        "exercise_en": "Eccentric wrist extensions",
+        "exercise_ar": "تمديد الرسغ اللامركزي",
+        "description_en": "Slowly lower weight with affected arm, lift with unaffected arm",
+        "description_ar": "أنزل الوزن ببطء بالذراع المصابة، ارفع بالذراع السليمة",
+        "weight": "1-2 lbs",
+        "sets": "3",
+        "reps": "15 slow lowering"
+      },
+      {
+        "exercise_en": "Forearm stretches",
+        "exercise_ar": "تمديد الساعد",
+        "description_en": "Gently stretch wrist flexors and extensors",
+        "description_ar": "مدد عضلات ثني ومد الرسغ برفق",
+        "hold": "30 seconds",
+        "frequency": "5-6 times daily"
+      },
+      {
+        "exercise_en": "Grip strengthening with putty",
+        "exercise_ar": "تقوية القبضة بالمعجون",
+        "description_en": "Squeeze therapy putty for gradual strengthening",
+        "description_ar": "اضغط معجون العلاج للتقوية التدريجية",
+        "duration": "5 minutes",
+        "frequency": "2-3 times daily"
+      }
+    ],
+    "prevention_tips": [
+      {
+        "tip_en": "Use proper grip size on equipment",
+        "tip_ar": "استخدم حجم قبضة مناسب على المعدات"
+      },
+      {
+        "tip_en": "Avoid death grip - use lighter grip pressure",
+        "tip_ar": "تجنب القبضة المفرطة - استخدم ضغط قبضة أخف"
+      },
+      {
+        "tip_en": "Warm up forearms before any gripping activities",
+        "tip_ar": "أحم الساعدين قبل أي أنشطة قبض"
+      }
+    ]
+  },
+  "monthly_workout_plan": {
+    "month1_healing": {
+      "week1": {
+        "focus_en": "Complete rest and pain management",
+        "focus_ar": "راحة تامة وإدارة الألم",
+        "activities": [
+          {
+            "activity_en": "Ice therapy",
+            "activity_ar": "العلاج بالثلج",
+            "frequency": "4-5 times daily",
+            "duration": "15-20 minutes"
+          },
+          {
+            "activity_en": "Gentle range of motion",
+            "activity_ar": "نطاق الحركة اللطيف",
+            "frequency": "3 times daily",
+            "condition": "Pain-free only"
+          }
+        ]
+      },
+      "week2": {
+        "focus_en": "Gentle mobility and stretching",
+        "focus_ar": "الحركة اللطيفة والتمدد",
+        "exercises": [
+          {
+            "name_en": "Wrist flexor stretches",
+            "name_ar": "تمديد عضلات ثني الرسغ",
+            "hold": "30 seconds",
+            "sets": "3",
+            "frequency": "4 times daily"
+          },
+          {
+            "name_en": "Nerve gliding exercises",
+            "name_ar": "تمارين انزلاق الأعصاب",
+            "reps": "10",
+            "frequency": "3 times daily"
+          }
+        ]
+      },
+      "week3": {
+        "focus_en": "Progressive strengthening",
+        "focus_ar": "التقوية التدريجية",
+        "exercises": [
+          {
+            "name_en": "Isometric wrist extensions",
+            "name_ar": "تمديد الرسغ الإيزوميتري",
+            "hold": "5 seconds",
+            "sets": "3",
+            "reps": "10"
+          },
+          {
+            "name_en": "Therapy putty exercises",
+            "name_ar": "تمارين المعجون العلاجي",
+            "duration": "5 minutes",
+            "frequency": "2-3 times daily"
+          }
+        ]
+      },
+      "week4": {
+        "focus_en": "Eccentric strengthening",
+        "focus_ar": "التقوية اللامركزية",
+        "exercises": [
+          {
+            "name_en": "Eccentric wrist extensions",
+            "name_ar": "تمديد الرسغ اللامركزي",
+            "weight": "1 lb",
+            "sets": "3",
+            "reps": "15"
+          },
+          {
+            "name_en": "Light grip activities",
+            "name_ar": "أنشطة القبضة الخفيفة",
+            "progression": "Gradually increase resistance",
+            "frequency": "Daily"
+          }
+        ]
+      }
+    },
+    "month2_strengthening": {
+      "week1_2": {
+        "focus_en": "Progressive resistance",
+        "focus_ar": "المقاومة التدريجية",
+        "exercises": [
+          {
+            "name_en": "Resistance band wrist exercises",
+            "name_ar": "تمارين الرسغ بشريط المقاومة",
+            "sets": "3",
+            "reps": "15-20"
+          },
+          {
+            "name_en": "Forearm strengthening",
+            "name_ar": "تقوية الساعد",
+            "progression": "Light to moderate resistance",
+            "frequency": "Every other day"
+          }
+        ]
+      },
+      "week3_4": {
+        "focus_en": "Functional activities",
+        "focus_ar": "الأنشطة الوظيفية",
+        "exercises": [
+          {
+            "name_en": "Functional gripping tasks",
+            "name_ar": "مهام القبض الوظيفية",
+            "description": "Gradually return to normal activities"
+          },
+          {
+            "name_en": "Sport-specific movements",
+            "name_ar": "حركات خاصة بالرياضة",
+            "condition": "Only if completely pain-free"
+          }
+        ]
+      }
+    }
+  },
+  "rehabilitation_exercises": {
+    "phase1_acute": [
+      {
+        "exercise_en": "Gentle wrist circles",
+        "exercise_ar": "دوائر الرسغ اللطيفة",
+        "description_en": "Small, pain-free circular movements",
+        "description_ar": "حركات دائرية صغيرة خالية من الألم",
+        "reps": "10 each direction",
+        "frequency": "Every 2 hours"
+      },
+      {
+        "exercise_en": "Finger flexion/extension",
+        "exercise_ar": "ثني/تمديد الأصابع",
+        "description_en": "Keep fingers mobile while resting elbow",
+        "description_ar": "أبق الأصابع متحركة أثناء راحة المرفق",
+        "reps": "20",
+        "frequency": "Hourly"
+      }
+    ],
+    "phase2_mobility": [
+      {
+        "exercise_en": "Progressive wrist stretches",
+        "exercise_ar": "تمددات الرسغ التدريجية",
+        "description_en": "Gradually increase stretch intensity",
+        "description_ar": "زد شدة التمدد تدريجياً",
+        "hold": "30-45 seconds",
+        "frequency": "4-5 times daily"
+      },
+      {
+        "exercise_en": "Tendon gliding",
+        "exercise_ar": "انزلاق الأوتار",
+        "description_en": "Promote tendon mobility and prevent adhesions",
+        "description_ar": "عزز حركة الأوتار ومنع الالتصاقات",
+        "reps": "10-15",
+        "frequency": "3 times daily"
+      }
+    ],
+    "phase3_strengthening": [
+      {
+        "exercise_en": "Progressive weight bearing",
+        "exercise_ar": "تحمل الوزن التدريجي",
+        "description_en": "Start with 1 lb, progress to 3-5 lbs",
+        "description_ar": "ابدأ برطل واحد، تقدم إلى 3-5 أرطال",
+        "progression": "Increase weight weekly if pain-free"
+      }
+    ]
+  },
+  "return_to_activity_protocol": {
+    "phase1_basic_activities": {
+      "week1": "Light keyboard use, writing for short periods",
+      "week2": "Increased typing, light household tasks"
+    },
+    "phase2_moderate_activities": {
+      "week3": "Normal computer work, light lifting (< 5 lbs)",
+      "week4": "Moderate lifting, tool use with proper technique"
+    },
+    "phase3_full_activities": {
+      "week5": "Return to sports/hobbies with proper warm-up",
+      "week6": "Full activity level with continued prevention strategies"
+    },
+    "warning_signs": [
+      "Return of pain with activity",
+      "Morning stiffness lasting > 30 minutes",
+      "Weakness in grip strength",
+      "Numbness or tingling"
+    ]
+  },
+  "additional_therapies": {
+    "self_care": [
+      {
+        "therapy_en": "Contrast baths",
+        "therapy_ar": "حمامات متباينة",
+        "application_en": "Alternate between warm and cold water for 3 minutes each",
+        "application_ar": "تناوب بين الماء الدافئ والبارد لمدة 3 دقائق لكل منهما"
+      },
+      {
+        "therapy_en": "Tennis elbow brace",
+        "therapy_ar": "دعامة مرفق التنس",
+        "application_en": "Wear during activities that stress the elbow",
+        "application_ar": "ارتدها أثناء الأنشطة التي تجهد المرفق"
+      }
+    ],
+    "professional_treatments": [
+      {
+        "treatment_en": "Physical therapy",
+        "treatment_ar": "العلاج الطبيعي",
+        "description_en": "Manual therapy and progressive exercise program"
+      },
+      {
+        "treatment_en": "Dry needling",
+        "treatment_ar": "الوخز الجاف",
+        "description_en": "Target trigger points in forearm muscles"
+      },
+      {
+        "treatment_en": "Extracorporeal shock wave therapy",
+        "treatment_ar": "العلاج بالموجات الصادمة خارج الجسم",
+        "description_en": "Stimulate healing in chronic cases"
+      }
+    ]
+  },
+  "evidence_based_references": {
+    "scientific_studies": [
+      "Coombes BK, et al. Effect of corticosteroid injection, physiotherapy, or both on clinical outcomes in patients with unilateral lateral epicondylalgia: a randomized controlled trial. JAMA. 2013;309(5):461-469.",
+      "Bisset LM, et al. Physiotherapy management of lateral epicondylalgia. J Physiother. 2015;61(4):174-181.",
+      "Ahmad Z, et al. Lateral epicondylitis: a review of pathology and management. Bone Joint J. 2013;95-B(9):1158-1164."
+    ],
+    "professional_organizations": [
+      "American Society for Surgery of the Hand: https://www.assh.org/",
+      "International Federation of Societies for Surgery of the Hand: https://www.ifssh.info/",
+      "Arthroscopy Association of North America: https://www.arthroscopy.org/",
+      "American Physical Therapy Association: https://www.apta.org/"
+    ],
+    "clinical_guidelines": [
+      "Clinical Practice Guidelines for Lateral Epicondylalgia",
+      "American Academy of Orthopaedic Surgeons Clinical Practice Guidelines for Tennis Elbow",
+      "International Association of Orthopaedic Surgery Guidelines for Elbow Disorders"
+    ]
+  },
+  "disclaimer": {
+    "english": "This information is for educational purposes only and is not intended as medical advice. Tennis elbow can be a persistent condition that may require months of treatment. Severe cases may need corticosteroid injections, platelet-rich plasma therapy, or surgical intervention. Persistent pain, weakness, or numbness requires immediate medical evaluation. Some cases may involve nerve entrapment or other serious conditions. This content should not replace professional medical consultation, diagnosis, or treatment by qualified healthcare providers including orthopedic specialists, sports medicine physicians, or physical therapists.",
+    "arabic": "هذه المعلومات لأغراض تعليمية فقط وليست مخصصة كنصيحة طبية. مرفق التنس يمكن أن يكون حالة مستمرة قد تتطلب أشهر من العلاج. الحالات الشديدة قد تحتاج حقن الكورتيكوستيرويد أو علاج البلازما الغنية بالصفائح الدموية أو التدخل الجراحي. الألم المستمر أو الضعف أو التنميل يتطلب تقييماً طبياً فورياً. بعض الحالات قد تشمل انحباس عصبي أو حالات خطيرة أخرى. لا يجب أن يحل هذا المحتوى محل الاستشارة الطبية المهنية أو التشخيص أو العلاج من قبل مقدمي الرعاية الصحية المؤهلين بما في ذلك أخصائيي العظام وأطباء الطب الرياضي أو أخصائيي العلاج الطبيعي."
+  }
+}

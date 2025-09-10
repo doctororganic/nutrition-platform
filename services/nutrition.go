@@ -206,7 +206,7 @@ func (ns *NutritionService) ValidateNutritionRequest(diet *models.Diet) error {
 
 // GetDiseaseList returns a list of available disease files
 func (ns *NutritionService) GetDiseaseList() ([]map[string]interface{}, error) {
-	diseaseDir := filepath.Join(".", "disease easy json files")
+	diseaseDir := filepath.Join(".", "disease-easy-json-files")
 	
 	files, err := ioutil.ReadDir(diseaseDir)
 	if err != nil {
@@ -242,7 +242,7 @@ func (ns *NutritionService) GetDiseaseList() ([]map[string]interface{}, error) {
 
 // GetDiseaseInfo returns detailed information for a specific disease
 func (ns *NutritionService) GetDiseaseInfo(diseaseName string) (map[string]interface{}, error) {
-	diseaseDir := filepath.Join(".", "disease easy json files")
+	diseaseDir := filepath.Join(".", "disease-easy-json-files")
 	
 	// Try to find the file by exact match or partial match
 	files, err := ioutil.ReadDir(diseaseDir)
@@ -305,7 +305,7 @@ func (ns *NutritionService) getBasicDiseaseInfo(filePath string) (map[string]int
 
 // GetInjuryList returns a list of available injury rehabilitation files
 func (ns *NutritionService) GetInjuryList() ([]map[string]interface{}, error) {
-	injuryDir := filepath.Join(".", "injury easy json")
+	injuryDir := filepath.Join(".", "injury-easy-json")
 	
 	files, err := ioutil.ReadDir(injuryDir)
 	if err != nil {
@@ -341,7 +341,7 @@ func (ns *NutritionService) GetInjuryList() ([]map[string]interface{}, error) {
 
 // GetInjuryInfo returns detailed rehabilitation information for a specific injury
 func (ns *NutritionService) GetInjuryInfo(injuryName string) (map[string]interface{}, error) {
-	injuryDir := filepath.Join(".", "injury easy json")
+	injuryDir := filepath.Join(".", "injury-easy-json")
 	
 	// Try to find the file by exact match or partial match
 	files, err := ioutil.ReadDir(injuryDir)

@@ -1,0 +1,416 @@
+{
+  "condition": {
+    "name_en": "Weight Loss Protocol",
+    "name_ar": "بروتوكول فقدان الوزن",
+    "description_en": "Evidence-based nutritional protocol for sustainable weight loss combining caloric deficit, intermittent fasting, and metabolic optimization",
+    "description_ar": "بروتوكول غذائي قائم على الأدلة لفقدان الوزن المستدام يجمع بين العجز السعري والصوم المتقطع وتحسين الأيض"
+  },
+  "nutritional_recommendations": {
+    "primary_guidelines_en": [
+      "Create a moderate caloric deficit of 500-750 calories per day for 1-2 lbs weekly loss",
+      "Prioritize protein intake (0.8-1.2g per lb of body weight) to preserve muscle mass",
+      "Focus on whole, unprocessed foods with high satiety value",
+      "Implement intermittent fasting (16:8 or 18:6) to enhance fat burning",
+      "Stay well-hydrated with water throughout the day",
+      "Time carbohydrates around workouts for optimal energy and recovery"
+    ],
+    "primary_guidelines_ar": [
+      "إنشاء عجز سعري معتدل من 500-750 سعرة يومياً لفقدان 1-2 رطل أسبوعياً",
+      "إعطاء الأولوية لتناول البروتين (0.8-1.2 غرام لكل رطل من وزن الجسم) للحفاظ على كتلة العضلات",
+      "التركيز على الأطعمة الكاملة غير المعالجة ذات قيمة الشبع العالية",
+      "تطبيق الصوم المتقطع (16:8 أو 18:6) لتعزيز حرق الدهون",
+      "البقاء مرطباً جيداً بالماء طوال اليوم",
+      "توقيت الكربوهيدرات حول التمارين للطاقة والتعافي الأمثل"
+    ],
+    "allowed_foods_en": [
+      "Lean proteins: chicken breast, turkey, fish, lean beef, eggs",
+      "Fibrous vegetables: broccoli, spinach, kale, cauliflower, zucchini",
+      "Healthy fats: avocado, olive oil, nuts, seeds (in moderation)",
+      "Complex carbohydrates: quinoa, sweet potatoes, oats, brown rice",
+      "Low-calorie fruits: berries, apples, grapefruit, oranges",
+      "Legumes: lentils, black beans, chickpeas",
+      "Non-starchy vegetables: cucumber, tomatoes, bell peppers",
+      "Herbs and spices for flavor without calories"
+    ],
+    "allowed_foods_ar": [
+      "البروتينات الخالية من الدهن: صدر الدجاج، الديك الرومي، الأسماك، لحم البقر الخالي من الدهن، البيض",
+      "الخضراوات الليفية: البروكلي، السبانخ، الكرنب، القرنبيط، الكوسا",
+      "الدهون الصحية: الأفوكادو، زيت الزيتون، المكسرات، البذور (باعتدال)",
+      "الكربوهيدرات المعقدة: الكينوا، البطاطا الحلوة، الشوفان، الأرز البني",
+      "الفواكه منخفضة السعرات: التوت، التفاح، الجريب فروت، البرتقال",
+      "البقوليات: العدس، الفاصوليا السوداء، الحمص",
+      "الخضراوات غير النشوية: الخيار، الطماطم، الفلفل الحلو",
+      "الأعشاب والتوابل للنكهة بدون سعرات حرارية"
+    ],
+    "foods_to_avoid_en": [
+      "Processed and packaged foods high in calories and additives",
+      "Sugary drinks: sodas, fruit juices, energy drinks",
+      "Refined carbohydrates: white bread, pastries, cookies",
+      "Fried foods and fast food meals",
+      "High-calorie snacks: chips, crackers, candy",
+      "Excessive amounts of nuts and dried fruits",
+      "Alcohol (empty calories and reduces fat burning)",
+      "High-fat dairy products and full-fat cheese"
+    ],
+    "foods_to_avoid_ar": [
+      "الأطعمة المعالجة والمعبأة عالية السعرات والإضافات",
+      "المشروبات السكرية: المشروبات الغازية، عصائر الفاكهة، مشروبات الطاقة",
+      "الكربوهيدرات المكررة: الخبز الأبيض، المعجنات، البسكويت",
+      "الأطعمة المقلية ووجبات الطعام السريع",
+      "الوجبات الخفيفة عالية السعرات: الرقائق، البسكويت المالح، الحلوى",
+      "الكميات المفرطة من المكسرات والفواكه المجففة",
+      "الكحول (سعرات فارغة ويقلل من حرق الدهون)",
+      "منتجات الألبان عالية الدهون والجبن كامل الدسم"
+    ]
+  },
+  "therapeutic_supplements": {
+    "essential_supplements_en": [
+      {
+        "name": "Multivitamin/mineral",
+        "dose": "Comprehensive daily formula",
+        "administration": "With first meal",
+        "purpose": "Prevent nutritional deficiencies during caloric restriction"
+      },
+      {
+        "name": "Omega-3 fatty acids",
+        "dose": "2000-3000 mg EPA/DHA daily",
+        "administration": "With meals",
+        "purpose": "Support metabolism and reduce inflammation"
+      },
+      {
+        "name": "Vitamin D3",
+        "dose": "2000-4000 IU daily",
+        "administration": "With fat-containing meal",
+        "purpose": "Support metabolism and mood during weight loss"
+      },
+      {
+        "name": "Green tea extract",
+        "dose": "400-500 mg EGCG daily",
+        "administration": "Between meals",
+        "purpose": "Boost metabolism and fat oxidation"
+      },
+      {
+        "name": "L-Carnitine",
+        "dose": "2000-3000 mg daily",
+        "administration": "Before workouts",
+        "purpose": "Enhance fat burning and exercise performance"
+      },
+      {
+        "name": "Chromium picolinate",
+        "dose": "200-400 mcg daily",
+        "administration": "With meals",
+        "purpose": "Support glucose metabolism and reduce cravings"
+      },
+      {
+        "name": "Caffeine (if tolerated)",
+        "dose": "100-200 mg daily",
+        "administration": "Before workouts",
+        "purpose": "Increase energy and fat burning"
+      }
+    ],
+    "essential_supplements_ar": [
+      {
+        "name": "الفيتامينات/المعادن المتعددة",
+        "dose": "تركيبة يومية شاملة",
+        "administration": "مع الوجبة الأولى",
+        "purpose": "منع النقص الغذائي أثناء تقييد السعرات الحرارية"
+      },
+      {
+        "name": "أحماض أوميغا-3 الدهنية",
+        "dose": "2000-3000 ملغ EPA/DHA يومياً",
+        "administration": "مع الوجبات",
+        "purpose": "دعم الأيض وتقليل الالتهاب"
+      },
+      {
+        "name": "فيتامين د3",
+        "dose": "2000-4000 وحدة دولية يومياً",
+        "administration": "مع وجبة تحتوي على دهون",
+        "purpose": "دعم الأيض والمزاج أثناء فقدان الوزن"
+      },
+      {
+        "name": "مستخلص الشاي الأخضر",
+        "dose": "400-500 ملغ EGCG يومياً",
+        "administration": "بين الوجبات",
+        "purpose": "تعزيز الأيض وأكسدة الدهون"
+      },
+      {
+        "name": "إل-كارنيتين",
+        "dose": "2000-3000 ملغ يومياً",
+        "administration": "قبل التمارين",
+        "purpose": "تعزيز حرق الدهون وأداء التمرين"
+      },
+      {
+        "name": "الكروم بيكولينات",
+        "dose": "200-400 ميكروغرام يومياً",
+        "administration": "مع الوجبات",
+        "purpose": "دعم أيض الجلوكوز وتقليل الرغبة الشديدة"
+      },
+      {
+        "name": "الكافيين (إذا كان مُحتملاً)",
+        "dose": "100-200 ملغ يومياً",
+        "administration": "قبل التمارين",
+        "purpose": "زيادة الطاقة وحرق الدهون"
+      }
+    ]
+  },
+  "risks_and_causes_to_avoid": {
+    "risk_factors_en": [
+      "Sedentary lifestyle and lack of physical activity",
+      "Insulin resistance and metabolic dysfunction",
+      "Chronic stress and elevated cortisol levels",
+      "Poor sleep quality and insufficient sleep duration",
+      "Emotional eating and food addiction patterns",
+      "Frequent snacking and grazing throughout the day",
+      "Large portion sizes and eating too quickly",
+      "Social environments that promote overeating"
+    ],
+    "risk_factors_ar": [
+      "نمط الحياة المستقر وقلة النشاط البدني",
+      "مقاومة الأنسولين وخلل الأيض",
+      "الضغط المزمن وارتفاع مستويات الكورتيزول",
+      "ضعف جودة النوم ومدة النوم غير الكافية",
+      "الأكل العاطفي وأنماط إدمان الطعام",
+      "تناول الوجبات الخفيفة المتكررة والرعي طوال اليوم",
+      "أحجام الحصص الكبيرة والأكل بسرعة كبيرة",
+      "البيئات الاجتماعية التي تشجع على الإفراط في الأكل"
+    ],
+    "complications_en": [
+      "Muscle loss from excessive caloric restriction",
+      "Metabolic slowdown and adaptive thermogenesis",
+      "Nutritional deficiencies and fatigue",
+      "Gallstones from rapid weight loss",
+      "Loose skin from significant weight loss",
+      "Eating disorders and unhealthy relationship with food",
+      "Social isolation and psychological stress",
+      "Weight regain and yo-yo dieting cycles"
+    ],
+    "complications_ar": [
+      "فقدان العضلات من تقييد السعرات الحرارية المفرط",
+      "بطء الأيض والتوليد الحراري التكيفي",
+      "النقص الغذائي والتعب",
+      "حصى المرارة من فقدان الوزن السريع",
+      "ترهل الجلد من فقدان الوزن الكبير",
+      "اضطرابات الأكل والعلاقة غير الصحية مع الطعام",
+      "العزلة الاجتماعية والضغط النفسي",
+      "استعادة الوزن ودورات الحمية اليويو"
+    ]
+  },
+  "healthy_plants": {
+    "beneficial_plants_en": [
+      {
+        "name": "Green tea",
+        "benefits": "Boosts metabolism and fat oxidation, rich in antioxidants",
+        "usage": "3-4 cups daily, green tea extract supplements"
+      },
+      {
+        "name": "Garcinia cambogia",
+        "benefits": "May help suppress appetite and block fat production",
+        "usage": "Standardized extracts before meals"
+      },
+      {
+        "name": "Glucomannan",
+        "benefits": "Fiber that promotes satiety and reduces calorie absorption",
+        "usage": "1-2 grams before meals with plenty of water"
+      },
+      {
+        "name": "Forskolin",
+        "benefits": "May help boost metabolism and preserve lean mass",
+        "usage": "Standardized coleus forskohlii extracts"
+      },
+      {
+        "name": "Ginger",
+        "benefits": "Thermogenic properties and digestive support",
+        "usage": "Fresh ginger tea, ginger supplements"
+      },
+      {
+        "name": "Cinnamon",
+        "benefits": "Helps regulate blood sugar and reduce cravings",
+        "usage": "Ceylon cinnamon in foods, cinnamon supplements"
+      }
+    ],
+    "beneficial_plants_ar": [
+      {
+        "name": "الشاي الأخضر",
+        "benefits": "يعزز الأيض وأكسدة الدهون، غني بمضادات الأكسدة",
+        "usage": "3-4 أكواب يومياً، مكملات مستخلص الشاي الأخضر"
+      },
+      {
+        "name": "الغارسينيا كامبوجيا",
+        "benefits": "قد يساعد في كبح الشهية ومنع إنتاج الدهون",
+        "usage": "مستخلصات معيارية قبل الوجبات"
+      },
+      {
+        "name": "الجلوكومانان",
+        "benefits": "ألياف تعزز الشبع وتقلل امتصاص السعرات الحرارية",
+        "usage": "1-2 غرام قبل الوجبات مع الكثير من الماء"
+      },
+      {
+        "name": "الفورسكولين",
+        "benefits": "قد يساعد في تعزيز الأيض والحفاظ على الكتلة الخالية من الدهن",
+        "usage": "مستخلصات الكوليوس فورسكوهلي المعيارية"
+      },
+      {
+        "name": "الزنجبيل",
+        "benefits": "خصائص حرارية ودعم الهضم",
+        "usage": "شاي الزنجبيل الطازج، مكملات الزنجبيل"
+      },
+      {
+        "name": "القرفة",
+        "benefits": "يساعد في تنظيم سكر الدم وتقليل الرغبة الشديدة",
+        "usage": "قرفة سيلان في الأطعمة، مكملات القرفة"
+      }
+    ]
+  },
+  "fasting_effects": {
+    "intermittent_fasting_en": {
+      "benefits": [
+        "Enhanced fat burning through increased lipolysis",
+        "Improved insulin sensitivity and glucose metabolism",
+        "Increased growth hormone production for muscle preservation",
+        "Cellular autophagy for improved health and longevity",
+        "Simplified meal planning and reduced total calorie intake",
+        "Better mental clarity and focus during fasted state"
+      ],
+      "precautions": [
+        "Start gradually with 12-hour fasting windows",
+        "Monitor energy levels and adjust as needed",
+        "Ensure adequate nutrition during eating windows",
+        "Stay well-hydrated during fasting periods",
+        "Avoid if pregnant, breastfeeding, or with eating disorders",
+        "Consult healthcare provider if on medications"
+      ],
+      "recommended_approach": "Begin with 16:8 intermittent fasting, eating between 12 PM and 8 PM, gradually extending if comfortable"
+    },
+    "intermittent_fasting_ar": {
+      "benefits": [
+        "تعزيز حرق الدهون من خلال زيادة تحلل الدهون",
+        "تحسين حساسية الأنسولين وأيض الجلوكوز",
+        "زيادة إنتاج هرمون النمو للحفاظ على العضلات",
+        "الالتهام الذاتي الخلوي لتحسين الصحة وطول العمر",
+        "تبسيط تخطيط الوجبات وتقليل إجمالي السعرات الحرارية",
+        "وضوح ذهني وتركيز أفضل أثناء حالة الصوم"
+      ],
+      "precautions": [
+        "البدء تدريجياً بنوافذ صوم 12 ساعة",
+        "مراقبة مستويات الطاقة والتعديل حسب الحاجة",
+        "ضمان التغذية الكافية أثناء نوافذ الأكل",
+        "البقاء مرطباً جيداً أثناء فترات الصوم",
+        "تجنب إذا كنت حاملاً أو مرضعة أو لديك اضطرابات أكل",
+        "استشارة مقدم الرعاية الصحية إذا كنت تتناول أدوية"
+      ],
+      "recommended_approach": "ابدأ بالصوم المتقطع 16:8، تناول الطعام بين الساعة 12 ظهراً و8 مساءً، وقم بالتمديد تدريجياً إذا كان مريحاً"
+    }
+  },
+  "medications_that_worsen": {
+    "problematic_drugs_en": [
+      {
+        "category": "Antipsychotics",
+        "examples": "Olanzapine, quetiapine, risperidone",
+        "reason": "Can cause significant weight gain and metabolic changes"
+      },
+      {
+        "category": "Antidepressants (some)",
+        "examples": "Mirtazapine, paroxetine, amitriptyline",
+        "reason": "May increase appetite and cause weight gain"
+      },
+      {
+        "category": "Corticosteroids",
+        "examples": "Prednisone, dexamethasone",
+        "reason": "Increase appetite and promote fat storage"
+      },
+      {
+        "category": "Insulin and insulin secretagogues",
+        "examples": "Insulin, sulfonylureas",
+        "reason": "Can promote weight gain and fat storage"
+      }
+    ],
+    "problematic_drugs_ar": [
+      {
+        "category": "مضادات الذهان",
+        "examples": "الأولانزابين، الكويتيابين، الريسبيريدون",
+        "reason": "يمكن أن تسبب زيادة وزن كبيرة وتغيرات أيضية"
+      },
+      {
+        "category": "مضادات الاكتئاب (بعضها)",
+        "examples": "الميرتازابين، الباروكسيتين، الأميتريبتيلين",
+        "reason": "قد تزيد الشهية وتسبب زيادة الوزن"
+      },
+      {
+        "category": "الكورتيكوستيرويدات",
+        "examples": "البريدنيزون، الديكساميثازون",
+        "reason": "تزيد الشهية وتعزز تخزين الدهون"
+      },
+      {
+        "category": "الأنسولين ومحفزات إفراز الأنسولين",
+        "examples": "الأنسولين، السلفونيل يوريا",
+        "reason": "يمكن أن تعزز زيادة الوزن وتخزين الدهون"
+      }
+    ]
+  },
+  "psychological_support": {
+    "emotional_challenges_en": [
+      "Body image issues and self-esteem concerns",
+      "Food cravings and emotional eating patterns",
+      "Social pressure and judgment about weight",
+      "Frustration with slow progress or plateaus",
+      "Fear of regaining lost weight",
+      "Perfectionist thinking and all-or-nothing mentality",
+      "Comparison with others' weight loss journeys",
+      "Stress from lifestyle changes and restrictions"
+    ],
+    "emotional_challenges_ar": [
+      "مشاكل صورة الجسم ومخاوف احترام الذات",
+      "الرغبة الشديدة في الطعام وأنماط الأكل العاطفي",
+      "الضغط الاجتماعي والحكم على الوزن",
+      "الإحباط من التقدم البطيء أو الثبات",
+      "الخوف من استعادة الوزن المفقود",
+      "التفكير الكمالي وعقلية الكل أو لا شيء",
+      "المقارنة مع رحلات فقدان الوزن للآخرين",
+      "الضغط من تغييرات نمط الحياة والقيود"
+    ],
+    "coping_strategies_en": [
+      "Set realistic, achievable goals and celebrate small victories",
+      "Practice mindful eating and listen to hunger cues",
+      "Build a support network of family, friends, or weight loss groups",
+      "Focus on health improvements beyond just weight loss",
+      "Develop non-food coping strategies for stress and emotions",
+      "Track progress through measurements, photos, and energy levels",
+      "Seek professional help if struggling with emotional eating",
+      "Practice self-compassion and avoid perfectionist thinking"
+    ],
+    "coping_strategies_ar": [
+      "وضع أهداف واقعية قابلة للتحقيق والاحتفال بالانتصارات الصغيرة",
+      "ممارسة الأكل الواعي والاستماع لإشارات الجوع",
+      "بناء شبكة دعم من الأسرة والأصدقاء أو مجموعات فقدان الوزن",
+      "التركيز على التحسينات الصحية بما يتجاوز فقدان الوزن فقط",
+      "تطوير استراتيجيات التأقلم غير الغذائية للضغط والعواطف",
+      "تتبع التقدم من خلال القياسات والصور ومستويات الطاقة",
+      "طلب المساعدة المهنية إذا كنت تواجه صعوبة مع الأكل العاطفي",
+      "ممارسة التعاطف مع الذات وتجنب التفكير الكمالي"
+    ]
+  },
+  "evidence_based_references": {
+    "scientific_studies": [
+      "Hall KD, et al. Calorie for Calorie, Dietary Fat Restriction Results in More Body Fat Loss than Carbohydrate Restriction in People with Obesity. Cell Metab. 2015;22(3):427-436.",
+      "Varady KA, et al. Alternate day fasting for weight loss in normal weight and overweight subjects: a randomized controlled trial. Nutr J. 2013;12:146.",
+      "Helms ER, et al. Evidence-based recommendations for natural bodybuilding contest preparation: nutrition and supplementation. J Int Soc Sports Nutr. 2014;11:20.",
+      "Weinheimer EM, et al. A systematic review of the separate and combined effects of energy restriction and exercise on fat-free mass in middle-aged and older adults: implications for sarcopenic obesity. Nutr Rev. 2010;68(7):375-388."
+    ],
+    "professional_organizations": [
+      "Academy of Nutrition and Dietetics: https://www.eatright.org/",
+      "American Society for Metabolic and Bariatric Surgery: https://asmbs.org/",
+      "The Obesity Society: https://www.obesity.org/",
+      "International Association for the Study of Obesity: https://www.iaso.org/"
+    ],
+    "dietary_guidelines": [
+      "Academy of Nutrition and Dietetics Weight Management Guidelines",
+      "American Heart Association Weight Loss Guidelines",
+      "NIH Guidelines for Weight Management",
+      "WHO Guidelines on Physical Activity and Weight"
+    ]
+  },
+  "disclaimer": {
+    "english": "This information is for educational purposes only and is not intended as medical advice. Weight loss should be approached safely and sustainably under professional guidance. Individual caloric needs, medical conditions, and metabolic factors vary significantly. Always consult with qualified healthcare professionals, registered dietitians, or certified fitness professionals before starting any weight loss program. This content should not replace professional medical consultation, diagnosis, or treatment. Rapid weight loss can be dangerous and is not recommended without medical supervision.",
+    "arabic": "هذه المعلومات لأغراض تعليمية فقط وليست مخصصة كنصيحة طبية. يجب التعامل مع فقدان الوزن بأمان واستدامة تحت التوجيه المهني. الاحتياجات السعرية الفردية والحالات الطبية والعوامل الأيضية تختلف بشكل كبير. استشر دائماً متخصصي الرعاية الصحية المؤهلين أو أخصائيي التغذية المسجلين أو متخصصي اللياقة البدنية المعتمدين قبل بدء أي برنامج لفقدان الوزن. لا يجب أن يحل هذا المحتوى محل الاستشارة الطبية المهنية أو التشخيص أو العلاج. فقدان الوزن السريع يمكن أن يكون خطيراً وغير موصى به دون إشراف طبي."
+  }
+}

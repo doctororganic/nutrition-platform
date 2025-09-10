@@ -30,10 +30,10 @@ COPY --from=builder /app/main .
 # Copy all data files
 COPY --from=builder /app/*.js ./
 COPY --from=builder /app/*.json ./
-COPY --from=builder /app/"disease easy json files"/ ./disease\ easy\ json\ files/
-COPY --from=builder /app/"injury easy json"/ ./injury\ easy\ json/
-COPY --from=builder /app/"plans and recipes json"/ ./plans\ and\ recipes\ json/
-COPY --from=builder /app/"workouts json"/ ./workouts\ json/
+COPY --from=builder /app/disease-easy-json-files/ ./disease-easy-json-files/
+COPY --from=builder /app/injury-easy-json/ ./injury-easy-json/
+COPY --from=builder /app/plans-and-recipes-json/ ./plans-and-recipes-json/
+COPY --from=builder /app/workouts-json/ ./workouts-json/
 COPY --from=builder /app/frontend/ ./frontend/
 COPY --from=builder /app/public/ ./public/
 

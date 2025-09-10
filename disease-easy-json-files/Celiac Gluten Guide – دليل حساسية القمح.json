@@ -1,0 +1,394 @@
+{
+  "condition": {
+    "name_en": "Celiac Disease - Gluten Sensitivity",
+    "name_ar": "مرض حساسية القمح - عدم تحمل الغلوتين",
+    "description_en": "An autoimmune disorder triggered by gluten consumption, causing intestinal damage and nutrient malabsorption",
+    "description_ar": "اضطراب مناعي ذاتي يسببه تناول الغلوتين، مما يؤدي إلى تلف الأمعاء وسوء امتصاص المواد الغذائية"
+  },
+  "nutritional_recommendations": {
+    "primary_guidelines_en": [
+      "Complete elimination of gluten-containing grains (wheat, barley, rye, spelt, kamut)",
+      "Focus on naturally gluten-free whole foods: rice, quinoa, millet, buckwheat",
+      "Increase fiber intake through gluten-free sources: fruits, vegetables, legumes",
+      "Emphasize nutrient-dense foods to combat malabsorption",
+      "Regular monitoring of vitamin and mineral levels"
+    ],
+    "primary_guidelines_ar": [
+      "الإزالة الكاملة للحبوب المحتوية على الغلوتين (القمح، الشعير، الجاودار، الحنطة)",
+      "التركيز على الأطعمة الطبيعية الخالية من الغلوتين: الأرز، الكينوا، الدخن، الحنطة السوداء",
+      "زيادة تناول الألياف من مصادر خالية من الغلوتين: الفواكه، الخضار، البقوليات",
+      "التأكيد على الأطعمة الغنية بالمواد الغذائية لمكافحة سوء الامتصاص",
+      "المراقبة المنتظمة لمستويات الفيتامينات والمعادن"
+    ],
+    "allowed_foods_en": [
+      "Gluten-free grains: rice, quinoa, millet, amaranth, buckwheat, teff",
+      "Fresh fruits and vegetables",
+      "Lean meats, poultry, fish (unseasoned)",
+      "Dairy products (if tolerated)",
+      "Nuts and seeds (unprocessed)",
+      "Legumes and beans",
+      "Gluten-free oats (certified)",
+      "Eggs"
+    ],
+    "allowed_foods_ar": [
+      "الحبوب الخالية من الغلوتين: الأرز، الكينوا، الدخن، الأمارانث، الحنطة السوداء، التيف",
+      "الفواكه والخضار الطازجة",
+      "اللحوم الخالية من الدهون، الدواجن، الأسماك (غير المتبلة)",
+      "منتجات الألبان (إذا كانت محتملة)",
+      "المكسرات والبذور (غير المعالجة)",
+      "البقوليات والفاصوليا",
+      "الشوفان الخالي من الغلوتين (المعتمد)",
+      "البيض"
+    ],
+    "foods_to_avoid_en": [
+      "Wheat, barley, rye, spelt, kamut, triticale",
+      "Regular bread, pasta, crackers, cereals",
+      "Beer and malt beverages",
+      "Processed meats with fillers",
+      "Soy sauce (unless gluten-free)",
+      "Seasonings and spice blends with wheat",
+      "Cross-contaminated oats",
+      "Hidden gluten in processed foods"
+    ],
+    "foods_to_avoid_ar": [
+      "القمح، الشعير، الجاودار، الحنطة، الكاموت، التريتيكالي",
+      "الخبز العادي، المعكرونة، البسكويت، الحبوب",
+      "البيرة والمشروبات الشعيرية",
+      "اللحوم المعالجة مع الحشو",
+      "صوص الصويا (إلا إذا كان خالياً من الغلوتين)",
+      "التوابل وخلطات البهارات مع القمح",
+      "الشوفان الملوث بالغلوتين",
+      "الغلوتين المخفي في الأطعمة المعالجة"
+    ]
+  },
+  "therapeutic_supplements": {
+    "essential_supplements_en": [
+      {
+        "name": "Vitamin B12",
+        "dose": "1000-2000 mcg daily",
+        "administration": "Sublingual or intramuscular injection",
+        "purpose": "Correct deficiency due to malabsorption"
+      },
+      {
+        "name": "Iron",
+        "dose": "65-325 mg elemental iron daily",
+        "administration": "On empty stomach with vitamin C",
+        "purpose": "Address iron deficiency anemia"
+      },
+      {
+        "name": "Folate",
+        "dose": "400-800 mcg daily",
+        "administration": "With meals",
+        "purpose": "Support DNA synthesis and prevent anemia"
+      },
+      {
+        "name": "Vitamin D3",
+        "dose": "2000-4000 IU daily",
+        "administration": "With fat-containing meal",
+        "purpose": "Improve calcium absorption and bone health"
+      },
+      {
+        "name": "Calcium",
+        "dose": "1000-1200 mg daily",
+        "administration": "Split doses with meals",
+        "purpose": "Prevent osteoporosis"
+      },
+      {
+        "name": "Probiotics",
+        "dose": "10-50 billion CFU daily",
+        "administration": "Between meals",
+        "purpose": "Restore gut microbiome"
+      }
+    ],
+    "essential_supplements_ar": [
+      {
+        "name": "فيتامين ب12",
+        "dose": "1000-2000 ميكروغرام يومياً",
+        "administration": "تحت اللسان أو حقن عضلية",
+        "purpose": "تصحيح النقص بسبب سوء الامتصاص"
+      },
+      {
+        "name": "الحديد",
+        "dose": "65-325 ملغ حديد عنصري يومياً",
+        "administration": "على معدة فارغة مع فيتامين سي",
+        "purpose": "معالجة فقر الدم بنقص الحديد"
+      },
+      {
+        "name": "حمض الفوليك",
+        "dose": "400-800 ميكروغرام يومياً",
+        "administration": "مع الوجبات",
+        "purpose": "دعم تخليق الحمض النووي ومنع فقر الدم"
+      },
+      {
+        "name": "فيتامين د3",
+        "dose": "2000-4000 وحدة دولية يومياً",
+        "administration": "مع وجبة تحتوي على دهون",
+        "purpose": "تحسين امتصاص الكالسيوم وصحة العظام"
+      },
+      {
+        "name": "الكالسيوم",
+        "dose": "1000-1200 ملغ يومياً",
+        "administration": "جرعات مقسمة مع الوجبات",
+        "purpose": "منع هشاشة العظام"
+      },
+      {
+        "name": "البروبيوتيك",
+        "dose": "10-50 مليار وحدة CFU يومياً",
+        "administration": "بين الوجبات",
+        "purpose": "استعادة الميكروبيوم المعوي"
+      }
+    ]
+  },
+  "risks_and_causes_to_avoid": {
+    "risk_factors_en": [
+      "Cross-contamination from shared cooking surfaces",
+      "Hidden gluten in medications and supplements",
+      "Processed foods without clear labeling",
+      "Restaurant meals without proper preparation protocols",
+      "Cosmetics and personal care products with gluten",
+      "Communion wafers and religious foods",
+      "Pet foods and treats (handling)",
+      "Play-dough and craft materials"
+    ],
+    "risk_factors_ar": [
+      "التلوث المتبادل من أسطح الطبخ المشتركة",
+      "الغلوتين المخفي في الأدوية والمكملات",
+      "الأطعمة المعالجة دون وضع العلامات الواضحة",
+      "وجبات المطاعم دون بروتوكولات التحضير المناسبة",
+      "مستحضرات التجميل ومنتجات العناية الشخصية مع الغلوتين",
+      "رقائق القربان والأطعمة الدينية",
+      "أطعمة ومكافآت الحيوانات الأليفة (التعامل)",
+      "عجينة اللعب ومواد الحرف"
+    ],
+    "complications_en": [
+      "Osteoporosis and bone fractures",
+      "Iron deficiency anemia",
+      "Vitamin B12 deficiency",
+      "Increased risk of autoimmune disorders",
+      "Small bowel lymphoma (rare)",
+      "Infertility and pregnancy complications",
+      "Neurological symptoms",
+      "Dental enamel defects"
+    ],
+    "complications_ar": [
+      "هشاشة العظام وكسور العظام",
+      "فقر الدم بنقص الحديد",
+      "نقص فيتامين ب12",
+      "زيادة خطر اضطرابات المناعة الذاتية",
+      "سرطان الغدد الليمفاوية في الأمعاء الدقيقة (نادر)",
+      "العقم ومضاعفات الحمل",
+      "الأعراض العصبية",
+      "عيوب مينا الأسنان"
+    ]
+  },
+  "healthy_plants": {
+    "beneficial_plants_en": [
+      {
+        "name": "Ginger",
+        "benefits": "Anti-inflammatory, digestive support, nausea relief",
+        "usage": "Fresh root tea, powder in cooking"
+      },
+      {
+        "name": "Turmeric",
+        "benefits": "Powerful anti-inflammatory, gut healing",
+        "usage": "Golden milk, curry spice, supplements"
+      },
+      {
+        "name": "Aloe Vera",
+        "benefits": "Intestinal healing, anti-inflammatory",
+        "usage": "Pure aloe gel, juice (small amounts)"
+      },
+      {
+        "name": "Chamomile",
+        "benefits": "Digestive calming, anti-inflammatory",
+        "usage": "Herbal tea, essential oil (topical)"
+      },
+      {
+        "name": "Peppermint",
+        "benefits": "Digestive comfort, antispasmodic",
+        "usage": "Fresh leaves, tea, oil (diluted)"
+      },
+      {
+        "name": "Slippery Elm",
+        "benefits": "Intestinal lining protection, soothing",
+        "usage": "Powder mixed with water, capsules"
+      }
+    ],
+    "beneficial_plants_ar": [
+      {
+        "name": "الزنجبيل",
+        "benefits": "مضاد للالتهاب، دعم الهضم، تخفيف الغثيان",
+        "usage": "شاي الجذر الطازج، مسحوق في الطبخ"
+      },
+      {
+        "name": "الكركم",
+        "benefits": "مضاد قوي للالتهاب، شفاء الأمعاء",
+        "usage": "الحليب الذهبي، توابل الكاري، المكملات"
+      },
+      {
+        "name": "الصبار",
+        "benefits": "شفاء الأمعاء، مضاد للالتهاب",
+        "usage": "جل الصبار النقي، العصير (كميات صغيرة)"
+      },
+      {
+        "name": "البابونج",
+        "benefits": "تهدئة الجهاز الهضمي، مضاد للالتهاب",
+        "usage": "شاي عشبي، زيت عطري (موضعي)"
+      },
+      {
+        "name": "النعناع",
+        "benefits": "راحة الجهاز الهضمي، مضاد للتشنج",
+        "usage": "الأوراق الطازجة، الشاي، الزيت (مخفف)"
+      },
+      {
+        "name": "لحاء الدردار الأحمر",
+        "benefits": "حماية بطانة الأمعاء، مهدئ",
+        "usage": "مسحوق مخلوط مع الماء، كبسولات"
+      }
+    ]
+  },
+  "fasting_effects": {
+    "intermittent_fasting_en": {
+      "benefits": [
+        "May improve intestinal healing by reducing inflammatory load",
+        "Allows digestive system rest and repair",
+        "Can help identify trigger foods during refeeding",
+        "May improve insulin sensitivity",
+        "Supports autophagy and cellular repair"
+      ],
+      "precautions": [
+        "Monitor for nutrient deficiencies during healing phase",
+        "Ensure adequate caloric intake for recovery",
+        "Avoid fasting if severely malnourished",
+        "Consult healthcare provider before starting",
+        "May exacerbate eating disorders"
+      ],
+      "recommended_approach": "Modified intermittent fasting (14-16 hours) with focus on nutrient-dense gluten-free meals"
+    },
+    "intermittent_fasting_ar": {
+      "benefits": [
+        "قد يحسن شفاء الأمعاء عن طريق تقليل الحمولة الالتهابية",
+        "يسمح بالراحة والإصلاح للجهاز الهضمي",
+        "يمكن أن يساعد في تحديد الأطعمة المحفزة أثناء إعادة التغذية",
+        "قد يحسن حساسية الأنسولين",
+        "يدعم الأوتوفاجي وإصلاح الخلايا"
+      ],
+      "precautions": [
+        "مراقبة نقص المواد الغذائية خلال مرحلة الشفاء",
+        "ضمان تناول سعرات حرارية كافية للتعافي",
+        "تجنب الصوم في حالة سوء التغذية الشديد",
+        "استشارة مقدم الرعاية الصحية قبل البدء",
+        "قد يفاقم اضطرابات الأكل"
+      ],
+      "recommended_approach": "الصوم المتقطع المعدل (14-16 ساعة) مع التركيز على وجبات خالية من الغلوتين غنية بالمواد الغذائية"
+    }
+  },
+  "medications_that_worsen": {
+    "problematic_drugs_en": [
+      {
+        "category": "NSAIDs",
+        "examples": "Ibuprofen, naproxen, aspirin",
+        "reason": "Can increase intestinal permeability and inflammation"
+      },
+      {
+        "category": "Antibiotics",
+        "examples": "Broad-spectrum antibiotics",
+        "reason": "Disrupt gut microbiome balance"
+      },
+      {
+        "category": "Gluten-containing medications",
+        "examples": "Some tablets, capsules, liquid medications",
+        "reason": "Direct gluten exposure triggers symptoms"
+      },
+      {
+        "category": "Proton pump inhibitors",
+        "examples": "Omeprazole, lansoprazole",
+        "reason": "Long-term use can affect nutrient absorption"
+      }
+    ],
+    "problematic_drugs_ar": [
+      {
+        "category": "مضادات الالتهاب غير الستيرويدية",
+        "examples": "الإيبوبروفين، النابروكسين، الأسبرين",
+        "reason": "يمكن أن تزيد نفاذية الأمعاء والالتهاب"
+      },
+      {
+        "category": "المضادات الحيوية",
+        "examples": "المضادات الحيوية واسعة الطيف",
+        "reason": "تعطيل توازن الميكروبيوم المعوي"
+      },
+      {
+        "category": "الأدوية المحتوية على الغلوتين",
+        "examples": "بعض الأقراص، الكبسولات، الأدوية السائلة",
+        "reason": "التعرض المباشر للغلوتين يثير الأعراض"
+      },
+      {
+        "category": "مثبطات مضخة البروتون",
+        "examples": "الأوميبرازول، اللانسوبرازول",
+        "reason": "الاستخدام طويل المدى يمكن أن يؤثر على امتصاص المواد الغذائية"
+      }
+    ]
+  },
+  "psychological_support": {
+    "emotional_challenges_en": [
+      "Social isolation due to dietary restrictions",
+      "Anxiety about food contamination",
+      "Depression from lifestyle limitations",
+      "Stress from meal planning and preparation",
+      "Fear of eating out or traveling",
+      "Body image issues from weight changes",
+      "Frustration with slow healing process"
+    ],
+    "emotional_challenges_ar": [
+      "العزلة الاجتماعية بسبب القيود الغذائية",
+      "القلق من تلوث الطعام",
+      "الاكتئاب من قيود نمط الحياة",
+      "الضغط من تخطيط وتحضير الوجبات",
+      "الخوف من تناول الطعام خارجاً أو السفر",
+      "مشاكل صورة الجسم من تغيرات الوزن",
+      "الإحباط من عملية الشفاء البطيئة"
+    ],
+    "coping_strategies_en": [
+      "Join celiac disease support groups (online and local)",
+      "Work with a counselor experienced in chronic conditions",
+      "Practice stress management techniques (meditation, yoga)",
+      "Develop a strong support network of family and friends",
+      "Focus on foods you CAN eat rather than restrictions",
+      "Plan ahead for social situations and travel",
+      "Celebrate small victories in your healing journey"
+    ],
+    "coping_strategies_ar": [
+      "الانضمام إلى مجموعات دعم مرض السيلياك (عبر الإنترنت ومحلياً)",
+      "العمل مع مستشار ذو خبرة في الحالات المزمنة",
+      "ممارسة تقنيات إدارة الضغط (التأمل، اليوغا)",
+      "تطوير شبكة دعم قوية من العائلة والأصدقاء",
+      "التركيز على الأطعمة التي يمكنك تناولها بدلاً من القيود",
+      "التخطيط المسبق للمواقف الاجتماعية والسفر",
+      "الاحتفال بالانتصارات الصغيرة في رحلة الشفاء"
+    ]
+  },
+  "evidence_based_references": {
+    "scientific_studies": [
+      "Ludvigsson JF, et al. The Oslo definitions for coeliac disease and related terms. Gut. 2013;62(1):43-52.",
+      "Rubio-Tapia A, et al. ACG Clinical Guidelines: Diagnosis and Management of Celiac Disease. Am J Gastroenterol. 2013;108(5):656-676.",
+      "Caio G, et al. Celiac disease: a comprehensive current review. BMC Med. 2019;17(1):142.",
+      "Leonard MM, et al. Celiac Disease and Nonceliac Gluten Sensitivity: A Review. JAMA. 2017;318(7):647-656."
+    ],
+    "professional_organizations": [
+      "Celiac Disease Foundation: https://celiac.org/",
+      "Beyond Celiac: https://www.beyondceliac.org/",
+      "Gluten Intolerance Group: https://gluten.org/",
+      "National Celiac Association: https://nationalceliac.org/"
+    ],
+    "dietary_guidelines": [
+      "Academy of Nutrition and Dietetics: Gluten-Free Diet Guidelines",
+      "American Gastroenterological Association: Celiac Disease Guidelines",
+      "European Society for Primary Care Gastroenterology: Celiac Guidelines",
+      "World Gastroenterology Organisation: Celiac Disease Guidelines"
+    ]
+  },
+  "disclaimer": {
+    "english": "This information is for educational purposes only and is not intended as medical advice. Always consult with qualified healthcare professionals before making any changes to your diet, medications, or treatment plan. Individual responses to dietary changes may vary, and what works for one person may not work for another. If you suspect you have celiac disease, proper medical testing and diagnosis are essential before starting a gluten-free diet. This content should not replace professional medical consultation, diagnosis, or treatment.",
+    "arabic": "هذه المعلومات لأغراض تعليمية فقط وليست مخصصة كنصيحة طبية. استشر دائماً مع متخصصي الرعاية الصحية المؤهلين قبل إجراء أي تغييرات على نظامك الغذائي أو الأدوية أو خطة العلاج. قد تختلف الاستجابات الفردية للتغيرات الغذائية، وما يناسب شخصاً قد لا يناسب آخر. إذا كنت تشك في إصابتك بمرض السيلياك، فإن الفحص الطبي المناسب والتشخيص ضروريان قبل بدء نظام غذائي خالٍ من الغلوتين. لا يجب أن يحل هذا المحتوى محل الاستشارة الطبية المهنية أو التشخيص أو العلاج."
+  }
+}

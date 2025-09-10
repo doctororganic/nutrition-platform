@@ -61,7 +61,7 @@ func (mps *MealPlanningService) loadData() {
 
 // loadRecipes loads recipes from the recipes directory
 func (mps *MealPlanningService) loadRecipes() {
-	recipesPath := filepath.Join(mps.dataPath, "plans and recipes json")
+	recipesPath := filepath.Join(mps.dataPath, "plans-and-recipes-json")
 
 	recipeFiles := []string{
 		"easy recipes.js",
