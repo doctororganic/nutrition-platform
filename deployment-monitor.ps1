@@ -32,7 +32,7 @@ function Test-Build {
     try {
         # Clean previous build
         if (Test-Path "nutrition-platform.exe") {
-            Remove-Item "nutrition-platform.exe" -Force
+            Remove-Item "nutrition-platform.exe" -Force -ErrorAction SilentlyContinue
         }
         
         # Build application

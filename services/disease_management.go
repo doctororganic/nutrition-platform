@@ -138,7 +138,7 @@ func (dms *DiseaseManagementService) loadOldDiseases() {
 
 // loadDrugNutrition loads drug-nutrition interactions from drugs affect nutrition file
 func (dms *DiseaseManagementService) loadDrugNutrition() {
-	filePath := filepath.Join(dms.dataPath, "drugs affect nutrition.js")
+	filePath := filepath.Join(dms.dataPath, "drugs-affect-nutrition.json")
 	data, err := dms.loadJSONFile(filePath)
 	if err != nil {
 		fmt.Printf("Warning: Could not load drug nutrition from %s: %v\n", filePath, err)
@@ -160,7 +160,7 @@ func (dms *DiseaseManagementService) loadDrugNutrition() {
 
 // loadVitaminsMinerals loads vitamins and minerals from vitamins and minerals file
 func (dms *DiseaseManagementService) loadVitaminsMinerals() {
-	filePath := filepath.Join(dms.dataPath, "vitamins and minerals.js")
+	filePath := filepath.Join(dms.dataPath, "vitamins-and-minerals.json")
 	data, err := dms.loadJSONFile(filePath)
 	if err != nil {
 		fmt.Printf("Warning: Could not load vitamins and minerals from %s: %v\n", filePath, err)

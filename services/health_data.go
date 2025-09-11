@@ -37,8 +37,8 @@ func (hds *HealthDataService) preloadData() {
 		"workout_techniques": "workouts teq.js",
 		"meal_plans":        "meals plans.js",
 		"calories":          "calories.js",
-		"drug_nutrition":    "drugs affect nutrition.js",
-		"vitamins_minerals": "vitamins and minerals.js",
+		"drug_nutrition":    "drugs-affect-nutrition.json",
+		"vitamins_minerals": "vitamins-and-minerals.json",
 		"type_plans":        "Type plan.js",
 	}
 

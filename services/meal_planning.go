@@ -53,7 +53,7 @@ func (mps *MealPlanningService) loadData() {
 	mps.oldDiseasesData = mps.loadJSONFile("old disease.js")
 
 	// Load drug nutrition data
-	mps.drugNutritionData = mps.loadJSONFile("drugs affect nutrition.js")
+	mps.drugNutritionData = mps.loadJSONFile("drugs-affect-nutrition.json")
 
 	// Load meals plans data
 	mps.mealsPlansData = mps.loadJSONFile("meals plans.js")
