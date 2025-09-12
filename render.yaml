@@ -8,8 +8,6 @@ services:
     envVars:
       - key: ENVIRONMENT
         value: production
-      - key: PORT
-        value: 10000
       - key: HOST
         value: 0.0.0.0
       - key: JWT_SECRET
@@ -18,8 +16,6 @@ services:
         generateValue: true
       - key: CORS_ORIGIN
         value: "*"
-      - key: GIN_MODE
-        value: release
     healthCheckPath: /health
     autoDeploy: true
     branch: main

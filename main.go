@@ -108,7 +108,14 @@ func main() {
 	e.File("/sw-v2.js", "public/sw-v2.js") // Enhanced service worker
 	e.File("/sw.js", "public/sw.js")       // Legacy fallback
 	e.File("/offline.html", "public/offline.html")
-	e.File("/", "public/index.html")
+	
+	// Root route with cache-busting headers
+	e.GET("/", func(c echo.Context) error {
+		c.Response().Header().Set("Cache-Control", "no-cache, no-store, must-revalidate")
+		c.Response().Header().Set("Pragma", "no-cache")
+		c.Response().Header().Set("Expires", "0")
+		return c.File("public/index.html")
+	})
 
 	// Enhanced API v1 routes (RFC 7807 compliant)
 	apiV1 := e.Group("/api/v1")
@@ -603,6 +610,8 @@ func main() {
 		log.Printf("PWA available at: http://%s:%s", host, port)
 		log.Printf("API documentation: http://%s:%s/api", host, port)
 		log.Printf("Health check: http://%s:%s/health", host, port)
+		log.Printf("Static files served from: public/")
+		log.Printf("Root route serves: public/index.html")
 
 		if err := server.ListenAndServe(); err != nil && err != http.ErrServerClosed {
 			log.Fatal("Failed to start server:", err)
